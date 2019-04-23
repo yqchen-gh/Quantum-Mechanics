@@ -18,4 +18,4 @@ If you want to make some contribution(which I strongly recommend) but you don't 
 > 5. you can find a `clone or download` button on the webpage, you should clone the repo to your own computer by the Desktop for GitHub you've just installed
 > 6. when it finish downloading, you should create a new branch, switch to the new branch, then you can add your own documents(or do whatever you want)
 
-If you want to add your own documents to this Repo, you should send me a pull request, you can see more details [here]().
+If you want to add your own documents to this Repo, you should send me a pull request, you can see more details [here](https://github.com/YQChen-QI/Quantum-Mechanics/blob/master/Markdown/GitHub%20tutorial%20more.md).
