@@ -1,6 +1,6 @@
 # GitHub进阶
 
-以下部分出自笑来老师的新书[自学是门手艺](https://github.com/selfteaching/the-craft-of-selfteaching/)，如果能帮到自己的话，就去原作者那里给个Star吧～
+以下部分出自笑来老师的新书[自学是门手艺](https://github.com/selfteaching/the-craft-of-selfteaching/)，这里稍微做了点改动，如果能帮到自己的话，就去原作者那里给个Star吧～
 
 需要说明的是，文档中对应的主仓库是`selfteaching/the-craft-of-selfteaching`，而我们这里的主仓库是`YQChen-QI/Quantum-Mechanics`，阅读的时候自行替换一下就行了。
 
