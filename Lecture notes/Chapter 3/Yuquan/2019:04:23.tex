@@ -1,0 +1,178 @@
+\documentclass[UTF8,12pt]{article} % 12pt 为字号大小
+\usepackage{amssymb,amsfonts,amsthm}
+%\usepackage{fontspec,xltxtra,xunicode}
+%\usepackage{times}
+\usepackage{amsmath,bm}
+\usepackage{mdwlist}
+\usepackage[colorlinks,linkcolor=blue]{hyperref}
+\usepackage{cleveref}
+\usepackage{float}
+
+%----------
+% 版面设置
+%----------
+%首段缩进
+\usepackage{indentfirst}
+\setlength{\parindent}{2em}
+
+%行距
+\renewcommand{\baselinestretch}{1.2} % 1.2倍行距
+
+%页边距
+\usepackage[a4paper]{geometry}
+\geometry{verbose,
+  tmargin=2cm,% 上边距
+  bmargin=2cm,% 下边距
+  lmargin=2.5cm,% 左边距
+  rmargin=2.5cm % 右边距
+}
+
+
+%----------
+% 其他宏包
+%----------
+%图形相关
+\usepackage[x11names]{xcolor} % must before tikz, x11names defines RoyalBlue3
+\usepackage{graphicx}
+\graphicspath{{figures/}}
+\usepackage{pstricks,pst-plot,pst-eps}
+\usepackage{subfig}
+\def\pgfsysdriver{pgfsys-dvipdfmx.def} % put before tikz
+\usepackage{tikz}
+
+%原文照排
+\usepackage{verbatim}
+
+%网址
+\usepackage{url}
+
+%----------
+% 定理、习题与解答环境
+%----------
+%定理环境
+\usepackage[most]{tcolorbox}
+\newtcbtheorem[number within=section]{theorem}{Theorem}{
+     enhanced,
+     breakable,
+     sharp corners,
+     attach boxed title to top left={
+       yshifttext=-1mm
+     },
+     colback=white,
+     colframe=blue!75!black,
+     fonttitle=\bfseries,
+     boxed title style={
+       sharp corners,
+       size=small,
+       colback=blue!75!black,
+       colframe=blue!75!black,
+     } 
+}{theorem}
+
+\newtcbtheorem[number within=section]{definition}{Definition}{
+     enhanced,
+     breakable,
+     sharp corners,
+     attach boxed title to top left={
+       yshifttext=-1mm
+     },
+     colback=white,
+     colframe=blue!75!black,
+     fonttitle=\bfseries,
+     boxed title style={
+       sharp corners,
+       size=small,
+       colback=blue!75!black,
+       colframe=blue!75!black,
+     } 
+}{definition}
+
+\newtcbtheorem[number within=section]{corollary}{Corollary}{
+     enhanced,
+     breakable,
+     sharp corners,
+     attach boxed title to top left={
+       yshifttext=-1mm
+     },
+     colback=white,
+     colframe=blue!75!black,
+     fonttitle=\bfseries,
+     boxed title style={
+       sharp corners,
+       size=small,
+       colback=blue!75!black,
+       colframe=blue!75!black,
+     } 
+}{corollary}
+
+\newtcbtheorem[number within=section]{myboxes}{Box}{
+     enhanced,
+     breakable,
+     sharp corners,
+     attach boxed title to top left={
+       yshifttext=-1mm
+     },
+     %colback=white,
+     colframe=black!75!white,
+     fonttitle=\bfseries,
+     boxed title style={
+       sharp corners,
+       size=small,
+       colback=black!75!white,
+       colframe=black!75!white,
+     } 
+}{myboxes}
+
+%习题环境
+\newtcbtheorem[number within=section]{exercise}{Problem}{
+     enhanced,
+     breakable,
+     sharp corners,
+     attach boxed title to top left={
+       yshifttext=-1mm
+     },
+     colback=white,
+     colframe=black,
+     fonttitle=\bfseries,
+     boxed title style={
+       sharp corners,
+       size=small,
+       colback=black,
+       colframe=black,
+     } 
+}{Problem}
+
+%解答环境
+\ifx\proof\undefined\
+\newenvironment{proof}[1][\protect\proofname]{\par
+\normalfont\topsep6\p@\@plus6\p@\relax
+\trivlist
+\itemindent\parindent
+\item[\hskip\labelsep
+\scshape
+#1]\ignorespaces
+}{%
+\endtrivlist\@endpefalse
+}
+\fi
+
+\renewcommand{\proofname}{\it{Solution}}
+
+%==========
+% 正文部分
+%==========
+
+\begin{document}
+
+\title{Chapter 3}
+\author{Yuquan Chen}
+\date{} % 若不需要自动插入日期，则去掉前面的注释；{ } 中也可以自定义日期格式
+\maketitle
+
+Quiz 4/30, two pieces of A4 double sided material, problems covering chapter 2.
+
+
+
+
+
+\end{document}
