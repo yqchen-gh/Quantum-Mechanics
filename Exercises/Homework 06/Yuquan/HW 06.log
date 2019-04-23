@@ -1,10 +1,10 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2019.3.13)  23 APR 2019 16:09
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2019.3.13)  17 APR 2019 11:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**2019:04:23.tex
-(./2019:04:23.tex
+**"HW 06.tex"
+(./HW 06.tex
 LaTeX2e <2018-12-01>
 (/usr/local/texlive/2018/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2018/09/03 v1.4i Standard LaTeX document class
@@ -260,30 +260,334 @@ LaTeX Info: Redefining \labelcref on input line 2370.
 LaTeX Info: Redefining \labelcpageref on input line 2370.
 Package cleveref Info: `amsthm' support loaded on input line 3026.
 )
+(/usr/local/texlive/2018/texmf-dist/tex/xelatex/xecjk/xeCJK.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2019-02-15 L3 programming layer (loader) 
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/l3kernel/expl3-code.tex
+Package: expl3 2019-02-15 L3 programming layer (code)
+\c_max_int=\count112
+\l_tmpa_int=\count113
+\l_tmpb_int=\count114
+\g_tmpa_int=\count115
+\g_tmpb_int=\count116
+\g__kernel_prg_map_int=\count117
+\c_log_iow=\count118
+\l_iow_line_count_int=\count119
+\l__iow_line_target_int=\count120
+\l__iow_one_indent_int=\count121
+\l__iow_indent_int=\count122
+\c_zero_dim=\dimen116
+\c_max_dim=\dimen117
+\l_tmpa_dim=\dimen118
+\l_tmpb_dim=\dimen119
+\g_tmpa_dim=\dimen120
+\g_tmpb_dim=\dimen121
+\c_zero_skip=\skip50
+\c_max_skip=\skip51
+\l_tmpa_skip=\skip52
+\l_tmpb_skip=\skip53
+\g_tmpa_skip=\skip54
+\g_tmpb_skip=\skip55
+\c_zero_muskip=\muskip12
+\c_max_muskip=\muskip13
+\l_tmpa_muskip=\muskip14
+\l_tmpb_muskip=\muskip15
+\g_tmpa_muskip=\muskip16
+\g_tmpb_muskip=\muskip17
+\l_keys_choice_int=\count123
+\l__intarray_loop_int=\count124
+\c__intarray_sp_dim=\dimen122
+\g__intarray_font_int=\count125
+\c__fp_leading_shift_int=\count126
+\c__fp_middle_shift_int=\count127
+\c__fp_trailing_shift_int=\count128
+\c__fp_big_leading_shift_int=\count129
+\c__fp_big_middle_shift_int=\count130
+\c__fp_big_trailing_shift_int=\count131
+\c__fp_Bigg_leading_shift_int=\count132
+\c__fp_Bigg_middle_shift_int=\count133
+\c__fp_Bigg_trailing_shift_int=\count134
+\g__fp_array_int=\count135
+\l__fp_array_loop_int=\count136
+\l__sort_length_int=\count137
+\l__sort_min_int=\count138
+\l__sort_top_int=\count139
+\l__sort_max_int=\count140
+\l__sort_true_max_int=\count141
+\l__sort_block_int=\count142
+\l__sort_begin_int=\count143
+\l__sort_end_int=\count144
+\l__sort_A_int=\count145
+\l__sort_B_int=\count146
+\l__sort_C_int=\count147
+\l__tl_analysis_normal_int=\count148
+\l__tl_analysis_index_int=\count149
+\l__tl_analysis_nesting_int=\count150
+\l__tl_analysis_type_int=\count151
+\l__regex_internal_a_int=\count152
+\l__regex_internal_b_int=\count153
+\l__regex_internal_c_int=\count154
+\l__regex_balance_int=\count155
+\l__regex_group_level_int=\count156
+\l__regex_mode_int=\count157
+\c__regex_cs_in_class_mode_int=\count158
+\c__regex_cs_mode_int=\count159
+\l__regex_catcodes_int=\count160
+\l__regex_default_catcodes_int=\count161
+\c__regex_catcode_L_int=\count162
+\c__regex_catcode_O_int=\count163
+\c__regex_catcode_A_int=\count164
+\c__regex_all_catcodes_int=\count165
+\l__regex_show_lines_int=\count166
+\l__regex_min_state_int=\count167
+\l__regex_max_state_int=\count168
+\l__regex_left_state_int=\count169
+\l__regex_right_state_int=\count170
+\l__regex_capturing_group_int=\count171
+\l__regex_min_pos_int=\count172
+\l__regex_max_pos_int=\count173
+\l__regex_curr_pos_int=\count174
+\l__regex_start_pos_int=\count175
+\l__regex_success_pos_int=\count176
+\l__regex_curr_char_int=\count177
+\l__regex_curr_catcode_int=\count178
+\l__regex_last_char_int=\count179
+\l__regex_case_changed_char_int=\count180
+\l__regex_curr_state_int=\count181
+\l__regex_step_int=\count182
+\l__regex_min_active_int=\count183
+\l__regex_max_active_int=\count184
+\l__regex_replacement_csnames_int=\count185
+\l__regex_match_count_int=\count186
+\l__regex_min_submatch_int=\count187
+\l__regex_submatch_int=\count188
+\l__regex_zeroth_submatch_int=\count189
+\g__regex_trace_regex_int=\count190
+\c_empty_box=\box30
+\l_tmpa_box=\box31
+\l_tmpb_box=\box32
+\g_tmpa_box=\box33
+\g_tmpb_box=\box34
+\l__box_top_dim=\dimen123
+\l__box_bottom_dim=\dimen124
+\l__box_left_dim=\dimen125
+\l__box_right_dim=\dimen126
+\l__box_top_new_dim=\dimen127
+\l__box_bottom_new_dim=\dimen128
+\l__box_left_new_dim=\dimen129
+\l__box_right_new_dim=\dimen130
+\l__box_internal_box=\box35
+\l__coffin_internal_box=\box36
+\l__coffin_internal_dim=\dimen131
+\l__coffin_offset_x_dim=\dimen132
+\l__coffin_offset_y_dim=\dimen133
+\l__coffin_x_dim=\dimen134
+\l__coffin_y_dim=\dimen135
+\l__coffin_x_prime_dim=\dimen136
+\l__coffin_y_prime_dim=\dimen137
+\c_empty_coffin=\box37
+\l__coffin_aligned_coffin=\box38
+\l__coffin_aligned_internal_coffin=\box39
+\l_tmpa_coffin=\box40
+\l_tmpb_coffin=\box41
+\g_tmpa_coffin=\box42
+\g_tmpb_coffin=\box43
+\c__coffin_empty_coffin=\box44
+\l__coffin_display_coffin=\box45
+\l__coffin_display_coord_coffin=\box46
+\l__coffin_display_pole_coffin=\box47
+\l__coffin_display_offset_dim=\dimen138
+\l__coffin_display_x_dim=\dimen139
+\l__coffin_display_y_dim=\dimen140
+\g__file_internal_ior=\read1
+\l__coffin_bounding_shift_dim=\dimen141
+\l__coffin_left_corner_dim=\dimen142
+\l__coffin_right_corner_dim=\dimen143
+\l__coffin_bottom_corner_dim=\dimen144
+\l__coffin_top_corner_dim=\dimen145
+\l__coffin_scaled_total_height_dim=\dimen146
+\l__coffin_scaled_width_dim=\dimen147
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/l3kernel/l3xdvipdfmx.def
+File: l3xdvipdfmx.def 2019-02-15 v L3 Experimental driver: xdvipdfmx
+\g__driver_image_int=\count191
+\g__driver_pdf_object_int=\count192
+))
+Package: xeCJK 2018/04/30 v3.7.1 Typesetting CJK scripts with XeLaTeX
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/l3packages/xtemplate/xtemplate.st
+y
+Package: xtemplate 2018-10-17 L3 Experimental prototype document functions
+\l__xtemplate_tmp_dim=\dimen148
+\l__xtemplate_tmp_int=\count193
+\l__xtemplate_tmp_muskip=\muskip18
+\l__xtemplate_tmp_skip=\skip56
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2018-10-17 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count194
+\g__xparse_grabber_int=\count195
+\l__xparse_m_args_int=\count196
+\l__xparse_mandatory_args_int=\count197
+\l__xparse_v_nesting_int=\count198
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+Package: l3keys2e 2018-10-17 LaTeX2e option processing using LaTeX3 keys
+)
+\l__xeCJK_tmp_int=\count199
+\l__xeCJK_tmp_box=\box48
+\l__xeCJK_tmp_dim=\dimen149
+\l__xeCJK_tmp_skip=\skip57
+\g__xeCJK_space_factor_int=\count266
+\l__xeCJK_begin_int=\count267
+\l__xeCJK_end_int=\count268
+\c__xeCJK_CJK_class_int=\XeTeXcharclass1
+\c__xeCJK_FullLeft_class_int=\XeTeXcharclass2
+\c__xeCJK_FullRight_class_int=\XeTeXcharclass3
+\c__xeCJK_HalfLeft_class_int=\XeTeXcharclass4
+\c__xeCJK_HalfRight_class_int=\XeTeXcharclass5
+\c__xeCJK_NormalSpace_class_int=\XeTeXcharclass6
+\c__xeCJK_CM_class_int=\XeTeXcharclass7
+\c__xeCJK_HangulJamo_class_int=\XeTeXcharclass8
+\l__xeCJK_last_skip=\skip58
+\g__xeCJK_node_int=\count269
+\c__xeCJK_CJK_node_dim=\dimen150
+\c__xeCJK_CJK-space_node_dim=\dimen151
+\c__xeCJK_default_node_dim=\dimen152
+\c__xeCJK_default-space_node_dim=\dimen153
+\c__xeCJK_CJK-widow_node_dim=\dimen154
+\c__xeCJK_normalspace_node_dim=\dimen155
+\l__xeCJK_ccglue_skip=\skip59
+\l__xeCJK_ecglue_skip=\skip60
+\l__xeCJK_punct_kern_skip=\skip61
+\l__xeCJK_last_penalty_int=\count270
+\l__xeCJK_last_bound_dim=\dimen156
+\l__xeCJK_last_kern_dim=\dimen157
+\l__xeCJK_widow_penalty_int=\count271
+
+Package xtemplate Info: Declaring object type 'xeCJK/punctuation' taking 0
+(xtemplate)             argument(s) on line 2362.
+
+\l__xeCJK_fixed_punct_width_dim=\dimen158
+\l__xeCJK_mixed_punct_width_dim=\dimen159
+\l__xeCJK_middle_punct_width_dim=\dimen160
+\l__xeCJK_fixed_margin_width_dim=\dimen161
+\l__xeCJK_mixed_margin_width_dim=\dimen162
+\l__xeCJK_middle_margin_width_dim=\dimen163
+\l__xeCJK_bound_punct_width_dim=\dimen164
+\l__xeCJK_bound_margin_width_dim=\dimen165
+\l__xeCJK_margin_minimum_dim=\dimen166
+\l__xeCJK_kerning_total_width_dim=\dimen167
+\l__xeCJK_same_align_margin_dim=\dimen168
+\l__xeCJK_different_align_margin_dim=\dimen169
+\l__xeCJK_kerning_margin_width_dim=\dimen170
+\l__xeCJK_kerning_margin_minimum_dim=\dimen171
+\l__xeCJK_bound_dim=\dimen172
+\l__xeCJK_reverse_bound_dim=\dimen173
+\l__xeCJK_minimum_bound_dim=\dimen174
+\l__xeCJK_kerning_margin_dim=\dimen175
+\l__xeCJK_original_margin_dim=\dimen176
+\g__xeCJK_family_int=\count272
+\l__xeCJK_fam_int=\count273
+\g__xeCJK_fam_allocation_int=\count274
+\l__xeCJK_verb_case_int=\count275
+\l__xeCJK_verb_exspace_skip=\skip62
+(/usr/local/texlive/2018/texmf-dist/tex/latex/fontspec/fontspec.sty
+Package: fontspec 2019/02/12 v2.7b Font selection for XeLaTeX and LuaLaTeX
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+Package: fontspec-xetex 2019/02/12 v2.7b Font selection for XeLaTeX and LuaLaTe
+X
+\l__fontspec_script_int=\count276
+\l__fontspec_language_int=\count277
+\l__fontspec_strnum_int=\count278
+\l__fontspec_tmp_int=\count279
+\l__fontspec_tmpa_int=\count280
+\l__fontspec_tmpb_int=\count281
+\l__fontspec_tmpc_int=\count282
+\l__fontspec_em_int=\count283
+\l__fontspec_emdef_int=\count284
+\l__fontspec_strong_int=\count285
+\l__fontspec_strongdef_int=\count286
+\l__fontspec_tmpa_dim=\dimen177
+\l__fontspec_tmpb_dim=\dimen178
+\l__fontspec_tmpc_dim=\dimen179
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2018/08/11 v2.0j Standard LaTeX package
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/tuenc.def
+File: tuenc.def 2018/08/11 v2.0j Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding TU on input line 82.
+))
+(/usr/local/texlive/2018/texmf-dist/tex/latex/fontspec/fontspec.cfg)
+LaTeX Info: Redefining \itshape on input line 4044.
+LaTeX Info: Redefining \slshape on input line 4049.
+LaTeX Info: Redefining \scshape on input line 4054.
+LaTeX Info: Redefining \upshape on input line 4059.
+LaTeX Info: Redefining \em on input line 4089.
+LaTeX Info: Redefining \emph on input line 4114.
+))
+(/usr/local/texlive/2018/texmf-dist/tex/xelatex/xecjk/xeCJK.cfg
+File: xeCJK.cfg 2018/04/30 v3.7.1 Configuration file for xeCJK package
+))
 (/usr/local/texlive/2018/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count112
+\c@float@type=\count287
 \float@exts=\toks27
-\float@box=\box30
+\float@box=\box49
 \@float@everytoks=\toks28
-\@floatcapt=\box31
+\@floatcapt=\box50
 )
+
+Package fontspec Warning: Font "Songti SC Regular" does not contain requested
+(fontspec)                Script "CJK".
+
+
+Package fontspec Info: Could not resolve font "Kaiti SC Regular/B" (it
+(fontspec)             probably doesn't exist).
+
+
+Package fontspec Info: Could not resolve font "Heiti SC Light/I" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: Font family 'SongtiSCRegular(0)' created for font
+(fontspec)             'Songti SC Regular' with options
+(fontspec)             [Script={CJK},BoldFont={Heiti SC
+(fontspec)             Light},ItalicFont={Kaiti SC Regular}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Songti SC
+(fontspec)             Regular/OT"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (bx/n) with NFSS spec.: <->"Heiti SC Light/OT"
+(fontspec)             - 'bold small caps'  (bx/sc) with NFSS spec.: 
+(fontspec)             - 'italic' (m/it) with NFSS spec.: <->"Kaiti SC
+(fontspec)             Regular/OT"
+(fontspec)             - 'italic small caps'  (m/itsc) with NFSS spec.: 
+(fontspec)             - 'bold italic' (bx/it) with NFSS spec.: <->"Songti SC
+(fontspec)             Regular/BI/OT"
+(fontspec)             - 'bold italic small caps'  (bx/itsc) with NFSS spec.: 
+
 (/usr/local/texlive/2018/texmf-dist/tex/latex/tools/indentfirst.sty
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2018/04/16 v5.8 Page Geometry
-\Gm@cnth=\count113
-\Gm@cntv=\count114
-\c@Gm@tempcnt=\count115
-\Gm@bindingoffset=\dimen116
-\Gm@wd@mp=\dimen117
-\Gm@odd@mp=\dimen118
-\Gm@even@mp=\dimen119
-\Gm@layoutwidth=\dimen120
-\Gm@layoutheight=\dimen121
-\Gm@layouthoffset=\dimen122
-\Gm@layoutvoffset=\dimen123
+\Gm@cnth=\count288
+\Gm@cntv=\count289
+\c@Gm@tempcnt=\count290
+\Gm@bindingoffset=\dimen180
+\Gm@wd@mp=\dimen181
+\Gm@odd@mp=\dimen182
+\Gm@even@mp=\dimen183
+\Gm@layoutwidth=\dimen184
+\Gm@layoutheight=\dimen185
+\Gm@layouthoffset=\dimen186
+\Gm@layoutvoffset=\dimen187
 \Gm@dimlist=\toks29
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/xcolor/xcolor.sty
@@ -323,8 +627,8 @@ File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: xetex.def on input line 99.
 )
-\Gin@req@height=\dimen124
-\Gin@req@width=\dimen125
+\Gin@req@height=\dimen188
+\Gin@req@width=\dimen189
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/pstricks/pstricks.sty
 Package: pstricks 2018/12/21 v0.69 LaTeX wrapper for `PSTricks' (RN,HV)
@@ -348,27 +652,27 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 \XKV@toks=\toks30
 \XKV@tempa@toks=\toks31
 )
-\XKV@depth=\count116
+\XKV@depth=\count291
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 )))
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pstricks/pstricks.tex
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pstricks/pst-fp.tex
 `pst-fp' v0.05, 2010/01/17 (hv)
-\pstFP@xs=\count117
-\pstFP@xia=\count118
-\pstFP@xib=\count119
-\pstFP@xfa=\count120
-\pstFP@xfb=\count121
-\pstFP@rega=\count122
-\pstFP@regb=\count123
-\pstFP@regs=\count124
-\pstFP@times=\count125
+\pstFP@xs=\count292
+\pstFP@xia=\count293
+\pstFP@xib=\count294
+\pstFP@xfa=\count295
+\pstFP@xfb=\count296
+\pstFP@rega=\count297
+\pstFP@regb=\count298
+\pstFP@regs=\count299
+\pstFP@times=\count300
 )
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
 x
 \pgfutil@everybye=\toks32
-\pgfutil@tempdima=\dimen126
-\pgfutil@tempdimb=\dimen127
+\pgfutil@tempdima=\dimen190
+\pgfutil@tempdimb=\dimen191
 
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-li
 sts.tex))
@@ -385,25 +689,25 @@ Loading pgffor.code.tex
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex
-\pgf@x=\dimen128
-\pgf@xa=\dimen129
-\pgf@xb=\dimen130
-\pgf@xc=\dimen131
-\pgf@y=\dimen132
-\pgf@ya=\dimen133
-\pgf@yb=\dimen134
-\pgf@yc=\dimen135
-\c@pgf@counta=\count126
-\c@pgf@countb=\count127
-\c@pgf@countc=\count128
-\c@pgf@countd=\count129
-\pgfutil@tempcnta=\count130
-\pgfutil@tempcntb=\count131
+\pgf@x=\dimen192
+\pgf@xa=\dimen193
+\pgf@xb=\dimen194
+\pgf@xc=\dimen195
+\pgf@y=\dimen196
+\pgf@ya=\dimen197
+\pgf@yb=\dimen198
+\pgf@yc=\dimen199
+\c@pgf@counta=\count301
+\c@pgf@countb=\count302
+\c@pgf@countc=\count303
+\c@pgf@countd=\count304
+\pgfutil@tempcnta=\count305
+\pgfutil@tempcntb=\count306
 )
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
-\pgfmath@dimen=\dimen136
-\pgfmath@count=\count132
-\pgfmath@box=\box32
+\pgfmath@dimen=\dimen256
+\pgfmath@count=\count307
+\pgfmath@box=\box51
 \pgfmath@toks=\toks36
 \pgfmath@stack@operand=\toks37
 \pgfmath@stack@operation=\toks38
@@ -427,61 +731,61 @@ code.tex)
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integ
 erarithmetics.code.tex)))
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count133
+\c@pgfmathroundto@lastzeros=\count308
 ))
-\pgffor@iter=\dimen137
-\pgffor@skip=\dimen138
+\pgffor@iter=\dimen257
+\pgffor@skip=\dimen258
 \pgffor@stack=\toks39
 \pgffor@toks=\toks40
 )
-\psLoopIndex=\count134
+\psLoopIndex=\count309
 
 `PSTricks' v2.96  <2019/02/23> (tvz,hv)
-\pst@dima=\dimen139
-\pst@dimb=\dimen140
-\pst@dimc=\dimen141
-\pst@dimd=\dimen142
-\pst@dimg=\dimen143
-\pst@dimh=\dimen144
-\pst@dimm=\dimen145
-\pst@dimn=\dimen146
-\pst@dimo=\dimen147
-\pst@dimp=\dimen148
-\pst@hbox=\box33
-\pst@ibox=\box34
-\pst@boxg=\box35
-\pst@cnta=\count135
-\pst@cntb=\count136
-\pst@cntc=\count137
-\pst@cntd=\count138
-\pst@cntg=\count139
-\pst@cnth=\count140
-\pst@cntm=\count141
-\pst@cntn=\count142
-\pst@cnto=\count143
-\pst@cntp=\count144
-\@zero=\count145
+\pst@dima=\dimen259
+\pst@dimb=\dimen260
+\pst@dimc=\dimen261
+\pst@dimd=\dimen262
+\pst@dimg=\dimen263
+\pst@dimh=\dimen264
+\pst@dimm=\dimen265
+\pst@dimn=\dimen266
+\pst@dimo=\dimen267
+\pst@dimp=\dimen268
+\pst@hbox=\box52
+\pst@ibox=\box53
+\pst@boxg=\box54
+\pst@cnta=\count310
+\pst@cntb=\count311
+\pst@cntc=\count312
+\pst@cntd=\count313
+\pst@cntg=\count314
+\pst@cnth=\count315
+\pst@cntm=\count316
+\pst@cntn=\count317
+\pst@cnto=\count318
+\pst@cntp=\count319
+\@zero=\count320
 \pst@toks=\toks41
 (/usr/local/texlive/2018/texmf-dist/tex/xelatex/xetex-pstricks/pstricks.con
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pstricks/config/xdvipdfmx.cfg))
-\psunit=\dimen149
-\psxunit=\dimen150
-\psyunit=\dimen151
-\pst@C@@rType=\count146
-\pslinewidth=\dimen152
-\psk@startLW=\dimen153
-\psk@endLW=\dimen154
+\psunit=\dimen269
+\psxunit=\dimen270
+\psyunit=\dimen271
+\pst@C@@rType=\count321
+\pslinewidth=\dimen272
+\psk@startLW=\dimen273
+\psk@endLW=\dimen274
 \pst@customdefs=\toks42
-\pslinearc=\dimen155
-\pst@symbolStep=\dimen156
-\pst@symbolWidth=\dimen157
-\pst@symbolLinewidth=\dimen158
+\pslinearc=\dimen275
+\pst@symbolStep=\dimen276
+\pst@symbolWidth=\dimen277
+\pst@symbolLinewidth=\dimen278
 \everypsbox=\toks43
-\psframesep=\dimen159
-\pslabelsep=\dimen160
-\sh@wgridXunit=\dimen161
-\sh@wgridYunit=\dimen162
-\pst@shift=\dimen163
+\psframesep=\dimen279
+\pslabelsep=\dimen280
+\sh@wgridXunit=\dimen281
+\sh@wgridYunit=\dimen282
+\pst@shift=\dimen283
 (/usr/local/texlive/2018/texmf-dist/tex/xelatex/xetex-pstricks/pstricks.con
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pstricks/config/xdvipdfmx.cfg
 Using PSTricks configuration for XeTeX+xdvipdfmx
@@ -504,8 +808,8 @@ Package: multido 2004/05/17 package wrapper for PSTricks `multido.tex', (HV/RN)
 
 (/usr/local/texlive/2018/texmf-dist/tex/generic/multido/multido.tex
  v1.42, 2010/05/14 <tvz>
-\multido@count=\count147
-\multidocount=\count148
+\multido@count=\count322
+\multidocount=\count323
 \multido@stuff=\toks44
 )
 File: multido.tex 2010/05/14 v1.42 `multido' (tvz,hv)
@@ -518,56 +822,56 @@ Package: pst-plot 2011/04/13 package wrapper for pst-plot.tex (hv)
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pstricks-add/pstricks-add.tex
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pst-node/pst-node.tex
  v1.41, 2017/12/30
-\psrow=\count149
-\pscol=\count150
-\psmatrixcnt=\count151
-\psrowsep=\skip50
-\pscolsep=\skip51
-\pst@args=\count152
-\num@pts=\count153
-\pst@argcnt=\count154
+\psrow=\count324
+\pscol=\count325
+\psmatrixcnt=\count326
+\psrowsep=\skip63
+\pscolsep=\skip64
+\pst@args=\count327
+\num@pts=\count328
+\pst@argcnt=\count329
 )
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pst-arrow/pst-arrow.tex
 `pst-arrow' v0.01, 2016/09/01 (dr,hv)
-\pshooklength=\dimen164
-\pshookwidth=\dimen165
+\pshooklength=\dimen284
+\pshookwidth=\dimen285
 )
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pst-3d/pst-3d.tex
 `PST-3d' v1.11, 2010/02/14 (tvz))
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pst-math/pst-math.tex
 `pst-math' v0.64 , (CJ,hv)) `pstricks-add' v3.87, 2019/01/12 (dr,hv)
-\psparallelogramsep=\dimen166
-\pst@cntC=\count155
-\pst@stepcount=\count156
-\chart@ColorIndex=\dimen167
-\chart@ColorStep=\dimen168
-\pst@chartHeight=\dimen169
-\pst@chartStackDepth=\dimen170
-\pst@chartStackWidth=\dimen171
-\chart@Toggle=\count157
-\psVectorCtr=\count158
+\psparallelogramsep=\dimen286
+\pst@cntC=\count330
+\pst@stepcount=\count331
+\chart@ColorIndex=\dimen287
+\chart@ColorStep=\dimen288
+\pst@chartHeight=\dimen289
+\pst@chartStackDepth=\dimen290
+\pst@chartStackWidth=\dimen291
+\chart@Toggle=\count332
+\psVectorCtr=\count333
 )
  v1.91, 2018/08/31 (tvz,hv)
-\pstRadUnit=\dimen172
-\pstRadUnitInv=\dimen173
-\pst@linecnt=\count159
-\RCD@file=\read1
-\psxlabelsep=\dimen174
-\psylabelsep=\dimen175
-\psk@subticksize=\dimen176
-\pst@xticksizeA=\dimen177
-\pst@xticksizeB=\dimen178
-\pst@xticksizeC=\dimen179
-\pst@yticksizeA=\dimen180
-\pst@yticksizeB=\dimen181
-\pst@yticksizeC=\dimen182
-\@digitcounter=\count160
-\psk@llx=\dimen183
-\psk@lly=\dimen184
-\psk@urx=\dimen185
-\psk@ury=\dimen186
-\pst@xunit=\dimen187
-\pst@yunit=\dimen188
+\pstRadUnit=\dimen292
+\pstRadUnitInv=\dimen293
+\pst@linecnt=\count334
+\RCD@file=\read2
+\psxlabelsep=\dimen294
+\psylabelsep=\dimen295
+\psk@subticksize=\dimen296
+\pst@xticksizeA=\dimen297
+\pst@xticksizeB=\dimen298
+\pst@xticksizeC=\dimen299
+\pst@yticksizeA=\dimen300
+\pst@yticksizeB=\dimen301
+\pst@yticksizeC=\dimen302
+\@digitcounter=\count335
+\psk@llx=\dimen303
+\psk@lly=\dimen304
+\psk@urx=\dimen305
+\psk@ury=\dimen306
+\pst@xunit=\dimen307
+\pst@yunit=\dimen308
 )
 File: pst-plot.tex 2018/08/31 1.91 `pst-plot' (tvz,hv)
 )
@@ -590,32 +894,32 @@ Package: caption 2018/10/06 v3.3-154 Customizing captions (AR)
 (/usr/local/texlive/2018/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2018/09/12 v1.8c caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 64.
-\captionmargin=\dimen189
-\captionmargin@=\dimen190
-\captionwidth=\dimen191
-\caption@tempdima=\dimen192
-\caption@indent=\dimen193
-\caption@parindent=\dimen194
-\caption@hangindent=\dimen195
+\captionmargin=\dimen309
+\captionmargin@=\dimen310
+\captionwidth=\dimen311
+\caption@tempdima=\dimen312
+\caption@indent=\dimen313
+\caption@parindent=\dimen314
+\caption@hangindent=\dimen315
 )
-\c@caption@flags=\count161
-\c@ContinuedFloat=\count162
+\c@caption@flags=\count336
+\c@ContinuedFloat=\count337
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 )
-\c@KVtest=\count163
-\sf@farskip=\skip52
-\sf@captopadj=\dimen196
-\sf@capskip=\skip53
-\sf@nearskip=\skip54
-\c@subfigure=\count164
-\c@subfigure@save=\count165
-\c@lofdepth=\count166
-\c@subtable=\count167
-\c@subtable@save=\count168
-\c@lotdepth=\count169
-\sf@top=\skip55
-\sf@bottom=\skip56
+\c@KVtest=\count338
+\sf@farskip=\skip65
+\sf@captopadj=\dimen316
+\sf@capskip=\skip66
+\sf@nearskip=\skip67
+\c@subfigure=\count339
+\c@subfigure@save=\count340
+\c@lofdepth=\count341
+\c@subtable=\count342
+\c@subtable@save=\count343
+\c@lotdepth=\count344
+\sf@top=\skip68
+\sf@bottom=\skip69
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
 (/usr/local/texlive/2018/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
@@ -623,13 +927,13 @@ Package caption Info: hyperref package is loaded.
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
 x
 \pgfutil@everybye=\toks45
-\pgfutil@tempdima=\dimen197
-\pgfutil@tempdimb=\dimen198
+\pgfutil@tempdima=\dimen317
+\pgfutil@tempdimb=\dimen318
 
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-li
 sts.tex))
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
-\pgfutil@abb=\box36
+\pgfutil@abb=\box55
 (/usr/local/texlive/2018/texmf-dist/tex/latex/ms/everyshi.sty
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 ))
@@ -644,24 +948,24 @@ Package: pgf 2019/02/02 v3.1.1 (3.1.1)
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
 Package: pgfsys 2019/02/02 v3.1.1 (3.1.1)
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)
-\pgf@x=\dimen199
-\pgf@y=\dimen256
-\pgf@xa=\dimen257
-\pgf@ya=\dimen258
-\pgf@xb=\dimen259
-\pgf@yb=\dimen260
-\pgf@xc=\dimen261
-\pgf@yc=\dimen262
+\pgf@x=\dimen319
+\pgf@y=\dimen320
+\pgf@xa=\dimen321
+\pgf@ya=\dimen322
+\pgf@xb=\dimen323
+\pgf@yb=\dimen324
+\pgf@xc=\dimen325
+\pgf@yc=\dimen326
 \w@pgf@writea=\write5
-\r@pgf@reada=\read2
-\c@pgf@counta=\count170
-\c@pgf@countb=\count171
-\c@pgf@countc=\count172
-\c@pgf@countd=\count173
+\r@pgf@reada=\read3
+\c@pgf@counta=\count345
+\c@pgf@countb=\count346
+\c@pgf@countc=\count347
+\c@pgf@countd=\count348
 \t@pgf@toka=\toks46
 \t@pgf@tokb=\toks47
 \t@pgf@tokc=\toks48
-\pgf@sys@id@count=\count174
+\pgf@sys@id@count=\count349
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2019/02/02 v3.1.1 (3.1.1)
 )
@@ -675,13 +979,13 @@ File: pgfsys-dvipdfmx.def 2019/02/02 v3.1.1 (3.1.1)
 df.def
 File: pgfsys-common-pdf.def 2019/02/02 v3.1.1 (3.1.1)
 )
-\pgfsys@objnum=\count175
+\pgfsys@objnum=\count350
 ))
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.
 code.tex
 File: pgfsyssoftpath.code.tex 2019/02/02 v3.1.1 (3.1.1)
-\pgfsyssoftpath@smallbuffer@items=\count176
-\pgfsyssoftpath@bigbuffer@items=\count177
+\pgfsyssoftpath@smallbuffer@items=\count351
+\pgfsyssoftpath@bigbuffer@items=\count352
 )
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.
 code.tex
@@ -693,52 +997,52 @@ Package: pgfcore 2019/02/02 v3.1.1 (3.1.1)
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.co
 de.tex
 File: pgfcorepoints.code.tex 2019/02/02 v3.1.1 (3.1.1)
-\pgf@picminx=\dimen263
-\pgf@picmaxx=\dimen264
-\pgf@picminy=\dimen265
-\pgf@picmaxy=\dimen266
-\pgf@pathminx=\dimen267
-\pgf@pathmaxx=\dimen268
-\pgf@pathminy=\dimen269
-\pgf@pathmaxy=\dimen270
-\pgf@xx=\dimen271
-\pgf@xy=\dimen272
-\pgf@yx=\dimen273
-\pgf@yy=\dimen274
-\pgf@zx=\dimen275
-\pgf@zy=\dimen276
+\pgf@picminx=\dimen327
+\pgf@picmaxx=\dimen328
+\pgf@picminy=\dimen329
+\pgf@picmaxy=\dimen330
+\pgf@pathminx=\dimen331
+\pgf@pathmaxx=\dimen332
+\pgf@pathminy=\dimen333
+\pgf@pathmaxy=\dimen334
+\pgf@xx=\dimen335
+\pgf@xy=\dimen336
+\pgf@yx=\dimen337
+\pgf@yy=\dimen338
+\pgf@zx=\dimen339
+\pgf@zy=\dimen340
 )
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconst
 ruct.code.tex
 File: pgfcorepathconstruct.code.tex 2019/02/02 v3.1.1 (3.1.1)
-\pgf@path@lastx=\dimen277
-\pgf@path@lasty=\dimen278
+\pgf@path@lastx=\dimen341
+\pgf@path@lasty=\dimen342
 )
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage
 .code.tex
 File: pgfcorepathusage.code.tex 2019/02/02 v3.1.1 (3.1.1)
-\pgf@shorten@end@additional=\dimen279
-\pgf@shorten@start@additional=\dimen280
+\pgf@shorten@end@additional=\dimen343
+\pgf@shorten@start@additional=\dimen344
 )
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.co
 de.tex
 File: pgfcorescopes.code.tex 2019/02/02 v3.1.1 (3.1.1)
-\pgfpic=\box37
-\pgf@hbox=\box38
-\pgf@layerbox@main=\box39
-\pgf@picture@serial@count=\count178
+\pgfpic=\box56
+\pgf@hbox=\box57
+\pgf@layerbox@main=\box58
+\pgf@picture@serial@count=\count353
 )
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicst
 ate.code.tex
 File: pgfcoregraphicstate.code.tex 2019/02/02 v3.1.1 (3.1.1)
-\pgflinewidth=\dimen281
+\pgflinewidth=\dimen345
 )
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransform
 ations.code.tex
 File: pgfcoretransformations.code.tex 2019/02/02 v3.1.1 (3.1.1)
-\pgf@pt@x=\dimen282
-\pgf@pt@y=\dimen283
-\pgf@pt@temp=\dimen284
+\pgf@pt@x=\dimen346
+\pgf@pt@y=\dimen347
+\pgf@pt@temp=\dimen348
 )
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.cod
 e.tex
@@ -755,13 +1059,13 @@ File: pgfcorepathprocessing.code.tex 2019/02/02 v3.1.1 (3.1.1)
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.co
 de.tex
 File: pgfcorearrows.code.tex 2019/02/02 v3.1.1 (3.1.1)
-\pgfarrowsep=\dimen285
+\pgfarrowsep=\dimen349
 )
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.cod
 e.tex
 File: pgfcoreshade.code.tex 2019/02/02 v3.1.1 (3.1.1)
-\pgf@max=\dimen286
-\pgf@sys@shading@range@num=\count179
+\pgf@max=\dimen350
+\pgf@sys@shading@range@num=\count354
 )
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.cod
 e.tex
@@ -770,7 +1074,7 @@ File: pgfcoreimage.code.tex 2019/02/02 v3.1.1 (3.1.1)
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.
 code.tex
 File: pgfcoreexternal.code.tex 2019/02/02 v3.1.1 (3.1.1)
-\pgfexternal@startupbox=\box40
+\pgfexternal@startupbox=\box59
 ))
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.co
 de.tex
@@ -791,7 +1095,7 @@ File: pgfcorerdf.code.tex 2019/02/02 v3.1.1 (3.1.1)
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.cod
 e.tex
 File: pgfmoduleshapes.code.tex 2019/02/02 v3.1.1 (3.1.1)
-\pgfnodeparttextbox=\box41
+\pgfnodeparttextbox=\box60
 )
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.
 tex
@@ -800,8 +1104,8 @@ File: pgfmoduleplot.code.tex 2019/02/02 v3.1.1 (3.1.1)
 (/usr/local/texlive/2018/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
 -0-65.sty
 Package: pgfcomp-version-0-65 2019/02/02 v3.1.1 (3.1.1)
-\pgf@nodesepstart=\dimen287
-\pgf@nodesepend=\dimen288
+\pgf@nodesepstart=\dimen351
+\pgf@nodesepend=\dimen352
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
 -1-18.sty
@@ -816,8 +1120,8 @@ Package: pgfcomp-version-1-18 2019/02/02 v3.1.1 (3.1.1)
 Package: pgffor 2019/02/02 v3.1.1 (3.1.1)
 
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
-\pgffor@iter=\dimen289
-\pgffor@skip=\dimen290
+\pgffor@iter=\dimen353
+\pgffor@skip=\dimen354
 \pgffor@stack=\toks49
 \pgffor@toks=\toks50
 ))
@@ -828,32 +1132,32 @@ Package: tikz 2019/02/02 v3.1.1 (3.1.1)
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothan
 dlers.code.tex
 File: pgflibraryplothandlers.code.tex 2019/02/02 v3.1.1 (3.1.1)
-\pgf@plot@mark@count=\count180
-\pgfplotmarksize=\dimen291
+\pgf@plot@mark@count=\count355
+\pgfplotmarksize=\dimen355
 )
-\tikz@lastx=\dimen292
-\tikz@lasty=\dimen293
-\tikz@lastxsaved=\dimen294
-\tikz@lastysaved=\dimen295
-\tikzleveldistance=\dimen296
-\tikzsiblingdistance=\dimen297
-\tikz@figbox=\box42
-\tikz@figbox@bg=\box43
-\tikz@tempbox=\box44
-\tikz@tempbox@bg=\box45
-\tikztreelevel=\count181
-\tikznumberofchildren=\count182
-\tikznumberofcurrentchild=\count183
-\tikz@fig@count=\count184
+\tikz@lastx=\dimen356
+\tikz@lasty=\dimen357
+\tikz@lastxsaved=\dimen358
+\tikz@lastysaved=\dimen359
+\tikzleveldistance=\dimen360
+\tikzsiblingdistance=\dimen361
+\tikz@figbox=\box61
+\tikz@figbox@bg=\box62
+\tikz@tempbox=\box63
+\tikz@tempbox@bg=\box64
+\tikztreelevel=\count356
+\tikznumberofchildren=\count357
+\tikznumberofcurrentchild=\count358
+\tikz@fig@count=\count359
 
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.cod
 e.tex
 File: pgfmodulematrix.code.tex 2019/02/02 v3.1.1 (3.1.1)
-\pgfmatrixcurrentrow=\count185
-\pgfmatrixcurrentcolumn=\count186
-\pgf@matrix@numberofcolumns=\count187
+\pgfmatrixcurrentrow=\count360
+\pgfmatrixcurrentcolumn=\count361
+\pgf@matrix@numberofcolumns=\count362
 )
-\tikz@expandcount=\count188
+\tikz@expandcount=\count363
 
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibrarytopaths.code.tex
@@ -863,7 +1167,7 @@ File: tikzlibrarytopaths.code.tex 2019/02/02 v3.1.1 (3.1.1)
 Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
 \every@verbatim=\toks51
 \verbatim@line=\toks52
-\verbatim@in@stream=\read3
+\verbatim@in@stream=\read4
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
 Package: tcolorbox 2018/12/07 version 4.15 text color boxes
@@ -876,212 +1180,52 @@ Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 ))
 (/usr/local/texlive/2018/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2018/08/19 v2.5f e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count189
+\etb@tempcnta=\count364
 )
-\tcb@titlebox=\box46
-\tcb@upperbox=\box47
-\tcb@lowerbox=\box48
-\tcb@phantombox=\box49
-\c@tcbbreakpart=\count190
-\c@tcblayer=\count191
-\tcolorbox@number=\count192
-\tcb@temp=\box50
-\tcb@temp=\box51
-\tcb@temp=\box52
-\tcb@temp=\box53
+\tcb@titlebox=\box65
+\tcb@upperbox=\box66
+\tcb@lowerbox=\box67
+\tcb@phantombox=\box68
+\c@tcbbreakpart=\count365
+\c@tcblayer=\count366
+\tcolorbox@number=\count367
+\tcb@temp=\box69
+\tcb@temp=\box70
+\tcb@temp=\box71
+\tcb@temp=\box72
 \tcb@out=\write6
 \tcb@record@out=\write7
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/tcolorbox/tcbraster.code.tex
 Library (tcolorbox): 'tcbraster.code.tex' version '4.15'
-\c@tcbrastercolumn=\count193
-\c@tcbrasterrow=\count194
-\c@tcbraster=\count195
+\c@tcbrastercolumn=\count368
+\c@tcbrasterrow=\count369
+\c@tcbraster=\count370
 ) (/usr/local/texlive/2018/texmf-dist/tex/latex/tcolorbox/tcbskins.code.tex
 Library (tcolorbox): 'tcbskins.code.tex' version '4.15'
-\tcb@waterbox=\box54
+\tcb@waterbox=\box73
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/tcolorbox/tcbskinsjigsaw.code.tex
 Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '4.15'
 ))
 (/usr/local/texlive/2018/texmf-dist/tex/latex/tcolorbox/tcbbreakable.code.tex
 Library (tcolorbox): 'tcbbreakable.code.tex' version '4.15'
-\tcb@testbox=\box55
-\tcb@totalupperbox=\box56
-\tcb@totallowerbox=\box57
+\tcb@testbox=\box74
+\tcb@totalupperbox=\box75
+\tcb@totallowerbox=\box76
 ) (/usr/local/texlive/2018/texmf-dist/tex/latex/tcolorbox/tcbhooks.code.tex
 Library (tcolorbox): 'tcbhooks.code.tex' version '4.15'
 ) (/usr/local/texlive/2018/texmf-dist/tex/latex/tcolorbox/tcbtheorems.code.tex
 Library (tcolorbox): 'tcbtheorems.code.tex' version '4.15'
 ) (/usr/local/texlive/2018/texmf-dist/tex/latex/tcolorbox/tcbfitting.code.tex
 Library (tcolorbox): 'tcbfitting.code.tex' version '4.15'
-\tcbfitdim=\dimen298
-\tcb@lowerfitdim=\dimen299
-\tcb@upperfitdim=\dimen300
-\tcb@cur@hbadness=\count196
+\tcbfitdim=\dimen362
+\tcb@lowerfitdim=\dimen363
+\tcb@upperfitdim=\dimen364
+\tcb@cur@hbadness=\count371
 ) (/usr/local/texlive/2018/texmf-dist/tex/latex/tcolorbox/tcbxparse.code.tex
 Library (tcolorbox): 'tcbxparse.code.tex' version '4.15'
-(/usr/local/texlive/2018/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
-(/usr/local/texlive/2018/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2019-02-15 L3 programming layer (loader) 
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/l3kernel/expl3-code.tex
-Package: expl3 2019-02-15 L3 programming layer (code)
-\c_max_int=\count197
-\l_tmpa_int=\count198
-\l_tmpb_int=\count199
-\g_tmpa_int=\count266
-\g_tmpb_int=\count267
-\g__kernel_prg_map_int=\count268
-\c_log_iow=\count269
-\l_iow_line_count_int=\count270
-\l__iow_line_target_int=\count271
-\l__iow_one_indent_int=\count272
-\l__iow_indent_int=\count273
-\c_zero_dim=\dimen301
-\c_max_dim=\dimen302
-\l_tmpa_dim=\dimen303
-\l_tmpb_dim=\dimen304
-\g_tmpa_dim=\dimen305
-\g_tmpb_dim=\dimen306
-\c_zero_skip=\skip57
-\c_max_skip=\skip58
-\l_tmpa_skip=\skip59
-\l_tmpb_skip=\skip60
-\g_tmpa_skip=\skip61
-\g_tmpb_skip=\skip62
-\c_zero_muskip=\muskip12
-\c_max_muskip=\muskip13
-\l_tmpa_muskip=\muskip14
-\l_tmpb_muskip=\muskip15
-\g_tmpa_muskip=\muskip16
-\g_tmpb_muskip=\muskip17
-\l_keys_choice_int=\count274
-\l__intarray_loop_int=\count275
-\c__intarray_sp_dim=\dimen307
-\g__intarray_font_int=\count276
-\c__fp_leading_shift_int=\count277
-\c__fp_middle_shift_int=\count278
-\c__fp_trailing_shift_int=\count279
-\c__fp_big_leading_shift_int=\count280
-\c__fp_big_middle_shift_int=\count281
-\c__fp_big_trailing_shift_int=\count282
-\c__fp_Bigg_leading_shift_int=\count283
-\c__fp_Bigg_middle_shift_int=\count284
-\c__fp_Bigg_trailing_shift_int=\count285
-\g__fp_array_int=\count286
-\l__fp_array_loop_int=\count287
-\l__sort_length_int=\count288
-\l__sort_min_int=\count289
-\l__sort_top_int=\count290
-\l__sort_max_int=\count291
-\l__sort_true_max_int=\count292
-\l__sort_block_int=\count293
-\l__sort_begin_int=\count294
-\l__sort_end_int=\count295
-\l__sort_A_int=\count296
-\l__sort_B_int=\count297
-\l__sort_C_int=\count298
-\l__tl_analysis_normal_int=\count299
-\l__tl_analysis_index_int=\count300
-\l__tl_analysis_nesting_int=\count301
-\l__tl_analysis_type_int=\count302
-\l__regex_internal_a_int=\count303
-\l__regex_internal_b_int=\count304
-\l__regex_internal_c_int=\count305
-\l__regex_balance_int=\count306
-\l__regex_group_level_int=\count307
-\l__regex_mode_int=\count308
-\c__regex_cs_in_class_mode_int=\count309
-\c__regex_cs_mode_int=\count310
-\l__regex_catcodes_int=\count311
-\l__regex_default_catcodes_int=\count312
-\c__regex_catcode_L_int=\count313
-\c__regex_catcode_O_int=\count314
-\c__regex_catcode_A_int=\count315
-\c__regex_all_catcodes_int=\count316
-\l__regex_show_lines_int=\count317
-\l__regex_min_state_int=\count318
-\l__regex_max_state_int=\count319
-\l__regex_left_state_int=\count320
-\l__regex_right_state_int=\count321
-\l__regex_capturing_group_int=\count322
-\l__regex_min_pos_int=\count323
-\l__regex_max_pos_int=\count324
-\l__regex_curr_pos_int=\count325
-\l__regex_start_pos_int=\count326
-\l__regex_success_pos_int=\count327
-\l__regex_curr_char_int=\count328
-\l__regex_curr_catcode_int=\count329
-\l__regex_last_char_int=\count330
-\l__regex_case_changed_char_int=\count331
-\l__regex_curr_state_int=\count332
-\l__regex_step_int=\count333
-\l__regex_min_active_int=\count334
-\l__regex_max_active_int=\count335
-\l__regex_replacement_csnames_int=\count336
-\l__regex_match_count_int=\count337
-\l__regex_min_submatch_int=\count338
-\l__regex_submatch_int=\count339
-\l__regex_zeroth_submatch_int=\count340
-\g__regex_trace_regex_int=\count341
-\c_empty_box=\box58
-\l_tmpa_box=\box59
-\l_tmpb_box=\box60
-\g_tmpa_box=\box61
-\g_tmpb_box=\box62
-\l__box_top_dim=\dimen308
-\l__box_bottom_dim=\dimen309
-\l__box_left_dim=\dimen310
-\l__box_right_dim=\dimen311
-\l__box_top_new_dim=\dimen312
-\l__box_bottom_new_dim=\dimen313
-\l__box_left_new_dim=\dimen314
-\l__box_right_new_dim=\dimen315
-\l__box_internal_box=\box63
-\l__coffin_internal_box=\box64
-\l__coffin_internal_dim=\dimen316
-\l__coffin_offset_x_dim=\dimen317
-\l__coffin_offset_y_dim=\dimen318
-\l__coffin_x_dim=\dimen319
-\l__coffin_y_dim=\dimen320
-\l__coffin_x_prime_dim=\dimen321
-\l__coffin_y_prime_dim=\dimen322
-\c_empty_coffin=\box65
-\l__coffin_aligned_coffin=\box66
-\l__coffin_aligned_internal_coffin=\box67
-\l_tmpa_coffin=\box68
-\l_tmpb_coffin=\box69
-\g_tmpa_coffin=\box70
-\g_tmpb_coffin=\box71
-\c__coffin_empty_coffin=\box72
-\l__coffin_display_coffin=\box73
-\l__coffin_display_coord_coffin=\box74
-\l__coffin_display_pole_coffin=\box75
-\l__coffin_display_offset_dim=\dimen323
-\l__coffin_display_x_dim=\dimen324
-\l__coffin_display_y_dim=\dimen325
-\g__file_internal_ior=\read4
-\l__coffin_bounding_shift_dim=\dimen326
-\l__coffin_left_corner_dim=\dimen327
-\l__coffin_right_corner_dim=\dimen328
-\l__coffin_bottom_corner_dim=\dimen329
-\l__coffin_top_corner_dim=\dimen330
-\l__coffin_scaled_total_height_dim=\dimen331
-\l__coffin_scaled_width_dim=\dimen332
 )
-(/usr/local/texlive/2018/texmf-dist/tex/latex/l3kernel/l3xdvipdfmx.def
-File: l3xdvipdfmx.def 2019-02-15 v L3 Experimental driver: xdvipdfmx
-\g__driver_image_int=\count342
-\g__driver_pdf_object_int=\count343
-))
-Package: xparse 2018-10-17 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count344
-\g__xparse_grabber_int=\count345
-\l__xparse_m_args_int=\count346
-\l__xparse_mandatory_args_int=\count347
-\l__xparse_v_nesting_int=\count348
-))
 (/usr/local/texlive/2018/texmf-dist/tex/latex/tcolorbox/tcblistingsutf8.code.te
 x
 Library (tcolorbox): 'tcblistingsutf8.code.tex' version '4.15'
@@ -1089,24 +1233,24 @@ Library (tcolorbox): 'tcblistingsutf8.code.tex' version '4.15'
 Package: listingsutf8 2016/05/16 v1.3 Allow UTF-8 in listings input (HO)
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count349
-\lst@gtempboxa=\box76
+\lst@mode=\count372
+\lst@gtempboxa=\box77
 \lst@token=\toks53
-\lst@length=\count350
-\lst@currlwidth=\dimen333
-\lst@column=\count351
-\lst@pos=\count352
-\lst@lostspace=\dimen334
-\lst@width=\dimen335
-\lst@newlines=\count353
-\lst@lineno=\count354
-\lst@maxwidth=\dimen336
+\lst@length=\count373
+\lst@currlwidth=\dimen365
+\lst@column=\count374
+\lst@pos=\count375
+\lst@lostspace=\dimen366
+\lst@width=\dimen367
+\lst@newlines=\count376
+\lst@lineno=\count377
+\lst@maxwidth=\dimen368
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2018/09/02 1.7 (Carsten Heinz)
-\c@lstnumber=\count355
-\lst@skipnumbers=\count356
-\lst@framebox=\box77
+\c@lstnumber=\count378
+\lst@skipnumbers=\count379
+\lst@framebox=\box78
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2018/09/02 1.7 listings configuration
@@ -1127,7 +1271,7 @@ Library (tcolorbox): 'tcblistingscore.code.tex' version '4.15'
 (/usr/local/texlive/2018/texmf-dist/tex/latex/tcolorbox/tcbprocessing.code.tex
 Library (tcolorbox): 'tcbprocessing.code.tex' version '4.15'
 )
-\c@tcblisting=\count357
+\c@tcblisting=\count380
 )))
 (/usr/local/texlive/2018/texmf-dist/tex/latex/tcolorbox/tcbexternal.code.tex
 Library (tcolorbox): 'tcbexternal.code.tex' version '4.15'
@@ -1147,39 +1291,43 @@ File: pgflibraryfadings.code.tex 2019/02/02 v3.1.1 (3.1.1)
 (/usr/local/texlive/2018/texmf-dist/tex/latex/tcolorbox/tcbposter.code.tex
 Library (tcolorbox): 'tcbposter.code.tex' version '4.15'
 ))
-\c@tcb@cnt@theorem=\count358
-\c@tcb@cnt@definition=\count359
-\c@tcb@cnt@corollary=\count360
-\c@tcb@cnt@myboxes=\count361
-\c@tcb@cnt@exercise=\count362
-
+\c@tcb@cnt@theorem=\count381
+\c@tcb@cnt@definition=\count382
+\c@tcb@cnt@corollary=\count383
+\c@tcb@cnt@myboxes=\count384
+\c@tcb@cnt@exercise=\count385
+ (/usr/local/texlive/2018/texmf-dist/tex/xelatex/xecjk/xeCJK-listings.sty
+Package: xeCJK-listings 2018/04/30 v3.7.1 xeCJK patch file for listings
+\l__xeCJK_listings_max_char_int=\count386
+\l__xeCJK_listings_flag_int=\count387
+)
 
 LaTeX Warning: Unused global option(s):
     [UTF8].
 
-(./2019:04:23.aux)
-\openout1 = `2019:04:23.aux'.
+(./HW 06.aux)
+\openout1 = `"HW 06.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 165.
-LaTeX Font Info:    ... okay on input line 165.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 165.
-LaTeX Font Info:    ... okay on input line 165.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 165.
-LaTeX Font Info:    ... okay on input line 165.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 165.
-LaTeX Font Info:    ... okay on input line 165.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 165.
-LaTeX Font Info:    ... okay on input line 165.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 165.
-LaTeX Font Info:    ... okay on input line 165.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 165.
-LaTeX Font Info:    ... okay on input line 165.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 165.
-LaTeX Font Info:    ... okay on input line 165.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 165.
-LaTeX Font Info:    ... okay on input line 165.
-\AtBeginShipoutBox=\box78
-Package hyperref Info: Link coloring ON on input line 165.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 201.
+LaTeX Font Info:    ... okay on input line 201.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 201.
+LaTeX Font Info:    ... okay on input line 201.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 201.
+LaTeX Font Info:    ... okay on input line 201.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 201.
+LaTeX Font Info:    ... okay on input line 201.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 201.
+LaTeX Font Info:    ... okay on input line 201.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 201.
+LaTeX Font Info:    ... okay on input line 201.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 201.
+LaTeX Font Info:    ... okay on input line 201.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 201.
+LaTeX Font Info:    ... okay on input line 201.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 201.
+LaTeX Font Info:    ... okay on input line 201.
+\AtBeginShipoutBox=\box79
+Package hyperref Info: Link coloring ON on input line 201.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1187,16 +1335,73 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count363
+\c@section@level=\count388
 )
-LaTeX Info: Redefining \ref on input line 165.
-LaTeX Info: Redefining \pageref on input line 165.
-LaTeX Info: Redefining \nameref on input line 165.
+LaTeX Info: Redefining \ref on input line 201.
+LaTeX Info: Redefining \pageref on input line 201.
+LaTeX Info: Redefining \nameref on input line 201.
 
-(./2019:04:23.out) (./2019:04:23.out)
+(./HW 06.out) (./HW 06.out)
 \@outlinefile=\write8
-\openout8 = `2019:04:23.out'.
+\openout8 = `"HW 06.out"'.
 
+
+Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
+(fontspec)             this).
+
+\symlegacymaths=\mathgroup9
+LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 201.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 201.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 201.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 201.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 201.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 201.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 201.
+LaTeX Font Info:    Redeclaring math accent \check on input line 201.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 201.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 201.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 201.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 201.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 201.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 201.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 201.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 201.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 201.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 201.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 201.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 201.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 201.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 201.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 201.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 201.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `normal' on input line 201.
+
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 201.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `bold' on input line 201.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 201.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 201.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 201.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> TU/lmr/bx/n on input line 201.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 201.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 201.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  TU/lmr/m/n --> TU/lmr/bx/n on input line 201.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> TU/lmr/bx/it on input line 201.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> TU/lmss/bx/n on input line 201.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/bx/n on input line 201.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -1237,19 +1442,19 @@ Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
 ABD: EveryShipout initializing macros
-\c@lstlisting=\count364
+\c@lstlisting=\count389
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2018/08/11 v1.3c Input encoding file
 \inpenc@prehook=\toks54
 \inpenc@posthook=\toks55
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 171.
+LaTeX Font Info:    Try loading font information for U+msa on input line 207.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 171.
+LaTeX Font Info:    Try loading font information for U+msb on input line 207.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -1261,22 +1466,27 @@ File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
 [1
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 180.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 180.
- (./2019:04:23.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 180.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 180.
-Package rerunfilecheck Info: File `2019:04:23.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 180.
+File: figures/hint.png Graphic file (type bmp)
+<figures/hint.png>
+File: figures/eigencal.pdf Graphic file (type pdf)
+<use figures/eigencal.pdf>
+ [2] [3] [4]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 315.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 315.
+ (./HW 06.aux)
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 315.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 315.
+Package rerunfilecheck Info: File `"HW 06".out' has not changed.
+(rerunfilecheck)             Checksum: .
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 315.
  ) 
 Here is how much of TeX's memory you used:
- 41594 strings out of 494906
- 803390 string characters out of 6176286
- 959850 words of memory out of 5000000
- 44996 multiletter control sequences out of 15000+600000
- 538082 words of font info for 48 fonts, out of 8000000 for 9000
+ 45346 strings out of 494906
+ 930289 string characters out of 6176286
+ 1145618 words of memory out of 5000000
+ 48659 multiletter control sequences out of 15000+600000
+ 545632 words of font info for 92 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 63i,6n,101p,985b,446s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,14n,101p,977b,1247s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on 2019:04:23.pdf (1 page).
+Output written on HW 06.pdf (4 pages).
