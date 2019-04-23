@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2019.3.13)  23 APR 2019 16:09
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2019.3.13)  23 APR 2019 16:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1261,22 +1261,22 @@ File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
 [1
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 180.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 180.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 192.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 192.
  (./2019:04:23.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 180.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 180.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 192.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 192.
 Package rerunfilecheck Info: File `2019:04:23.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 180.
+(rerunfilecheck)             Checksum: DB8579FEA7E75D1C2D1C41D558829F37.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 192.
  ) 
 Here is how much of TeX's memory you used:
- 41594 strings out of 494906
- 803390 string characters out of 6176286
- 959850 words of memory out of 5000000
- 44996 multiletter control sequences out of 15000+600000
- 538082 words of font info for 48 fonts, out of 8000000 for 9000
+ 41642 strings out of 494906
+ 803975 string characters out of 6176286
+ 962850 words of memory out of 5000000
+ 45028 multiletter control sequences out of 15000+600000
+ 545512 words of font info for 77 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 63i,6n,101p,985b,446s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,14n,101p,985b,446s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on 2019:04:23.pdf (1 page).

@@ -171,8 +171,20 @@
 
 Quiz 4/30, two pieces of A4 double sided material, problems covering chapter 2. Basic calculas and linear algebra tutorials at 2 p.m. this Saturday.
 
+If we have $|\psi(t=0)\rangle = \sum_i c_i|\alpha_i\rangle \mapsto |\psi(t)\rangle = \sum_i c_i e^{-iE_n t/\hbar}|\alpha_i\rangle$, 
 
+\section{Coupled spin-1/2 system}
 
+We have 2 particles, each with spin-1/2, use basis $\{|0\rangle,|1\rangle\}$ for each. Combinations: $\{|00\rangle,|01\rangle,|10\rangle,|11\rangle\}$, use outer product $\otimes$ to join the two qubits. For example,
+\begin{align}
+|\psi_1\rangle = \begin{pmatrix}a_1\\b_1\end{pmatrix},~|\psi_2\rangle = \begin{pmatrix}a_2\\b_2\end{pmatrix}\longmapsto |\psi_1\rangle\otimes|\psi_2\rangle = \begin{pmatrix}a_1a_2\\a_1b_2\\b_1a_2\\b_1b_2\end{pmatrix}
+\end{align}
+For two qubits system, a general state expressed as $|\psi\rangle = c_0|00\rangle + c_1|01\rangle + c_2|10\rangle + c_3|11\rangle$.
+
+Operator $A$ and $B$ for the first and the second particle, we have the operator $A\otimes B$:
+\begin{align}
+\left(A\otimes B\right)\cdot \left(|\psi_1\rangle\otimes|\psi_2\rangle\right) = A|\psi_1\rangle\otimes B|\psi_2\rangle
+\end{align}
 
 
 
