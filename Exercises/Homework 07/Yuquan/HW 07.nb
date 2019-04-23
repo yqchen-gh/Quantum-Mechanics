@@ -1,0 +1,218 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      7621,        210]
+NotebookOptionsPosition[      6990,        191]
+NotebookOutlinePosition[      7354,        207]
+CellTagsIndexPosition[      7311,        204]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   OverscriptBox["\[Sigma]", "\[RightVector]"], "=", 
+   RowBox[{"Table", "[", 
+    RowBox[{
+     RowBox[{"PauliMatrix", "[", "i", "]"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"i", ",", "3"}], "}"}]}], "]"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.764977310967134*^9, 3.764977362586773*^9}},
+ CellLabel->"In[2]:=",ExpressionUUID->"75f6498d-1fd3-463d-9d10-306944d92048"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   OverscriptBox["n", "\[RightVector]"], "=", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"Sin", "[", "\[Theta]", "]"}], 
+      RowBox[{"Cos", "[", "\[CurlyPhi]", "]"}]}], ",", 
+     RowBox[{
+      RowBox[{"Sin", "[", "\[Theta]", "]"}], 
+      RowBox[{"Sin", "[", "\[CurlyPhi]", "]"}]}], ",", 
+     RowBox[{"Cos", "[", "\[Theta]", "]"}]}], "}"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.764977374474649*^9, 3.7649774663766193`*^9}},
+ CellLabel->"In[4]:=",ExpressionUUID->"a0101794-0597-4fbf-8312-3c39dbae986e"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Grid", "[", 
+  RowBox[{
+   RowBox[{"Insert", "[", 
+    RowBox[{
+     RowBox[{"Transpose", "[", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"Eigenvalues", "[", 
+         RowBox[{
+          OverscriptBox["n", "\[RightVector]"], ".", 
+          OverscriptBox["\[Sigma]", "\[RightVector]"]}], "]"}], ",", 
+        RowBox[{"TraditionalForm", "/@", 
+         RowBox[{"Assuming", "[", 
+          RowBox[{
+           RowBox[{
+            RowBox[{"{", 
+             RowBox[{"\[Theta]", ",", "\[CurlyPhi]"}], "}"}], "\[Element]", 
+            "Reals"}], ",", 
+           RowBox[{"Normalize", "/@", 
+            RowBox[{"Simplify", "[", "\[IndentingNewLine]", 
+             RowBox[{"Eigenvectors", "[", 
+              RowBox[{
+               OverscriptBox["n", "\[RightVector]"], ".", 
+               OverscriptBox["\[Sigma]", "\[RightVector]"]}], "]"}], 
+             "]"}]}]}], "]"}]}]}], "}"}], "]"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"\"\<Eigenvalue\>\"", ",", "\"\<Eigenvector\>\""}], "}"}], ",", 
+     "1"}], "]"}], ",", 
+   RowBox[{"Frame", "\[Rule]", "All"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.76497808672322*^9, 3.764978111410645*^9}, {
+  3.7649782841106777`*^9, 3.7649783153671093`*^9}, {3.7649783579281693`*^9, 
+  3.7649784213130074`*^9}, {3.764978466158717*^9, 3.7649785047587214`*^9}, {
+  3.764978556851407*^9, 3.764978568476843*^9}, {3.764978602464106*^9, 
+  3.764978625033038*^9}, {3.764989413988442*^9, 3.764989428424315*^9}, {
+  3.764989519800412*^9, 3.764989553419519*^9}, {3.764989595639778*^9, 
+  3.7649896236450033`*^9}},
+ CellLabel->"In[39]:=",ExpressionUUID->"15d59d3b-4d11-4335-ba3f-5ea83c7e01a2"],
+
+Cell[BoxData[
+ TagBox[GridBox[{
+    {"\<\"Eigenvalue\"\>", "\<\"Eigenvector\"\>"},
+    {
+     RowBox[{"-", "1"}], 
+     TagBox[
+      FormBox[
+       RowBox[{"{", 
+        RowBox[{
+         FractionBox[
+          RowBox[{
+           RowBox[{"tan", "(", 
+            FractionBox["\[Theta]", "2"], ")"}], " ", 
+           RowBox[{"(", 
+            RowBox[{
+             RowBox[{"-", 
+              RowBox[{"cos", "(", "\[CurlyPhi]", ")"}]}], "+", 
+             RowBox[{"\[ImaginaryI]", " ", 
+              RowBox[{"sin", "(", "\[CurlyPhi]", ")"}]}]}], ")"}]}], 
+          SqrtBox[
+           RowBox[{"1", "+", 
+            SuperscriptBox[
+             TemplateBox[{RowBox[{
+                 RowBox[{"(", 
+                   RowBox[{
+                    RowBox[{"\[ImaginaryI]", " ", 
+                    RowBox[{"sin", "(", "\[CurlyPhi]", ")"}]}], "-", 
+                    RowBox[{"cos", "(", "\[CurlyPhi]", ")"}]}], ")"}], " ", 
+                 RowBox[{"tan", "(", 
+                   FractionBox["\[Theta]", "2"], ")"}]}]},
+              "Abs"], "2"]}]]], ",", 
+         FractionBox["1", 
+          SqrtBox[
+           RowBox[{"1", "+", 
+            SuperscriptBox[
+             TemplateBox[{RowBox[{
+                 RowBox[{"(", 
+                   RowBox[{
+                    RowBox[{"\[ImaginaryI]", " ", 
+                    RowBox[{"sin", "(", "\[CurlyPhi]", ")"}]}], "-", 
+                    RowBox[{"cos", "(", "\[CurlyPhi]", ")"}]}], ")"}], " ", 
+                 RowBox[{"tan", "(", 
+                   FractionBox["\[Theta]", "2"], ")"}]}]},
+              "Abs"], "2"]}]]]}], "}"}],
+       TraditionalForm],
+      TraditionalForm,
+      Editable->True]},
+    {"1", 
+     TagBox[
+      FormBox[
+       RowBox[{"{", 
+        RowBox[{
+         FractionBox[
+          RowBox[{
+           RowBox[{"cot", "(", 
+            FractionBox["\[Theta]", "2"], ")"}], " ", 
+           RowBox[{"(", 
+            RowBox[{
+             RowBox[{"cos", "(", "\[CurlyPhi]", ")"}], "-", 
+             RowBox[{"\[ImaginaryI]", " ", 
+              RowBox[{"sin", "(", "\[CurlyPhi]", ")"}]}]}], ")"}]}], 
+          SqrtBox[
+           RowBox[{"1", "+", 
+            SuperscriptBox[
+             TemplateBox[{RowBox[{
+                 RowBox[{"cot", "(", 
+                   FractionBox["\[Theta]", "2"], ")"}], " ", 
+                 RowBox[{"(", 
+                   RowBox[{
+                    RowBox[{"cos", "(", "\[CurlyPhi]", ")"}], "-", 
+                    RowBox[{"\[ImaginaryI]", " ", 
+                    RowBox[{"sin", "(", "\[CurlyPhi]", ")"}]}]}], ")"}]}]},
+              "Abs"], "2"]}]]], ",", 
+         FractionBox["1", 
+          SqrtBox[
+           RowBox[{"1", "+", 
+            SuperscriptBox[
+             TemplateBox[{RowBox[{
+                 RowBox[{"cot", "(", 
+                   FractionBox["\[Theta]", "2"], ")"}], " ", 
+                 RowBox[{"(", 
+                   RowBox[{
+                    RowBox[{"cos", "(", "\[CurlyPhi]", ")"}], "-", 
+                    RowBox[{"\[ImaginaryI]", " ", 
+                    RowBox[{"sin", "(", "\[CurlyPhi]", ")"}]}]}], ")"}]}]},
+              "Abs"], "2"]}]]]}], "}"}],
+       TraditionalForm],
+      TraditionalForm,
+      Editable->True]}
+   },
+   AutoDelete->False,
+   GridBoxFrame->{"Columns" -> {{True}}, "Rows" -> {{True}}},
+   GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+  "Grid"]], "Output",
+ CellChangeTimes->{
+  3.7649783157750072`*^9, 3.76497842384426*^9, {3.76497847257755*^9, 
+   3.76497850539646*^9}, {3.764978587437333*^9, 3.7649786260492973`*^9}, {
+   3.764989416805647*^9, 3.7649894297885838`*^9}, 3.764989554092204*^9, {
+   3.7649896030528603`*^9, 3.764989625845605*^9}},
+ CellLabel->"Out[39]=",ExpressionUUID->"4bb00b0a-d929-47da-835e-48d3362fd0da"]
+}, Open  ]]
+},
+WindowSize->{738, 755},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (2018\:5e743\
+\:670828\:65e5)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 407, 10, 44, "Input",ExpressionUUID->"75f6498d-1fd3-463d-9d10-306944d92048"],
+Cell[968, 32, 561, 14, 45, "Input",ExpressionUUID->"a0101794-0597-4fbf-8312-3c39dbae986e"],
+Cell[CellGroupData[{
+Cell[1554, 50, 1656, 37, 236, "Input",ExpressionUUID->"15d59d3b-4d11-4335-ba3f-5ea83c7e01a2"],
+Cell[3213, 89, 3761, 99, 185, "Output",ExpressionUUID->"4bb00b0a-d929-47da-835e-48d3362fd0da"]
+}, Open  ]]
+}
+]
+*)
+

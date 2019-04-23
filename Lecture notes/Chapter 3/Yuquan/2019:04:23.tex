@@ -175,18 +175,80 @@ If we have $|\psi(t=0)\rangle = \sum_i c_i|\alpha_i\rangle \mapsto |\psi(t)\rang
 
 \section{Coupled spin-1/2 system}
 
+\subsection{States}
 We have 2 particles, each with spin-1/2, use basis $\{|0\rangle,|1\rangle\}$ for each. Combinations: $\{|00\rangle,|01\rangle,|10\rangle,|11\rangle\}$, use outer product $\otimes$ to join the two qubits. For example,
 \begin{align}
 |\psi_1\rangle = \begin{pmatrix}a_1\\b_1\end{pmatrix},~|\psi_2\rangle = \begin{pmatrix}a_2\\b_2\end{pmatrix}\longmapsto |\psi_1\rangle\otimes|\psi_2\rangle = \begin{pmatrix}a_1a_2\\a_1b_2\\b_1a_2\\b_1b_2\end{pmatrix}
 \end{align}
 For two qubits system, a general state expressed as $|\psi\rangle = c_0|00\rangle + c_1|01\rangle + c_2|10\rangle + c_3|11\rangle$.
 
+\subsection{Operators}
 Operator $A$ and $B$ for the first and the second particle, we have the operator $A\otimes B$:
-\begin{align}
+\begin{align}\label{outer}
 \left(A\otimes B\right)\cdot \left(|\psi_1\rangle\otimes|\psi_2\rangle\right) = A|\psi_1\rangle\otimes B|\psi_2\rangle
 \end{align}
+In matrix form, we have 
+\begin{align}
+A = \begin{pmatrix}a_{11} & a_{12}\\a_{21} & a_{22}\end{pmatrix},~ B = \begin{pmatrix}b_{11}&b_{12}\\b_{21}&b_{22}\end{pmatrix}
+\end{align}
+\begin{align}
+A\otimes B = \begin{pmatrix}a_{11}B&a_{12}B\\a_{21}B&a_{22}B\end{pmatrix}
+\end{align}
+We can proof (\ref{outer}) mathematically. Here's some properties of outer products on operators.
+\begin{myboxes}{Properties of outer products on operators}{}
+(1)~$\left(A\otimes B\right)\cdot\left(C\otimes D\right) = (AC)\otimes (BD)$\\
+(2)~$A\otimes B$
+\end{myboxes}
+\begin{proof}[Proof]
+$(C\otimes D)|\psi_1\rangle|\psi_2\rangle$
+\end{proof}
 
+\subsection{Entanglement, quantum logic gates}
+A separable state: $|\varphi\rangle = |a\rangle\otimes|b\rangle$, but if $|\psi\rangle = \frac{1}{\sqrt{2}}\left(|00\rangle + |11\rangle\right)$, we cannot make it into the form $|a\rangle\otimes|b\rangle$, then the two particles are in entanglement state. Physically, we can say there's special correlation between the two particles. Entanglement is one special form of superposition. We can use some examples to clarify the entanglement and the non-entanglement state.
+\begin{itemize}
+\item Example: $|\psi\rangle = \frac{1}{\sqrt{2}}\left(|00\rangle + |01\rangle\right) = |0\rangle\otimes\frac{1}{\sqrt{2}}\left(|0\rangle + |1\rangle\right)$
+\item Example: $|\psi\rangle = \frac{1}{\sqrt{2}}\left(|00\rangle + |01\rangle\right) = |0\rangle\otimes\frac{1}{\sqrt{2}}\left(|0\rangle + |1\rangle\right)$
+\item Example: $|\psi\rangle = \frac{1}{\sqrt{2}}\left(|00\rangle + |01\rangle\right) = |0\rangle\otimes\frac{1}{\sqrt{2}}\left(|0\rangle + |1\rangle\right)$
+\end{itemize}
+Some other important entanglement states
+\begin{itemize}
+\item Bell state $\frac{1}{\sqrt{2}}\left(|00\rangle \pm |11\rangle\right),~\frac{1}{\sqrt{2}}\left(|01\rangle \pm|10\rangle\right)$
+\item W-state $|w\rangle = \frac{1}{\sqrt{n}}\left(|10...0\rangle + |010...0\rangle + ... + |00...10\rangle + |00...01\rangle\right)$ is the permutations of the required state.
+\end{itemize}
 
+\subsubsection{Properties of entangled states}
+(1)~Measurement\\\par
+Suppose we create a state $|\psi\rangle = \frac{1}{\sqrt{2}}\left(|00\rangle + |11\rangle\right)$, then separate the two particles, after measure the state of the first particle(such as $|0\rangle$), then we know the state of the second one immediately, no matter how far them separated.\\
+
+(2)~Quantum correlation vs. classical correlation\\\par
+Suppose we have $|\psi\rangle = \frac{1}{\sqrt{2}}\left(|00\rangle + |11\rangle\right)$, we can do a half flip,
+\begin{align*}
+& |0\rangle\longmapsto|+\rangle = \frac{1}{\sqrt{2}}(|0\rangle+|1\rangle)\\
+& |1\rangle\longmapsto|-\rangle = \frac{1}{\sqrt{2}}(|0\rangle-|1\rangle)
+\end{align*}
+then
+\begin{align*}
+|\psi\rangle\longmapsto \frac{1}{\sqrt{2}}\left(|++\rangle + |--\rangle\right)
+\end{align*}
+
+\subsubsection{Entangling operators}
+The Controlled-Not gate(CNOT) of two qubits
+\begin{align}
+CNOT = \begin{pmatrix}1&0&0&0\\0&1&0&0\\0&0&0&1\\0&0&1&0\end{pmatrix}
+\end{align}
+the truth table of the CNOT gate is:
+\begin{table}[H]\centering
+\begin{tabular}{|c|c|}\hline
+Before&After\\ \hline
+$|0\rangle\otimes|0\rangle$ & $|0\rangle\otimes|0\rangle$\\ \hline
+$|0\rangle\otimes|1\rangle$ & $|0\rangle\otimes|1\rangle$\\ \hline
+$|1\rangle\otimes|0\rangle$ & $|1\rangle\otimes|1\rangle$\\ \hline
+$|1\rangle\otimes|1\rangle$ & $|1\rangle\otimes|0\rangle$\\ \hline
+\end{tabular}
+\end{table}
+
+\subsubsection{How to construct a CNOT gate}
+Suppose we have $H_1 =\hbar\omega\sigma_z^A\sigma_x^B$, then the evolution $U = e^{-iHt/\hbar}$
 
 
 \end{document}
