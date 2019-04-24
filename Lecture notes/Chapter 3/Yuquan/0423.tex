@@ -202,7 +202,7 @@ We have 2 particles, each with spin-1/2, use basis $\{|0\rangle,|1\rangle\}$ for
 \begin{align}
 |\psi_1\rangle = \begin{pmatrix}a_1\\b_1\end{pmatrix},~|\psi_2\rangle = \begin{pmatrix}a_2\\b_2\end{pmatrix}\longmapsto |\psi_1\rangle\otimes|\psi_2\rangle = \begin{pmatrix}a_1a_2\\a_1b_2\\b_1a_2\\b_1b_2\end{pmatrix}
 \end{align}
-For two qubits system, a general state expressed as $|\psi\rangle = c_0|00\rangle + c_1|01\rangle + c_2|10\rangle + c_3|11\rangle$.
+For two qubits system, a general state could be expressed as $|\psi\rangle = c_0|00\rangle + c_1|01\rangle + c_2|10\rangle + c_3|11\rangle$.
 
 \subsection{Operators}
 Operator $A$ and $B$ for the first and the second particle, we have the operator $A\otimes B$:
@@ -219,18 +219,27 @@ A\otimes B = \begin{pmatrix}a_{11}B&a_{12}B\\a_{21}B&a_{22}B\end{pmatrix}
 We can proof (\ref{outer}) mathematically. Here's some properties of outer products on operators.
 \begin{myboxes}{Properties of outer products on operators}{}
 (1)~$\left(A\otimes B\right)\cdot\left(C\otimes D\right) = (AC)\otimes (BD)$\\
-(2)~$A\otimes B$
+(2)~$A\otimes B + C\otimes D \ne AC + BD$ (wrong dimensions)
 \end{myboxes}
 \begin{proof}[Proof]
-$(C\otimes D)|\psi_1\rangle|\psi_2\rangle$
+\begin{align}
+(C\otimes D)|\psi_1\rangle|\psi_2\rangle = C|\psi_{1}\rangle\otimes D|\psi_{2}\rangle
+\end{align}
+then apply $A\otimes B$ on it,
+\begin{align}
+\left(A\otimes B\right)\cdot\left(C\otimes D\right)\cdot|\psi_1\rangle|\psi_2\rangle &= \left(A\otimes B\right)\cdot \left[C|\psi_{1}\rangle\otimes D|\psi_{2}\rangle\right]\\
+&= (AC|\psi_{1}\rangle)\otimes(BD|\psi_{2}\rangle)\\
+&= (AC\otimes BD)\cdot|\psi_{1}\rangle|\psi_{2}\rangle
+\end{align}
 \end{proof}
 
 \subsection{Entanglement, quantum logic gates}
 A separable state: $|\varphi\rangle = |a\rangle\otimes|b\rangle$, but if $|\psi\rangle = \frac{1}{\sqrt{2}}\left(|00\rangle + |11\rangle\right)$, we cannot make it into the form $|a\rangle\otimes|b\rangle$, then the two particles are in entanglement state. Physically, we can say there's special correlation between the two particles. Entanglement is one special form of superposition. We can use some examples to clarify the entanglement and the non-entanglement state.
 \begin{itemize}
-\item Example: $|\psi\rangle = \frac{1}{\sqrt{2}}\left(|00\rangle + |01\rangle\right) = |0\rangle\otimes\frac{1}{\sqrt{2}}\left(|0\rangle + |1\rangle\right)$
-\item Example: $|\psi\rangle = \frac{1}{\sqrt{2}}\left(|00\rangle + |01\rangle\right) = |0\rangle\otimes\frac{1}{\sqrt{2}}\left(|0\rangle + |1\rangle\right)$
-\item Example: $|\psi\rangle = \frac{1}{\sqrt{2}}\left(|00\rangle + |01\rangle\right) = |0\rangle\otimes\frac{1}{\sqrt{2}}\left(|0\rangle + |1\rangle\right)$
+\item Example(non-entanglement): $|\psi\rangle = \frac{1}{\sqrt{2}}\left(|00\rangle + |01\rangle\right) = |0\rangle\otimes\frac{1}{\sqrt{2}}\left(|0\rangle + |1\rangle\right)$
+\item Example(non-entanglement): $|\psi\rangle = \frac{1}{\sqrt{2}}\left(|00\rangle + |10\rangle\right) = \frac{1}{\sqrt{2}}\left(|0\rangle + |1\rangle\right)\otimes|0\rangle$
+\item Example(entanglement): \\
+$|\psi\rangle = c\left(|00\rangle + \frac{1}{\sqrt{2}}(|0\rangle + |1\rangle)\otimes|1\rangle\right) = c\left(|00\rangle + \frac{1}{\sqrt{2}}|01\rangle + \frac{1}{\sqrt{2}}|11\rangle\right) \ne |a\rangle\otimes|b\rangle$ is not so much entangled.
 \end{itemize}
 Some other important entanglement states
 \begin{itemize}
@@ -239,19 +248,30 @@ Some other important entanglement states
 \end{itemize}
 
 \subsubsection{Properties of entangled states}
-(1)~Measurement\\\par
-Suppose we create a state $|\psi\rangle = \frac{1}{\sqrt{2}}\left(|00\rangle + |11\rangle\right)$, then separate the two particles, after measure the state of the first particle(such as $|0\rangle$), then we know the state of the second one immediately, no matter how far them separated.\\
 
-(2)~Quantum correlation V.S. classical correlation\\\par
-Suppose we have $|\psi\rangle = \frac{1}{\sqrt{2}}\left(|00\rangle + |11\rangle\right)$, we can do a half flip,
-\begin{align*}
-& |0\rangle\longmapsto|+\rangle = \frac{1}{\sqrt{2}}(|0\rangle+|1\rangle)\\
-& |1\rangle\longmapsto|-\rangle = \frac{1}{\sqrt{2}}(|0\rangle-|1\rangle)
-\end{align*}
-then
-\begin{align*}
-|\psi\rangle\longmapsto \frac{1}{\sqrt{2}}\left(|++\rangle + |--\rangle\right)
-\end{align*}
+(1)~Measurement
+
+Suppose we create a state $|\psi\rangle = \frac{1}{\sqrt{2}}\left(|00\rangle + |11\rangle\right)$, then separate the two particles, after measure the state of the first particle(such as $|0\rangle$), then we know the state of the second one immediately, no matter how far they separated.\\
+
+(2)~Quantum correlation V.S. classical correlation
+
+In this case, we need to distinguish the state $|\psi\rangle$ with classical case that suppose we have $2n$ pairs of particles in total, $n$ of them are at state $|00\rangle$ and the rest are at state $|11\rangle$, then if we measure both the quantum case and the classical case, the result should be the same: half of the times we get $|00\rangle$, another half at $|11\rangle$.
+
+Suppose we have $|\psi\rangle = \frac{1}{\sqrt{2}}\left(|00\rangle + |11\rangle\right)$, we can do a ``half flip'',
+\begin{align}
+|0\rangle\longmapsto|+\rangle = \frac{1}{\sqrt{2}}(|0\rangle+|1\rangle)\\
+|1\rangle\longmapsto|-\rangle = \frac{1}{\sqrt{2}}(|0\rangle-|1\rangle)
+\end{align}
+then in the quantum case,
+\begin{align}
+|\psi\rangle\longmapsto \frac{1}{\sqrt{2}}\left(|++\rangle + |--\rangle\right) = \frac{1}{\sqrt{2}}(|00\rangle + |11\rangle)
+\end{align}
+while in the classical case, it should be:
+\begin{align}
+|00\rangle\longmapsto |++\rangle = \frac{1}{2}(|00\rangle + |01\rangle + |10\rangle + |11\rangle) \\
+|11\rangle\longmapsto |++\rangle = \frac{1}{2}(|00\rangle - |01\rangle - |10\rangle + |11\rangle)
+\end{align}
+If we repeat measurement along $\sigma_{z}$ after the ``half flip'', then we can easily find the difference.
 
 \subsubsection{Entangling operators}
 The Controlled-Not gate(CNOT) of two qubits
@@ -269,8 +289,33 @@ $|1\rangle\otimes|1\rangle$ & $|1\rangle\otimes|0\rangle$\\ \hline
 \end{tabular}
 \end{table}
 
-\subsubsection{How to construct a CNOT gate}
-Suppose we have $H_1 =\hbar\omega\sigma_z^A\sigma_x^B$, then the evolution $U = e^{-iHt/\hbar}$
+Suppose the input state
+\begin{align}
+|\psi_{\text{in}}\rangle = \frac{1}{\sqrt{2}}(|0\rangle + |1\rangle)\otimes|0\rangle = \frac{1}{\sqrt{2}}\begin{pmatrix}1\\0\\1\\0\end{pmatrix}
+\end{align}
+after a CNOT gate, the output state should be:
+\begin{align}
+|\psi_{\text{out}}\rangle &= CNOT\cdot|\psi_{\text{in}}\rangle = \frac{1}{\sqrt{2}}\begin{pmatrix}1&0&0&0\\0&1&0&0\\0&0&0&1\\0&0&1&0\end{pmatrix}\begin{pmatrix}1\\0\\1\\0\end{pmatrix} = \frac{1}{\sqrt{2}}\begin{pmatrix}1\\0\\0\\1\end{pmatrix} \\
+&= \frac{1}{\sqrt{2}}(|00\rangle + |11\rangle)
+\end{align}
+which is an entangled state!
+
+We need high fidelity to implement CNOT. For example, if we have $99.9\%$ rate making CNOT to be successful, then we can only apply CNOT for roughly $O(1000)$ times.
+
+\subsubsection{How to construct a CNOT operation}
+Suppose we have $H_1 =\hbar\omega\sigma_z^A\sigma_x^B$, then the evolution $U = e^{-iH_{1}t/\hbar} = e^{-i\omega t\sigma_{z}^{A}\sigma_{x}^{B}}$
+\begin{align}
+\Rightarrow U = cos(\omega t)I - isin(\omega t)\sigma_{z}^{A}\sigma_{x}^{B}
+\end{align}
+we have
+\begin{align}
+\begin{cases}H_{0} = \hbar\omega_{0}\sigma_{z}^{1}\\H_{2} = \hbar\omega_{2}\sigma_{x}^{2}\end{cases}
+\end{align}
+then
+\begin{align}
+\begin{cases}CNOT = e^{-i\frac{\pi}{4}} e^{-iH_{0}t_{0}} e^{-iH_{2}t_{2}} e^{-iH_{1}t_{1}} \\t_{0} = \frac{7\pi}{4\omega_{0}},~t_{2} = \frac{7\pi}{4\omega_{2}},~t_{1} = \frac{\pi}{4\omega_{1}}\end{cases}
+\end{align}
+we call this kind of implementation \it{pulse sequence}.
 
 
 \end{document}

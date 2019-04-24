@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2019.3.13)  24 APR 2019 00:48
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2019.3.13)  24 APR 2019 21:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1464,37 +1464,27 @@ File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
 [1
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 242--242
+Underfull \hbox (badness 10000) in paragraph at lines 254--255
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 243--244
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 245--245
-
- []
-
-[2] [3]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 276.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 276.
+[2] [3] [4]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 321.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 321.
  (./0423.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 276.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 276.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 321.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 321.
 Package rerunfilecheck Info: File `0423.out' has not changed.
-(rerunfilecheck)             Checksum: 91D8A662A9D7EB63B7722CC98DF11311.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 276.
+(rerunfilecheck)             Checksum: 8E08D5A3F37F58B358B124AC19E36BEE.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 321.
  ) 
 Here is how much of TeX's memory you used:
  45273 strings out of 494906
  926206 string characters out of 6176286
- 1145434 words of memory out of 5000000
+ 1146441 words of memory out of 5000000
  48594 multiletter control sequences out of 15000+600000
  545640 words of font info for 93 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 63i,14n,101p,979b,1248s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,15n,101p,979b,1248s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on 0423.pdf (3 pages).
+Output written on 0423.pdf (4 pages).
