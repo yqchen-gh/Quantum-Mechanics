@@ -22,7 +22,7 @@ If you want to make some contribution(which I strongly recommend) but you don't 
 > 2. open [this repo](https://github.com/YQChen-QI/Quantum-Mechanics) in a browser
 > 3. find the `Fork` button on the top right corner of the webpage, and fork this repository to your own account
 > 4. go to [Desktop for GitHub](https://desktop.github.com) and download the GUI version of git, then install it on your computer
-> 5. you can find a `clone or download` button on this webpage, you should clone the repo to your own computer by the Desktop for GitHub you've just installed
+> 5. you can find a `clone or download` button on this webpage(it should be in your own account), you should clone the repo to your own computer by the Desktop for GitHub you've just installed
 > 6. when it finish downloading, you should create a new branch, switch to the new branch, then you can add your own documents(or do whatever you want)
 
 If you want to add your own documents to this Repo, you should send me a pull request, you can see more details [here](https://github.com/YQChen-QI/Quantum-Mechanics/blob/master/Markdown/GitHub%20tutorial%20more.md).
