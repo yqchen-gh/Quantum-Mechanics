@@ -6,6 +6,13 @@ We put lecture notes and solutions of homework of Prof. Yiheng Lin's quantum mec
 
 If you still don't know what is GitHub, or how to use it, I strongly recommend [Xiaolai's self-teaching Repo](https://github.com/selfteaching/the-craft-of-selfteaching/) for you. I refered to that book in the following tutorial.
 
+For more details about GitHub, here are some other resources:
+> 1. [GitHub help](https://help.github.com/en#dotcom)
+> 2. [GitHub Guides](https://guides.github.com)
+> 3. The official GitHub Desktop [documentation](https://help.github.com/en/desktop/getting-started-with-github-desktop)
+> 4. [Git教程](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000) by 廖雪峰
+
+
 If you just want to download the documents(or folders) in this Repo, a simple way is to do the following steps below:
 > 1. copy the url of the document(or folder) you want
 > 2. paste it on [DownGit](https://minhaskamal.github.io/DownGit/#/home), and click to download
