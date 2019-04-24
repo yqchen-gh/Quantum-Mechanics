@@ -312,6 +312,29 @@ J_-J_+ &= \left(J_x + iJ_y\right)\left(J_x - iJ_y\right) \\
 &= J_x^2 + \hbar J_z + J_y^2 \notag\\
 &= J^2 - J_z^2 + \hbar J_z
 \end{align}
+当$j=1$时，$m = \{-1,0,1\}$，故$J_z$的基$|j,m\rangle$有3个，为$\{|1,-1\rangle, |1,0\rangle, |1,1\rangle\}$，由关系
+\begin{align*}
+\begin{cases}J_z |j,m\rangle = m\hbar |j,m\rangle \\
+J_z^2 |j,m\rangle = m^2\hbar^2 |j,m\rangle \\
+J^2 |j,m\rangle = j(j+1)\hbar^2 |j,m\rangle\end{cases}
+\end{align*}
+可以得到$J_-J_+$的矩阵表示为
+\begin{align}
+J_-J_+ = 2\hbar^2\begin{pmatrix}0&0&0\\0&1&0\\0&0&1\end{pmatrix}
+\end{align}
+本征值和对应的本征态可以写为：
+\begin{table}[H]
+%\caption{default}
+\begin{center}
+\begin{tabular}{|c|c|}\hline
+本征值&本征态\\ \hline
+$0$ & $\begin{pmatrix}1\\0\\0\end{pmatrix}$ \\ \hline
+$2\hbar^2$ & $\begin{pmatrix}0\\1\\0\end{pmatrix}$ \\ \hline
+$2\hbar^2$ & $\begin{pmatrix}0\\0\\1\end{pmatrix}$ \\ \hline
+\end{tabular}
+\end{center}
+%\label{default}
+\end{table}
 \end{proof}
 
 
