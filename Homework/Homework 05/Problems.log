@@ -1,10 +1,10 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2019.3.13)  24 APR 2019 23:57
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2019.3.13)  25 APR 2019 00:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"HW 01.tex"
-(./HW 01.tex
+**Problems.tex
+(./Problems.tex
 LaTeX2e <2018-12-01>
 (/usr/local/texlive/2018/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2018/09/03 v1.4i Standard LaTeX document class
@@ -260,23 +260,35 @@ LaTeX Info: Redefining \labelcref on input line 2370.
 LaTeX Info: Redefining \labelcpageref on input line 2370.
 Package cleveref Info: `amsthm' support loaded on input line 3026.
 )
+(/usr/local/texlive/2018/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count112
+\float@exts=\toks27
+\float@box=\box30
+\@float@everytoks=\toks28
+\@floatcapt=\box31
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/tools/enumerate.sty
+Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
+\@enLab=\toks29
+)
 (/usr/local/texlive/2018/texmf-dist/tex/xelatex/xecjk/xeCJK.sty
 (/usr/local/texlive/2018/texmf-dist/tex/latex/l3kernel/expl3.sty
 Package: expl3 2019-02-15 L3 programming layer (loader) 
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/l3kernel/expl3-code.tex
 Package: expl3 2019-02-15 L3 programming layer (code)
-\c_max_int=\count112
-\l_tmpa_int=\count113
-\l_tmpb_int=\count114
-\g_tmpa_int=\count115
-\g_tmpb_int=\count116
-\g__kernel_prg_map_int=\count117
-\c_log_iow=\count118
-\l_iow_line_count_int=\count119
-\l__iow_line_target_int=\count120
-\l__iow_one_indent_int=\count121
-\l__iow_indent_int=\count122
+\c_max_int=\count113
+\l_tmpa_int=\count114
+\l_tmpb_int=\count115
+\g_tmpa_int=\count116
+\g_tmpb_int=\count117
+\g__kernel_prg_map_int=\count118
+\c_log_iow=\count119
+\l_iow_line_count_int=\count120
+\l__iow_line_target_int=\count121
+\l__iow_one_indent_int=\count122
+\l__iow_indent_int=\count123
 \c_zero_dim=\dimen116
 \c_max_dim=\dimen117
 \l_tmpa_dim=\dimen118
@@ -295,80 +307,80 @@ Package: expl3 2019-02-15 L3 programming layer (code)
 \l_tmpb_muskip=\muskip15
 \g_tmpa_muskip=\muskip16
 \g_tmpb_muskip=\muskip17
-\l_keys_choice_int=\count123
-\l__intarray_loop_int=\count124
+\l_keys_choice_int=\count124
+\l__intarray_loop_int=\count125
 \c__intarray_sp_dim=\dimen122
-\g__intarray_font_int=\count125
-\c__fp_leading_shift_int=\count126
-\c__fp_middle_shift_int=\count127
-\c__fp_trailing_shift_int=\count128
-\c__fp_big_leading_shift_int=\count129
-\c__fp_big_middle_shift_int=\count130
-\c__fp_big_trailing_shift_int=\count131
-\c__fp_Bigg_leading_shift_int=\count132
-\c__fp_Bigg_middle_shift_int=\count133
-\c__fp_Bigg_trailing_shift_int=\count134
-\g__fp_array_int=\count135
-\l__fp_array_loop_int=\count136
-\l__sort_length_int=\count137
-\l__sort_min_int=\count138
-\l__sort_top_int=\count139
-\l__sort_max_int=\count140
-\l__sort_true_max_int=\count141
-\l__sort_block_int=\count142
-\l__sort_begin_int=\count143
-\l__sort_end_int=\count144
-\l__sort_A_int=\count145
-\l__sort_B_int=\count146
-\l__sort_C_int=\count147
-\l__tl_analysis_normal_int=\count148
-\l__tl_analysis_index_int=\count149
-\l__tl_analysis_nesting_int=\count150
-\l__tl_analysis_type_int=\count151
-\l__regex_internal_a_int=\count152
-\l__regex_internal_b_int=\count153
-\l__regex_internal_c_int=\count154
-\l__regex_balance_int=\count155
-\l__regex_group_level_int=\count156
-\l__regex_mode_int=\count157
-\c__regex_cs_in_class_mode_int=\count158
-\c__regex_cs_mode_int=\count159
-\l__regex_catcodes_int=\count160
-\l__regex_default_catcodes_int=\count161
-\c__regex_catcode_L_int=\count162
-\c__regex_catcode_O_int=\count163
-\c__regex_catcode_A_int=\count164
-\c__regex_all_catcodes_int=\count165
-\l__regex_show_lines_int=\count166
-\l__regex_min_state_int=\count167
-\l__regex_max_state_int=\count168
-\l__regex_left_state_int=\count169
-\l__regex_right_state_int=\count170
-\l__regex_capturing_group_int=\count171
-\l__regex_min_pos_int=\count172
-\l__regex_max_pos_int=\count173
-\l__regex_curr_pos_int=\count174
-\l__regex_start_pos_int=\count175
-\l__regex_success_pos_int=\count176
-\l__regex_curr_char_int=\count177
-\l__regex_curr_catcode_int=\count178
-\l__regex_last_char_int=\count179
-\l__regex_case_changed_char_int=\count180
-\l__regex_curr_state_int=\count181
-\l__regex_step_int=\count182
-\l__regex_min_active_int=\count183
-\l__regex_max_active_int=\count184
-\l__regex_replacement_csnames_int=\count185
-\l__regex_match_count_int=\count186
-\l__regex_min_submatch_int=\count187
-\l__regex_submatch_int=\count188
-\l__regex_zeroth_submatch_int=\count189
-\g__regex_trace_regex_int=\count190
-\c_empty_box=\box30
-\l_tmpa_box=\box31
-\l_tmpb_box=\box32
-\g_tmpa_box=\box33
-\g_tmpb_box=\box34
+\g__intarray_font_int=\count126
+\c__fp_leading_shift_int=\count127
+\c__fp_middle_shift_int=\count128
+\c__fp_trailing_shift_int=\count129
+\c__fp_big_leading_shift_int=\count130
+\c__fp_big_middle_shift_int=\count131
+\c__fp_big_trailing_shift_int=\count132
+\c__fp_Bigg_leading_shift_int=\count133
+\c__fp_Bigg_middle_shift_int=\count134
+\c__fp_Bigg_trailing_shift_int=\count135
+\g__fp_array_int=\count136
+\l__fp_array_loop_int=\count137
+\l__sort_length_int=\count138
+\l__sort_min_int=\count139
+\l__sort_top_int=\count140
+\l__sort_max_int=\count141
+\l__sort_true_max_int=\count142
+\l__sort_block_int=\count143
+\l__sort_begin_int=\count144
+\l__sort_end_int=\count145
+\l__sort_A_int=\count146
+\l__sort_B_int=\count147
+\l__sort_C_int=\count148
+\l__tl_analysis_normal_int=\count149
+\l__tl_analysis_index_int=\count150
+\l__tl_analysis_nesting_int=\count151
+\l__tl_analysis_type_int=\count152
+\l__regex_internal_a_int=\count153
+\l__regex_internal_b_int=\count154
+\l__regex_internal_c_int=\count155
+\l__regex_balance_int=\count156
+\l__regex_group_level_int=\count157
+\l__regex_mode_int=\count158
+\c__regex_cs_in_class_mode_int=\count159
+\c__regex_cs_mode_int=\count160
+\l__regex_catcodes_int=\count161
+\l__regex_default_catcodes_int=\count162
+\c__regex_catcode_L_int=\count163
+\c__regex_catcode_O_int=\count164
+\c__regex_catcode_A_int=\count165
+\c__regex_all_catcodes_int=\count166
+\l__regex_show_lines_int=\count167
+\l__regex_min_state_int=\count168
+\l__regex_max_state_int=\count169
+\l__regex_left_state_int=\count170
+\l__regex_right_state_int=\count171
+\l__regex_capturing_group_int=\count172
+\l__regex_min_pos_int=\count173
+\l__regex_max_pos_int=\count174
+\l__regex_curr_pos_int=\count175
+\l__regex_start_pos_int=\count176
+\l__regex_success_pos_int=\count177
+\l__regex_curr_char_int=\count178
+\l__regex_curr_catcode_int=\count179
+\l__regex_last_char_int=\count180
+\l__regex_case_changed_char_int=\count181
+\l__regex_curr_state_int=\count182
+\l__regex_step_int=\count183
+\l__regex_min_active_int=\count184
+\l__regex_max_active_int=\count185
+\l__regex_replacement_csnames_int=\count186
+\l__regex_match_count_int=\count187
+\l__regex_min_submatch_int=\count188
+\l__regex_submatch_int=\count189
+\l__regex_zeroth_submatch_int=\count190
+\g__regex_trace_regex_int=\count191
+\c_empty_box=\box32
+\l_tmpa_box=\box33
+\l_tmpb_box=\box34
+\g_tmpa_box=\box35
+\g_tmpb_box=\box36
 \l__box_top_dim=\dimen123
 \l__box_bottom_dim=\dimen124
 \l__box_left_dim=\dimen125
@@ -377,8 +389,8 @@ Package: expl3 2019-02-15 L3 programming layer (code)
 \l__box_bottom_new_dim=\dimen128
 \l__box_left_new_dim=\dimen129
 \l__box_right_new_dim=\dimen130
-\l__box_internal_box=\box35
-\l__coffin_internal_box=\box36
+\l__box_internal_box=\box37
+\l__coffin_internal_box=\box38
 \l__coffin_internal_dim=\dimen131
 \l__coffin_offset_x_dim=\dimen132
 \l__coffin_offset_y_dim=\dimen133
@@ -386,17 +398,17 @@ Package: expl3 2019-02-15 L3 programming layer (code)
 \l__coffin_y_dim=\dimen135
 \l__coffin_x_prime_dim=\dimen136
 \l__coffin_y_prime_dim=\dimen137
-\c_empty_coffin=\box37
-\l__coffin_aligned_coffin=\box38
-\l__coffin_aligned_internal_coffin=\box39
-\l_tmpa_coffin=\box40
-\l_tmpb_coffin=\box41
-\g_tmpa_coffin=\box42
-\g_tmpb_coffin=\box43
-\c__coffin_empty_coffin=\box44
-\l__coffin_display_coffin=\box45
-\l__coffin_display_coord_coffin=\box46
-\l__coffin_display_pole_coffin=\box47
+\c_empty_coffin=\box39
+\l__coffin_aligned_coffin=\box40
+\l__coffin_aligned_internal_coffin=\box41
+\l_tmpa_coffin=\box42
+\l_tmpb_coffin=\box43
+\g_tmpa_coffin=\box44
+\g_tmpb_coffin=\box45
+\c__coffin_empty_coffin=\box46
+\l__coffin_display_coffin=\box47
+\l__coffin_display_coord_coffin=\box48
+\l__coffin_display_pole_coffin=\box49
 \l__coffin_display_offset_dim=\dimen138
 \l__coffin_display_x_dim=\dimen139
 \l__coffin_display_y_dim=\dimen140
@@ -411,8 +423,8 @@ Package: expl3 2019-02-15 L3 programming layer (code)
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/l3kernel/l3xdvipdfmx.def
 File: l3xdvipdfmx.def 2019-02-15 v L3 Experimental driver: xdvipdfmx
-\g__driver_image_int=\count191
-\g__driver_pdf_object_int=\count192
+\g__driver_image_int=\count192
+\g__driver_pdf_object_int=\count193
 ))
 Package: xeCJK 2018/04/30 v3.7.1 Typesetting CJK scripts with XeLaTeX
 
@@ -420,27 +432,27 @@ Package: xeCJK 2018/04/30 v3.7.1 Typesetting CJK scripts with XeLaTeX
 y
 Package: xtemplate 2018-10-17 L3 Experimental prototype document functions
 \l__xtemplate_tmp_dim=\dimen148
-\l__xtemplate_tmp_int=\count193
+\l__xtemplate_tmp_int=\count194
 \l__xtemplate_tmp_muskip=\muskip18
 \l__xtemplate_tmp_skip=\skip56
 ) (/usr/local/texlive/2018/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 Package: xparse 2018-10-17 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count194
-\g__xparse_grabber_int=\count195
-\l__xparse_m_args_int=\count196
-\l__xparse_mandatory_args_int=\count197
-\l__xparse_v_nesting_int=\count198
+\l__xparse_current_arg_int=\count195
+\g__xparse_grabber_int=\count196
+\l__xparse_m_args_int=\count197
+\l__xparse_mandatory_args_int=\count198
+\l__xparse_v_nesting_int=\count199
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
 Package: l3keys2e 2018-10-17 LaTeX2e option processing using LaTeX3 keys
 )
-\l__xeCJK_tmp_int=\count199
-\l__xeCJK_tmp_box=\box48
+\l__xeCJK_tmp_int=\count266
+\l__xeCJK_tmp_box=\box50
 \l__xeCJK_tmp_dim=\dimen149
 \l__xeCJK_tmp_skip=\skip57
-\g__xeCJK_space_factor_int=\count266
-\l__xeCJK_begin_int=\count267
-\l__xeCJK_end_int=\count268
+\g__xeCJK_space_factor_int=\count267
+\l__xeCJK_begin_int=\count268
+\l__xeCJK_end_int=\count269
 \c__xeCJK_CJK_class_int=\XeTeXcharclass1
 \c__xeCJK_FullLeft_class_int=\XeTeXcharclass2
 \c__xeCJK_FullRight_class_int=\XeTeXcharclass3
@@ -450,7 +462,7 @@ Package: l3keys2e 2018-10-17 LaTeX2e option processing using LaTeX3 keys
 \c__xeCJK_CM_class_int=\XeTeXcharclass7
 \c__xeCJK_HangulJamo_class_int=\XeTeXcharclass8
 \l__xeCJK_last_skip=\skip58
-\g__xeCJK_node_int=\count269
+\g__xeCJK_node_int=\count270
 \c__xeCJK_CJK_node_dim=\dimen150
 \c__xeCJK_CJK-space_node_dim=\dimen151
 \c__xeCJK_default_node_dim=\dimen152
@@ -460,10 +472,10 @@ Package: l3keys2e 2018-10-17 LaTeX2e option processing using LaTeX3 keys
 \l__xeCJK_ccglue_skip=\skip59
 \l__xeCJK_ecglue_skip=\skip60
 \l__xeCJK_punct_kern_skip=\skip61
-\l__xeCJK_last_penalty_int=\count270
+\l__xeCJK_last_penalty_int=\count271
 \l__xeCJK_last_bound_dim=\dimen156
 \l__xeCJK_last_kern_dim=\dimen157
-\l__xeCJK_widow_penalty_int=\count271
+\l__xeCJK_widow_penalty_int=\count272
 
 Package xtemplate Info: Declaring object type 'xeCJK/punctuation' taking 0
 (xtemplate)             argument(s) on line 2362.
@@ -487,10 +499,10 @@ Package xtemplate Info: Declaring object type 'xeCJK/punctuation' taking 0
 \l__xeCJK_minimum_bound_dim=\dimen174
 \l__xeCJK_kerning_margin_dim=\dimen175
 \l__xeCJK_original_margin_dim=\dimen176
-\g__xeCJK_family_int=\count272
-\l__xeCJK_fam_int=\count273
-\g__xeCJK_fam_allocation_int=\count274
-\l__xeCJK_verb_case_int=\count275
+\g__xeCJK_family_int=\count273
+\l__xeCJK_fam_int=\count274
+\g__xeCJK_fam_allocation_int=\count275
+\l__xeCJK_verb_case_int=\count276
 \l__xeCJK_verb_exspace_skip=\skip62
 (/usr/local/texlive/2018/texmf-dist/tex/latex/fontspec/fontspec.sty
 Package: fontspec 2019/02/12 v2.7b Font selection for XeLaTeX and LuaLaTeX
@@ -498,17 +510,17 @@ Package: fontspec 2019/02/12 v2.7b Font selection for XeLaTeX and LuaLaTeX
 (/usr/local/texlive/2018/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
 Package: fontspec-xetex 2019/02/12 v2.7b Font selection for XeLaTeX and LuaLaTe
 X
-\l__fontspec_script_int=\count276
-\l__fontspec_language_int=\count277
-\l__fontspec_strnum_int=\count278
-\l__fontspec_tmp_int=\count279
-\l__fontspec_tmpa_int=\count280
-\l__fontspec_tmpb_int=\count281
-\l__fontspec_tmpc_int=\count282
-\l__fontspec_em_int=\count283
-\l__fontspec_emdef_int=\count284
-\l__fontspec_strong_int=\count285
-\l__fontspec_strongdef_int=\count286
+\l__fontspec_script_int=\count277
+\l__fontspec_language_int=\count278
+\l__fontspec_strnum_int=\count279
+\l__fontspec_tmp_int=\count280
+\l__fontspec_tmpa_int=\count281
+\l__fontspec_tmpb_int=\count282
+\l__fontspec_tmpc_int=\count283
+\l__fontspec_em_int=\count284
+\l__fontspec_emdef_int=\count285
+\l__fontspec_strong_int=\count286
+\l__fontspec_strongdef_int=\count287
 \l__fontspec_tmpa_dim=\dimen177
 \l__fontspec_tmpb_dim=\dimen178
 \l__fontspec_tmpc_dim=\dimen179
@@ -531,14 +543,6 @@ LaTeX Info: Redefining \emph on input line 4114.
 (/usr/local/texlive/2018/texmf-dist/tex/xelatex/xecjk/xeCJK.cfg
 File: xeCJK.cfg 2018/04/30 v3.7.1 Configuration file for xeCJK package
 ))
-(/usr/local/texlive/2018/texmf-dist/tex/latex/float/float.sty
-Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count287
-\float@exts=\toks27
-\float@box=\box49
-\@float@everytoks=\toks28
-\@floatcapt=\box50
-)
 
 Package fontspec Warning: Font "Songti SC Regular" does not contain requested
 (fontspec)                Script "CJK".
@@ -588,7 +592,7 @@ Package: geometry 2018/04/16 v5.8 Page Geometry
 \Gm@layoutheight=\dimen185
 \Gm@layouthoffset=\dimen186
 \Gm@layoutvoffset=\dimen187
-\Gm@dimlist=\toks29
+\Gm@dimlist=\toks30
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
@@ -649,8 +653,8 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 
 (/usr/local/texlive/2018/texmf-dist/tex/generic/xkeyval/xkeyval.tex
 (/usr/local/texlive/2018/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks30
-\XKV@tempa@toks=\toks31
+\XKV@toks=\toks31
+\XKV@tempa@toks=\toks32
 )
 \XKV@depth=\count291
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
@@ -670,19 +674,19 @@ File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 )
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
 x
-\pgfutil@everybye=\toks32
+\pgfutil@everybye=\toks33
 \pgfutil@tempdima=\dimen190
 \pgfutil@tempdimb=\dimen191
 
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-li
 sts.tex))
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks33
-\pgfkeys@temptoks=\toks34
+\pgfkeys@pathtoks=\toks34
+\pgfkeys@temptoks=\toks35
 
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.c
 ode.tex
-\pgfkeys@tmptoks=\toks35
+\pgfkeys@tmptoks=\toks36
 ))
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
 Loading pgffor.code.tex
@@ -708,9 +712,9 @@ Loading pgffor.code.tex
 \pgfmath@dimen=\dimen256
 \pgfmath@count=\count307
 \pgfmath@box=\box51
-\pgfmath@toks=\toks36
-\pgfmath@stack@operand=\toks37
-\pgfmath@stack@operation=\toks38
+\pgfmath@toks=\toks37
+\pgfmath@stack@operand=\toks38
+\pgfmath@stack@operation=\toks39
 )
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.
 tex
@@ -735,8 +739,8 @@ erarithmetics.code.tex)))
 ))
 \pgffor@iter=\dimen257
 \pgffor@skip=\dimen258
-\pgffor@stack=\toks39
-\pgffor@toks=\toks40
+\pgffor@stack=\toks40
+\pgffor@toks=\toks41
 )
 \psLoopIndex=\count309
 
@@ -765,7 +769,7 @@ erarithmetics.code.tex)))
 \pst@cnto=\count318
 \pst@cntp=\count319
 \@zero=\count320
-\pst@toks=\toks41
+\pst@toks=\toks42
 (/usr/local/texlive/2018/texmf-dist/tex/xelatex/xetex-pstricks/pstricks.con
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pstricks/config/xdvipdfmx.cfg))
 \psunit=\dimen269
@@ -775,12 +779,12 @@ erarithmetics.code.tex)))
 \pslinewidth=\dimen272
 \psk@startLW=\dimen273
 \psk@endLW=\dimen274
-\pst@customdefs=\toks42
+\pst@customdefs=\toks43
 \pslinearc=\dimen275
 \pst@symbolStep=\dimen276
 \pst@symbolWidth=\dimen277
 \pst@symbolLinewidth=\dimen278
-\everypsbox=\toks43
+\everypsbox=\toks44
 \psframesep=\dimen279
 \pslabelsep=\dimen280
 \sh@wgridXunit=\dimen281
@@ -810,7 +814,7 @@ Package: multido 2004/05/17 package wrapper for PSTricks `multido.tex', (HV/RN)
  v1.42, 2010/05/14 <tvz>
 \multido@count=\count322
 \multidocount=\count323
-\multido@stuff=\toks44
+\multido@stuff=\toks45
 )
 File: multido.tex 2010/05/14 v1.42 `multido' (tvz,hv)
 )
@@ -926,7 +930,7 @@ Package caption Info: hyperref package is loaded.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
 x
-\pgfutil@everybye=\toks45
+\pgfutil@everybye=\toks46
 \pgfutil@tempdima=\dimen317
 \pgfutil@tempdimb=\dimen318
 
@@ -962,9 +966,9 @@ Package: pgfsys 2019/02/02 v3.1.1 (3.1.1)
 \c@pgf@countb=\count346
 \c@pgf@countc=\count347
 \c@pgf@countd=\count348
-\t@pgf@toka=\toks46
-\t@pgf@tokb=\toks47
-\t@pgf@tokc=\toks48
+\t@pgf@toka=\toks47
+\t@pgf@tokb=\toks48
+\t@pgf@tokc=\toks49
 \pgf@sys@id@count=\count349
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2019/02/02 v3.1.1 (3.1.1)
@@ -1122,8 +1126,8 @@ Package: pgffor 2019/02/02 v3.1.1 (3.1.1)
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
 \pgffor@iter=\dimen353
 \pgffor@skip=\dimen354
-\pgffor@stack=\toks49
-\pgffor@toks=\toks50
+\pgffor@stack=\toks50
+\pgffor@toks=\toks51
 ))
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.cod
 e.tex
@@ -1165,8 +1169,8 @@ File: tikzlibrarytopaths.code.tex 2019/02/02 v3.1.1 (3.1.1)
 )))
 (/usr/local/texlive/2018/texmf-dist/tex/latex/tools/verbatim.sty
 Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks51
-\verbatim@line=\toks52
+\every@verbatim=\toks52
+\verbatim@line=\toks53
 \verbatim@in@stream=\read4
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
@@ -1235,7 +1239,7 @@ Package: listingsutf8 2016/05/16 v1.3 Allow UTF-8 in listings input (HO)
 (/usr/local/texlive/2018/texmf-dist/tex/latex/listings/listings.sty
 \lst@mode=\count372
 \lst@gtempboxa=\box77
-\lst@token=\toks53
+\lst@token=\toks54
 \lst@length=\count373
 \lst@currlwidth=\dimen365
 \lst@column=\count374
@@ -1294,55 +1298,57 @@ Library (tcolorbox): 'tcbposter.code.tex' version '4.15'
 \c@tcb@cnt@theorem=\count381
 \c@tcb@cnt@definition=\count382
 \c@tcb@cnt@corollary=\count383
-\c@tcb@cnt@exercise=\count384
+\c@tcb@cnt@myboxes=\count384
+\c@tcb@cnt@exercise=\count385
  (/usr/local/texlive/2018/texmf-dist/tex/xelatex/xecjk/xeCJK-listings.sty
 Package: xeCJK-listings 2018/04/30 v3.7.1 xeCJK patch file for listings
-\l__xeCJK_listings_max_char_int=\count385
-\l__xeCJK_listings_flag_int=\count386
+\l__xeCJK_listings_max_char_int=\count386
+\l__xeCJK_listings_flag_int=\count387
 )
 
 LaTeX Warning: Unused global option(s):
     [UTF8].
 
-(./HW 01.aux)
-\openout1 = `"HW 01.aux"'.
+No file Problems.aux.
+\openout1 = `Problems.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 183.
-LaTeX Font Info:    ... okay on input line 183.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 183.
-LaTeX Font Info:    ... okay on input line 183.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 183.
-LaTeX Font Info:    ... okay on input line 183.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 183.
-LaTeX Font Info:    ... okay on input line 183.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 183.
-LaTeX Font Info:    ... okay on input line 183.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 183.
-LaTeX Font Info:    ... okay on input line 183.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 183.
-LaTeX Font Info:    ... okay on input line 183.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 183.
-LaTeX Font Info:    ... okay on input line 183.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 183.
-LaTeX Font Info:    ... okay on input line 183.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 187.
+LaTeX Font Info:    ... okay on input line 187.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 187.
+LaTeX Font Info:    ... okay on input line 187.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 187.
+LaTeX Font Info:    ... okay on input line 187.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 187.
+LaTeX Font Info:    ... okay on input line 187.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 187.
+LaTeX Font Info:    ... okay on input line 187.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 187.
+LaTeX Font Info:    ... okay on input line 187.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 187.
+LaTeX Font Info:    ... okay on input line 187.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 187.
+LaTeX Font Info:    ... okay on input line 187.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 187.
+LaTeX Font Info:    ... okay on input line 187.
 \AtBeginShipoutBox=\box79
-Package hyperref Info: Link coloring ON on input line 183.
-
+Package hyperref Info: Link coloring ON on input line 187.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
 (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count387
+\c@section@level=\count388
 )
-LaTeX Info: Redefining \ref on input line 183.
-LaTeX Info: Redefining \pageref on input line 183.
-LaTeX Info: Redefining \nameref on input line 183.
-
-(./HW 01.out) (./HW 01.out)
+LaTeX Info: Redefining \ref on input line 187.
+LaTeX Info: Redefining \pageref on input line 187.
+LaTeX Info: Redefining \nameref on input line 187.
 \@outlinefile=\write8
-\openout8 = `"HW 01.out"'.
+\openout8 = `Problems.out'.
+
+
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
 
 
 Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
@@ -1350,58 +1356,57 @@ Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
 
 \symlegacymaths=\mathgroup9
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 183.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 183.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 183.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 183.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 183.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 183.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 183.
-LaTeX Font Info:    Redeclaring math accent \check on input line 183.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 183.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 183.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 183.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 183.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 183.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 183.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 183.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 183.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 183.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 183.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 183.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 183.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 183.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 183.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 183.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 183.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 187.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 187.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 187.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 187.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 187.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 187.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 187.
+LaTeX Font Info:    Redeclaring math accent \check on input line 187.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 187.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 187.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 187.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 187.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 187.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 187.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 187.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 187.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 187.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 187.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 187.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 187.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 187.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 187.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 187.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 187.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 183.
+(Font)              `operators' in the math version `normal' on input line 187.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 183.
+(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 187.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 183.
+(Font)              `operators' in the math version `bold' on input line 187.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 183.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 187.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 183.
+(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 187.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 183.
+(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 187.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/bx/n on input line 183.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/bx/n on input line 187.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 183.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 187.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 183.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 187.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/lmr/m/n --> TU/lmr/bx/n on input line 183.
+(Font)                  TU/lmr/m/n --> TU/lmr/bx/n on input line 187.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/lmr/bx/it on input line 183.
+(Font)                  OT1/cmr/bx/it --> TU/lmr/bx/it on input line 187.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/bx/n on input line 183.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/bx/n on input line 187.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/bx/n on input line 183.
-
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/bx/n on input line 187.
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
 *geometry* verbose mode - [ preamble ] result:
@@ -1441,53 +1446,53 @@ Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
 ABD: EveryShipout initializing macros
-\c@lstlisting=\count388
+\c@lstlisting=\count389
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2018/08/11 v1.3c Input encoding file
-\inpenc@prehook=\toks54
-\inpenc@posthook=\toks55
+\inpenc@prehook=\toks55
+\inpenc@posthook=\toks56
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 189.
+LaTeX Font Info:    Try loading font information for U+msa on input line 193.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 189.
+LaTeX Font Info:    Try loading font information for U+msb on input line 193.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Overfull \hbox (9.8616pt too wide) detected at line 200
-[]
- []
-
 (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/se-ascii-print.def
 File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
 
 )
 [1
 
-] [2]
-File: figures/eigen.pdf Graphic file (type pdf)
-<use figures/eigen.pdf>
- [3] [4]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 295.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 295.
- (./HW 01.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 295.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 295.
-Package rerunfilecheck Info: File `"HW 01".out' has not changed.
-(rerunfilecheck)             Checksum: .
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 295.
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 220.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 220.
+ (./Problems.aux)
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 220.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 220.
+
+
+Package rerunfilecheck Warning: File `Problems.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Problems.out':
+(rerunfilecheck)             Before: 
+(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 220.
  ) 
 Here is how much of TeX's memory you used:
- 45273 strings out of 494906
- 926422 string characters out of 6176286
- 1141816 words of memory out of 5000000
- 48592 multiletter control sequences out of 15000+600000
- 545624 words of font info for 91 fonts, out of 8000000 for 9000
+ 45278 strings out of 494906
+ 926369 string characters out of 6176286
+ 1142975 words of memory out of 5000000
+ 48606 multiletter control sequences out of 15000+600000
+ 545616 words of font info for 90 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 63i,10n,101p,982b,1247s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,5n,101p,983b,1247s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on HW 01.pdf (4 pages).
+Output written on Problems.pdf (1 page).
