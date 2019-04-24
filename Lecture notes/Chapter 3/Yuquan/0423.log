@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2019.3.13)  24 APR 2019 21:04
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2019.3.13)  24 APR 2019 23:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -267,6 +267,10 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \float@box=\box30
 \@float@everytoks=\toks28
 \@floatcapt=\box31
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/tools/enumerate.sty
+Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
+\@enLab=\toks29
 )
 (/usr/local/texlive/2018/texmf-dist/tex/xelatex/xecjk/xeCJK.sty
 (/usr/local/texlive/2018/texmf-dist/tex/latex/l3kernel/expl3.sty
@@ -588,7 +592,7 @@ Package: geometry 2018/04/16 v5.8 Page Geometry
 \Gm@layoutheight=\dimen185
 \Gm@layouthoffset=\dimen186
 \Gm@layoutvoffset=\dimen187
-\Gm@dimlist=\toks29
+\Gm@dimlist=\toks30
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
@@ -649,8 +653,8 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 
 (/usr/local/texlive/2018/texmf-dist/tex/generic/xkeyval/xkeyval.tex
 (/usr/local/texlive/2018/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks30
-\XKV@tempa@toks=\toks31
+\XKV@toks=\toks31
+\XKV@tempa@toks=\toks32
 )
 \XKV@depth=\count291
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
@@ -670,19 +674,19 @@ File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 )
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
 x
-\pgfutil@everybye=\toks32
+\pgfutil@everybye=\toks33
 \pgfutil@tempdima=\dimen190
 \pgfutil@tempdimb=\dimen191
 
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-li
 sts.tex))
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks33
-\pgfkeys@temptoks=\toks34
+\pgfkeys@pathtoks=\toks34
+\pgfkeys@temptoks=\toks35
 
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.c
 ode.tex
-\pgfkeys@tmptoks=\toks35
+\pgfkeys@tmptoks=\toks36
 ))
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
 Loading pgffor.code.tex
@@ -708,9 +712,9 @@ Loading pgffor.code.tex
 \pgfmath@dimen=\dimen256
 \pgfmath@count=\count307
 \pgfmath@box=\box51
-\pgfmath@toks=\toks36
-\pgfmath@stack@operand=\toks37
-\pgfmath@stack@operation=\toks38
+\pgfmath@toks=\toks37
+\pgfmath@stack@operand=\toks38
+\pgfmath@stack@operation=\toks39
 )
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.
 tex
@@ -735,8 +739,8 @@ erarithmetics.code.tex)))
 ))
 \pgffor@iter=\dimen257
 \pgffor@skip=\dimen258
-\pgffor@stack=\toks39
-\pgffor@toks=\toks40
+\pgffor@stack=\toks40
+\pgffor@toks=\toks41
 )
 \psLoopIndex=\count309
 
@@ -765,7 +769,7 @@ erarithmetics.code.tex)))
 \pst@cnto=\count318
 \pst@cntp=\count319
 \@zero=\count320
-\pst@toks=\toks41
+\pst@toks=\toks42
 (/usr/local/texlive/2018/texmf-dist/tex/xelatex/xetex-pstricks/pstricks.con
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pstricks/config/xdvipdfmx.cfg))
 \psunit=\dimen269
@@ -775,12 +779,12 @@ erarithmetics.code.tex)))
 \pslinewidth=\dimen272
 \psk@startLW=\dimen273
 \psk@endLW=\dimen274
-\pst@customdefs=\toks42
+\pst@customdefs=\toks43
 \pslinearc=\dimen275
 \pst@symbolStep=\dimen276
 \pst@symbolWidth=\dimen277
 \pst@symbolLinewidth=\dimen278
-\everypsbox=\toks43
+\everypsbox=\toks44
 \psframesep=\dimen279
 \pslabelsep=\dimen280
 \sh@wgridXunit=\dimen281
@@ -810,7 +814,7 @@ Package: multido 2004/05/17 package wrapper for PSTricks `multido.tex', (HV/RN)
  v1.42, 2010/05/14 <tvz>
 \multido@count=\count322
 \multidocount=\count323
-\multido@stuff=\toks44
+\multido@stuff=\toks45
 )
 File: multido.tex 2010/05/14 v1.42 `multido' (tvz,hv)
 )
@@ -926,7 +930,7 @@ Package caption Info: hyperref package is loaded.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
 x
-\pgfutil@everybye=\toks45
+\pgfutil@everybye=\toks46
 \pgfutil@tempdima=\dimen317
 \pgfutil@tempdimb=\dimen318
 
@@ -962,9 +966,9 @@ Package: pgfsys 2019/02/02 v3.1.1 (3.1.1)
 \c@pgf@countb=\count346
 \c@pgf@countc=\count347
 \c@pgf@countd=\count348
-\t@pgf@toka=\toks46
-\t@pgf@tokb=\toks47
-\t@pgf@tokc=\toks48
+\t@pgf@toka=\toks47
+\t@pgf@tokb=\toks48
+\t@pgf@tokc=\toks49
 \pgf@sys@id@count=\count349
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2019/02/02 v3.1.1 (3.1.1)
@@ -1122,8 +1126,8 @@ Package: pgffor 2019/02/02 v3.1.1 (3.1.1)
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
 \pgffor@iter=\dimen353
 \pgffor@skip=\dimen354
-\pgffor@stack=\toks49
-\pgffor@toks=\toks50
+\pgffor@stack=\toks50
+\pgffor@toks=\toks51
 ))
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.cod
 e.tex
@@ -1165,8 +1169,8 @@ File: tikzlibrarytopaths.code.tex 2019/02/02 v3.1.1 (3.1.1)
 )))
 (/usr/local/texlive/2018/texmf-dist/tex/latex/tools/verbatim.sty
 Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks51
-\verbatim@line=\toks52
+\every@verbatim=\toks52
+\verbatim@line=\toks53
 \verbatim@in@stream=\read4
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
@@ -1235,7 +1239,7 @@ Package: listingsutf8 2016/05/16 v1.3 Allow UTF-8 in listings input (HO)
 (/usr/local/texlive/2018/texmf-dist/tex/latex/listings/listings.sty
 \lst@mode=\count372
 \lst@gtempboxa=\box77
-\lst@token=\toks53
+\lst@token=\toks54
 \lst@length=\count373
 \lst@currlwidth=\dimen365
 \lst@column=\count374
@@ -1308,26 +1312,26 @@ LaTeX Warning: Unused global option(s):
 (./0423.aux)
 \openout1 = `0423.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 187.
-LaTeX Font Info:    ... okay on input line 187.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 187.
-LaTeX Font Info:    ... okay on input line 187.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 187.
-LaTeX Font Info:    ... okay on input line 187.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 187.
-LaTeX Font Info:    ... okay on input line 187.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 187.
-LaTeX Font Info:    ... okay on input line 187.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 187.
-LaTeX Font Info:    ... okay on input line 187.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 187.
-LaTeX Font Info:    ... okay on input line 187.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 187.
-LaTeX Font Info:    ... okay on input line 187.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 187.
-LaTeX Font Info:    ... okay on input line 187.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 188.
+LaTeX Font Info:    ... okay on input line 188.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 188.
+LaTeX Font Info:    ... okay on input line 188.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 188.
+LaTeX Font Info:    ... okay on input line 188.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 188.
+LaTeX Font Info:    ... okay on input line 188.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 188.
+LaTeX Font Info:    ... okay on input line 188.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 188.
+LaTeX Font Info:    ... okay on input line 188.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 188.
+LaTeX Font Info:    ... okay on input line 188.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 188.
+LaTeX Font Info:    ... okay on input line 188.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 188.
+LaTeX Font Info:    ... okay on input line 188.
 \AtBeginShipoutBox=\box79
-Package hyperref Info: Link coloring ON on input line 187.
+Package hyperref Info: Link coloring ON on input line 188.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
@@ -1335,9 +1339,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count388
 )
-LaTeX Info: Redefining \ref on input line 187.
-LaTeX Info: Redefining \pageref on input line 187.
-LaTeX Info: Redefining \nameref on input line 187.
+LaTeX Info: Redefining \ref on input line 188.
+LaTeX Info: Redefining \pageref on input line 188.
+LaTeX Info: Redefining \nameref on input line 188.
 
 (./0423.out) (./0423.out)
 \@outlinefile=\write8
@@ -1349,57 +1353,57 @@ Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
 
 \symlegacymaths=\mathgroup9
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 187.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 187.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 187.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 187.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 187.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 187.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 187.
-LaTeX Font Info:    Redeclaring math accent \check on input line 187.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 187.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 187.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 187.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 187.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 187.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 187.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 187.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 187.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 187.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 187.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 187.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 187.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 187.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 187.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 187.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 187.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 188.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 188.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 188.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 188.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 188.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 188.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 188.
+LaTeX Font Info:    Redeclaring math accent \check on input line 188.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 188.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 188.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 188.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 188.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 188.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 188.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 188.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 188.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 188.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 188.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 188.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 188.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 188.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 188.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 188.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 188.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 187.
+(Font)              `operators' in the math version `normal' on input line 188.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 187.
+(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 188.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 187.
+(Font)              `operators' in the math version `bold' on input line 188.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 187.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 188.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 187.
+(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 188.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 187.
+(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 188.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/bx/n on input line 187.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/bx/n on input line 188.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 187.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 188.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 187.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 188.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/lmr/m/n --> TU/lmr/bx/n on input line 187.
+(Font)                  TU/lmr/m/n --> TU/lmr/bx/n on input line 188.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/lmr/bx/it on input line 187.
+(Font)                  OT1/cmr/bx/it --> TU/lmr/bx/it on input line 188.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/bx/n on input line 187.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/bx/n on input line 188.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/bx/n on input line 187.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/bx/n on input line 188.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -1444,47 +1448,63 @@ ABD: EveryShipout initializing macros
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2018/08/11 v1.3c Input encoding file
-\inpenc@prehook=\toks54
-\inpenc@posthook=\toks55
+\inpenc@prehook=\toks55
+\inpenc@posthook=\toks56
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 193.
+LaTeX Font Info:    Try loading font information for U+msa on input line 194.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 193.
+LaTeX Font Info:    Try loading font information for U+msb on input line 194.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
+Underfull \hbox (badness 10000) in paragraph at lines 195--196
+
+ []
+
 (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/se-ascii-print.def
 File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
 
 )
-[1
+Overfull \hbox (9.5213pt too wide) detected at line 215
+\OML/cmm/m/it/12 Y[] \OT1/cmr/m/n/12 = [](3 [][] \OML/cmm/m/it/12 ^^R \OMS/cmsy
+/m/n/12 ^^@ \OT1/cmr/m/n/12 1)\OML/cmm/m/it/12 ;  []Y[] \OT1/cmr/m/n/12 = [] []
+ \OML/cmm/m/it/12 ^^R [] ^^R []e[];  []Y[] \OT1/cmr/m/n/12 = [] [][] \OML/cmm/m
+/it/12 ^^R []e[]
+ []
 
-]
-Underfull \hbox (badness 10000) in paragraph at lines 254--255
+
+Underfull \hbox (badness 10000) in paragraph at lines 217--218
 
  []
 
-[2] [3] [4]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 321.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 321.
+[1
+
+] [2]
+Underfull \hbox (badness 10000) in paragraph at lines 294--295
+
+ []
+
+[3] [4] [5]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 361.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 361.
  (./0423.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 321.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 321.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 361.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 361.
 Package rerunfilecheck Info: File `0423.out' has not changed.
-(rerunfilecheck)             Checksum: 8E08D5A3F37F58B358B124AC19E36BEE.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 321.
+(rerunfilecheck)             Checksum: C171987072626088C55CC5EAA122243F.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 361.
  ) 
 Here is how much of TeX's memory you used:
- 45273 strings out of 494906
- 926206 string characters out of 6176286
- 1146441 words of memory out of 5000000
- 48594 multiletter control sequences out of 15000+600000
+ 45304 strings out of 494906
+ 926759 string characters out of 6176286
+ 1147902 words of memory out of 5000000
+ 48623 multiletter control sequences out of 15000+600000
  545640 words of font info for 93 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  63i,15n,101p,979b,1248s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on 0423.pdf (4 pages).
+Output written on 0423.pdf (5 pages).
