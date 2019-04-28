@@ -180,6 +180,8 @@
 
 \renewcommand{\proofname}{\it{Solution}}
 
+
+
 %==========
 % 正文部分
 %==========
@@ -190,6 +192,36 @@
 \author{Yuquan Chen}
 \date{2019/03/19} % 若不需要自动插入日期，则去掉前面的注释；{ } 中也可以自定义日期格式
 \maketitle
+
+\section{Time evolution operator and Hamiltonian}
+
+\begin{myboxes}{Postulates of Quantum Mechanics}{}
+\textbf{Postulate 1.} At any time $t$, the state of a physical system is defined by a ket $|\psi\rangle$, or \textit{state} in a relevant Hilbert space $H$.\\\par
+\textbf{Postulate 2.} The only possible result of measuring observable $A$ is one of the eigenvalues of $A$
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=7cm]{post2}
+%\caption{}
+%\label{}
+\end{center}
+\end{figure}
+Aside:
+\begin{enumerate*}
+\item If $A$ is Hermitian, then the measurement gives a real number.
+\item If $A$'s spectrum is discrete, then we only see quantized result.
+\end{enumerate*}
+\textbf{Postulate 3.} Every measurable physical quantity $A$ is described by a Hermitian operator.\\\par
+\textbf{Postulate 4.} If $A|u_{\alpha}\rangle = a_{\alpha}|u_{\alpha}\rangle$, then for a system in $|\psi\rangle$, when we measure $A$, then the probability of getting $a_{\alpha}$ is $P(a_{\alpha}) = |\langle u_{\alpha}|\psi\rangle|^{2}$.\\
+Aside: If we have degenerate $a_{\alpha}$'s $\{|u_{\alpha,1}\rangle, |u_{\alpha,2}\rangle, ...\}$ share the same eigenvalue, then $P(a_{\alpha}) = \sum_{i} |\langle u_{\alpha,i}|\psi\rangle|^{2}$\\
+Example: $A = I$, all $a_{\alpha} = 1$\\\par
+\textbf{Postulate 5.} If a measurement projects $|\psi\rangle$ into a new
+\end{myboxes}
+
+
+
+
+
+
 
 
 
