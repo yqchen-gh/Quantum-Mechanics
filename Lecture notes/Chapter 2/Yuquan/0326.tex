@@ -187,8 +187,28 @@
 
 \title{Chapter 2}
 \author{Yuquan Chen}
-\date{} % 若不需要自动插入日期，则去掉前面的注释；{ } 中也可以自定义日期格式
+\date{2019/03/26} % 若不需要自动插入日期，则去掉前面的注释；{ } 中也可以自定义日期格式
 \maketitle
+
+\section{Recap}
+
+\begin{myboxes}{Postulates of Quantum Mechanics}{}
+\textbf{Postulate 1.} Associated to any isolated physical system is a complex vector space with inner product (that is, a Hilbert space) known as the \textit{state space} of the system. The system is completely described by its \textit{state vector}, which is a unit vector in the system’s state space.\\\par
+\textbf{Postulate 2.} The evolution of a \textit{closed} quantum system is described by a \textit{unitary transformation}. That is, the state $|\psi\rangle$ of the system at time $t_{1}$ is related to the state $|\psi'\rangle$ of the system at time $t_{2}$ by a unitary operator $U$ which depends only on the times $t_{1}$ and $t_{2}$,
+$$|\psi'\rangle = U|\psi\rangle$$\par
+\textbf{Postulate 3.} Quantum measurements are described by a collection $\{M_{m}\}$ of \textit{measurement operators}. These are operators acting on the state space of the system being measured. The index $m$ refers to the measurement outcomes that may occur in the experiment. If the state of the quantum system is $|\psi\rangle$ immediately before the measurement then the probability that result $m$ occurs is given by
+$$p(m) = \langle\psi|M^{\dag}_{m}M_{m}|\psi\rangle$$and the state of the system after the measurement is
+$$\frac{M_{m} | \psi \rangle}{\sqrt{\left\langle\psi\left|M_{m}^{\dagger} M_{m}\right| \psi\right\rangle}}$$The measurement operators satisfy the completeness equation,
+$$\sum_{m} M_{m}^{\dagger} M_{m}=I$$
+\end{myboxes}
+
+\begin{myboxes}{Time evolution and $H$}{}
+If the Hamiltonian of the system is $H$, then the time evolution operator $U(t)$ is 
+$$U(t) = e^{-iHt}$$
+\end{myboxes}
+
+\section{}
+
 
 
 
