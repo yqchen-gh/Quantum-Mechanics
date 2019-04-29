@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2019.3.13)  28 APR 2019 23:18
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2019.3.13)  29 APR 2019 18:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1465,41 +1465,51 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
 
 )
-Underfull \hbox (badness 10000) in paragraph at lines 199--199
+Underfull \hbox (badness 10000) in paragraph at lines 198--200
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 202--202
 
  []
 
 File: figures/post2.png Graphic file (type bmp)
 <figures/post2.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 213--213
+Underfull \hbox (badness 10000) in paragraph at lines 216--216
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 214--216
+Underfull \hbox (badness 10000) in paragraph at lines 217--219
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 220--220
 
  []
 
 [1
 
-]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 229.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 229.
+] [2] [3]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 267.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 267.
  (./0319.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 229.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 229.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 267.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 267.
 Package rerunfilecheck Info: File `0319.out' has not changed.
 (rerunfilecheck)             Checksum: 7AD385F3C978557774331217C053E167.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 229.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 267.
  ) 
 Here is how much of TeX's memory you used:
- 45297 strings out of 494906
- 926509 string characters out of 6176286
- 1140243 words of memory out of 5000000
- 48609 multiletter control sequences out of 15000+600000
+ 45308 strings out of 494906
+ 926743 string characters out of 6176286
+ 1144339 words of memory out of 5000000
+ 48620 multiletter control sequences out of 15000+600000
  545632 words of font info for 92 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 63i,6n,101p,979b,1246s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,16n,101p,979b,1248s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on 0319.pdf (1 page).
+Output written on 0319.pdf (3 pages).

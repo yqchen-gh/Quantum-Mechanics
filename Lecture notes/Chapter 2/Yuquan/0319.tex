@@ -195,6 +195,9 @@
 
 \section{Time evolution operator and Hamiltonian}
 
+Here, we talk about non-relativistic situation, and we think about time as a parameter, not an operator. The position representation $\langle x|\psi\rangle = \psi(x)$, adding the time evolution, we have $$\langle x|\psi(t)\rangle = \psi(x,t)$$
+First, we talk about 6 postulates of quantum mechanics.\\
+
 \begin{myboxes}{Postulates of Quantum Mechanics}{}
 \textbf{Postulate 1.} At any time $t$, the state of a physical system is defined by a ket $|\psi\rangle$, or \textit{state} in a relevant Hilbert space $H$.\\\par
 \textbf{Postulate 2.} The only possible result of measuring observable $A$ is one of the eigenvalues of $A$
@@ -214,12 +217,47 @@ Aside:
 \textbf{Postulate 4.} If $A|u_{\alpha}\rangle = a_{\alpha}|u_{\alpha}\rangle$, then for a system in $|\psi\rangle$, when we measure $A$, then the probability of getting $a_{\alpha}$ is $P(a_{\alpha}) = |\langle u_{\alpha}|\psi\rangle|^{2}$.\\
 Aside: If we have degenerate $a_{\alpha}$'s $\{|u_{\alpha,1}\rangle, |u_{\alpha,2}\rangle, ...\}$ share the same eigenvalue, then $P(a_{\alpha}) = \sum_{i} |\langle u_{\alpha,i}|\psi\rangle|^{2}$\\
 Example: $A = I$, all $a_{\alpha} = 1$\\\par
-\textbf{Postulate 5.} If a measurement projects $|\psi\rangle$ into a new
+\textbf{Postulate 5.} If a measurement projects $|\psi\rangle$ into a new state $|u_{\alpha}\rangle$, then a physical new state should be $|u_{\alpha}'\rangle = \frac{|u_{\alpha}\rangle}{\sqrt{\langle u_{\alpha}|u_{\alpha}\rangle}}$, so that $\langle u_{\alpha}'|u_{\alpha}'\rangle = 1$.\\\par
+\textbf{Postulate 6.} Between measurement the state vector $|\psi(t)\rangle$ evolves in time with time dependent Shr\"{o}dinger's equation $$i\hbar \frac{d}{dt}|\psi(t)\rangle = \hat{H}(t)|\psi(t)\rangle$$ here $\hat{H}$ is a Hamiltonian.
 \end{myboxes}
 
+We let a displacement $dt'$ on state $|\psi(t)\rangle$,
+\begin{align}\label{dt}
+\Rightarrow U(dt')|\psi(t)\rangle = |\psi(t+dt')\rangle,~\text{where } UU^{\dag} = 1
+\end{align}
+It's similar to momentum, in that case, we have
+$$\begin{cases}U(dt') = I - i\frac{\hat{H}}{\hbar}dt'\\\hat{H} \text{ is Hermitian, called Hamiltonian}\end{cases}$$
+so (\ref{dt}) could be evaluated as:
+\begin{align}
+\text{LHS} &= \left(I - i\frac{\hat{H}}{\hbar}dt'\right) \psi(x,t) = \psi(x,t) -  i\frac{\hat{H}}{\hbar}dt'\psi(x,t) \\
+\text{RHS} &= \psi(x,t+dt') = \psi(x,t) + \left(\frac{\partial}{\partial t}\psi(x,t)\right)dt'
+\end{align}
+\begin{align}
+\Rightarrow \boxed{i\hbar\frac{\partial}{\partial t} \psi(x,t) = H\psi(x,t)}
+\end{align}
+which is Shr\"{o}dinger's equation in position representation. In general, we have
+\begin{align}
+\boxed{i\hbar\frac{\partial}{\partial t} |\psi(t)\rangle = H|\psi(t)\rangle}
+\end{align}
+$H$: Hamiltonian in analog to classical mechanics,
+\begin{align}
+H = T + V,~ \begin{cases}T = \frac{p^{2}}{2m} \text{ is kinetic energy} \\ V \text{ is potential energy}\end{cases}
+\end{align}
+and in quantum mechanics, we have
+\begin{align}
+\hat{H} = \hat{T} + \hat{V} = \frac{\hat{p}^{2}}{2m} + \hat{V}(x)
+\end{align}
 
+Here are some examples of Hamiltonians of different systems.
 
-
+\begin{myboxes}{Examples of Hamiltonians of different systems}{}
+\begin{enumerate*}
+\item A free particle $V=0$ $$\hat{H} = \frac{\hat{p}^{2}}{2m}$$
+\item Hydrogen atom $$\hat{H} = \frac{\hat{p}_{e}^{2}}{2m_{e}} + \frac{\hat{p}_{n}^{2}}{2m_{n}} - \frac{e^{2}}{4\pi\varepsilon_{0}|\vec{r}_{e}-\vec{r}_{n}|}$$
+\item A particle magnetic moment $\vec{\mu}$, in external magnetic field $\vec{B}$
+$$\hat{H} = -\vec{\mu}\cdot\vec{B}$$
+\end{enumerate*}
+\end{myboxes}
 
 
 
