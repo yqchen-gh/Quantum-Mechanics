@@ -8,6 +8,8 @@
 \usepackage{cleveref}
 \usepackage{float}
 \usepackage{enumerate}
+\usepackage{extarrows}
+
 
 %----------
 % 定义中文环境
@@ -236,7 +238,7 @@ so (\ref{dt}) could be evaluated as:
 \Rightarrow \boxed{i\hbar\frac{\partial}{\partial t} \psi(x,t) = H\psi(x,t)}
 \end{align}
 which is Shr\"{o}dinger's equation in position representation. In general, we have
-\begin{align}
+\begin{align}\label{shordinger}
 \boxed{i\hbar\frac{\partial}{\partial t} |\psi(t)\rangle = H|\psi(t)\rangle}
 \end{align}
 $H$: Hamiltonian in analog to classical mechanics,
@@ -254,10 +256,104 @@ Here are some examples of Hamiltonians in different systems.
 \begin{enumerate*}
 \item A free particle $V=0$ $$\hat{H} = \frac{\hat{p}^{2}}{2m}$$
 \item Hydrogen atom $$\hat{H} = \frac{\hat{p}_{e}^{2}}{2m_{e}} + \frac{\hat{p}_{n}^{2}}{2m_{n}} - \frac{e^{2}}{4\pi\varepsilon_{0}|\vec{r}_{e}-\vec{r}_{n}|}$$
-\item A particle magnetic moment $\vec{\mu}$, in external magnetic field $\vec{B}$
+\item A particle with magnetic momentum $\vec{\mu}$, in external magnetic field $\vec{B}$
 $$\hat{H} = -\vec{\mu}\cdot\vec{B}$$
 \end{enumerate*}
 \end{myboxes}
+
+As $\hat{H} = \frac{\hat{p}^{2}}{2m}$, it's convenient to work in momentum representation $\{|p\rangle\}$ as our basis. We apply $\langle p|$ on the left of equation $H|\psi(t)\rangle = i\hbar\frac{\partial}{\partial t}|\psi(t)\rangle$, we get
+\begin{align}
+&\text{LHS} = \left(\langle p|\frac{\hat{p}^{2}}{2m}\right)|\psi(t)\rangle = \frac{p^{2}}{2m} \langle p|\psi(t)\rangle = \frac{p^{2}}{2m} \psi(p,t) \\
+&\text{RHS} = i\hbar\langle p|\frac{\partial}{\partial t}|\psi(t)\rangle \xlongequal{\frac{\partial}{\partial t}\langle p| = 0} i\hbar\frac{\partial}{\partial t}\langle p|\psi(t)\rangle = i\hbar\frac{\partial}{\partial t}\psi(p,t) \\
+&\Rightarrow \frac{p^{2}}{2m}\psi(p,t) = i\hbar\frac{\partial}{\partial t}\psi(p,t) \\
+&\Rightarrow \psi(p,t) = \psi(p,0) e^{-i\frac{p^{2}t}{2m\hbar}}
+\end{align}
+if we let
+\begin{align}
+\psi(p,0) = \frac{1}{\sqrt{2\pi\hbar}} e^{-i\frac{px}{\hbar}} \sim \langle x|p\rangle
+\end{align}
+in this case, 
+\begin{align}
+\boxed{\psi(p,t) = \frac{1}{\sqrt{2\pi\hbar}} e^{-i\frac{px}{\hbar}} e^{-i\frac{p^{2}t}{2m\hbar}} = \frac{1}{\sqrt{2\pi\hbar}} e^{-i\frac{p}{\hbar}\left(x + \frac{pt}{m}\right)}}
+\end{align}
+we have
+\begin{align}
+\psi(p,0) &= \langle p|x\rangle \text{ momentum representation of } |x\rangle \\
+\psi(p,t) &= \langle p|x + \frac{pt}{m}\rangle \text{ if set } v=\frac{p}{m} \text{, then } x+\frac{pt}{m} = x+vt
+\end{align}
+
+\begin{myboxes}{Comment}{}
+We should observe structure of $H$, and choose the right representations. We have
+$$\psi(x,0) \xrightarrow[\text{rewrite in p-repres}]{\text{Fourier transform}} \psi(p,0)$$
+$$\psi(p,t) \xlongequal{H = \frac{p^{2}}{2m}} \psi(p,0) e^{-i\frac{p^{2}t}{2m\hbar}}$$
+if we need $\psi(x,t)$, we can get it from another Fourier transformation from $\psi(p,t)$.
+\end{myboxes}
+
+\section{Static Shr\"{o}dinger's equation}
+
+Recall equation (\ref{shordinger}) that
+$$\hat{H}|\psi(t)\rangle = i\hbar\frac{\partial}{\partial t}|\psi(t)\rangle$$
+in position representation,
+\begin{align}
+\langle x|\hat{H}|\psi(t)\rangle &= i\hbar\frac{\partial}{\partial t}\langle x|\psi(t)\rangle \\
+\Rightarrow H\psi(x,t) &= i\hbar\frac{\partial}{\partial t}\psi(x,t)
+\end{align}
+where $H = \frac{\hat{p}^{2}}{2m} + V(x),~ \hat{p} \leftrightarrow -i\hbar\frac{\partial}{\partial x}$,
+\begin{align}\label{sex}
+\Rightarrow \boxed{-\frac{\hbar^{2}}{2m}\frac{\partial^{2}}{\partial x^{2}}\psi(x,t) + V(x)\psi(x,t) = i\hbar\frac{\partial}{\partial t}\psi(x,t)}
+\end{align}
+
+\begin{myboxes}{A common mistake}{}
+We know that in $x$ representation, $\hat{p} \leftrightarrow -i\hbar\frac{\partial}{\partial x}$, but
+$$\langle x|\hat{p}^{2}|\psi\rangle \ne -\hbar^{2}\left(\frac{\partial}{\partial x} \psi(x)\right)^{2}$$
+instead, 
+$$\boxed{\langle x|\hat{p}^{2}|\psi\rangle = -\hbar^{2}\frac{\partial^{2}}{\partial x^{2}}\psi(x)}$$
+because we have
+$$\langle x|\hat{p}|\psi\rangle = -i\hbar\frac{\partial}{\partial x}\langle x|\psi\rangle = -i\hbar\frac{\partial}{\partial x}\psi(x)$$
+then
+\begin{align*}
+\langle x|\hat{p}^{2}|\psi\rangle \xlongequal{|\phi\rangle = \hat{p}|\psi\rangle}& \langle x|\hat{p}|\phi\rangle =  -i\hbar\frac{\partial}{\partial x}\langle x|\phi\rangle = (-i\hbar)\frac{\partial}{\partial x}\langle x|\hat{p}|\psi\rangle \\
+=& (-i\hbar)\frac{\partial}{\partial x}\left(-i\hbar\frac{\partial}{\partial x}\langle x|\psi\rangle\right) = -\hbar^{2}\frac{\partial}{\partial x}\left(\frac{\partial}{\partial x}\psi(x)\right) \\
+=& -\hbar^{2}\frac{\partial^{2}}{\partial x^{2}}\psi(x)
+\end{align*}
+\end{myboxes}
+
+To solve equation (\ref{sex}), it's best to separate the variables. Suppose we set
+\begin{align}
+\psi(x,t) = \Psi(x)\phi(t)
+\end{align}
+where $\hat{H}$ is Hermitian, and the eigenfunction is
+\begin{align}
+H|\psi_{E}\rangle = E|\psi_{E}\rangle,~\begin{cases}E \text{ is eigen energy}\\|\psi_{E}\rangle \text{ is eigenstate}\end{cases}
+\end{align}
+if we assume $|\psi(t=0)\rangle = |\psi_{E}\rangle$, then
+\begin{align}
+H|\psi(t)\rangle &= i\hbar\frac{\partial}{\partial t}|\psi(t)\rangle \notag\\
+\Rightarrow \langle\psi_{E}|H|\psi(t)\rangle &= i\hbar\frac{\partial}{\partial t}\langle\psi_{E}|\psi(t)\rangle \\
+\Rightarrow E\langle\psi_{E}|\psi(t)\rangle &= i\hbar\frac{\partial}{\partial t}\langle\psi_{E}|\psi(t)\rangle \\
+\xLongrightarrow{\xi(t) = \langle\psi_{E}|\psi(t)\rangle} E\xi(t) &= i\hbar\frac{\partial}{\partial t}\xi(t) \\
+\Rightarrow \xi(t) &= e^{-i\frac{Et}{\hbar}}\xi(0)
+\end{align}
+
+\begin{theorem}{}{}
+We know a inner product of a state $|\psi(t)\rangle$ with eigenstate $|\psi_{E}\rangle$ is getting a phase $e^{-i\frac{Et}{\hbar}}$ over time.
+\end{theorem}
+
+Probability of measuring with $H$ after time $t$ of evolution, is the same as any other time.
+\begin{align*}
+P_{E}(t) = \left|\langle\psi_{E}|\psi(t)\rangle\right|^{2} = |e^{-i\frac{Et}{\hbar}}\langle \psi_{E}|\psi(0)\rangle|^{2} = |\langle \psi_{E}|\psi(0)\rangle|^{2} = P_{E}(t=0)
+\end{align*}
+
+\begin{corollary}{}{}
+In the basis of energy $\{|\psi_{E}^{\left(i\right)}\rangle\}$,
+\begin{align}
+|\psi(0)\rangle &\xlongequal{\text{discrete}} \sum_{i} c_{i}|\psi_{E}^{\left(i\right)}\rangle \\
+|\psi(t)\rangle &\xlongequal{H \ne H(t)} \sum_{j} c_{j} e^{-i\frac{E_{j}t}{\hbar}}|\psi_{E}^{\left(j\right)}\rangle
+\end{align}
+\end{corollary}
+
+
+
 
 
 
