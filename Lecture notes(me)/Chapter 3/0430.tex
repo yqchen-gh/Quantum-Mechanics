@@ -81,7 +81,7 @@
      attach boxed title to top left={
        yshifttext=-1mm
      },
-     colback=white,
+     colback=blue!5!white,
      colframe=blue!75!black,
      fonttitle=\bfseries,
      boxed title style={
@@ -99,7 +99,7 @@
      attach boxed title to top left={
        yshifttext=-1mm
      },
-     colback=white,
+     colback=blue!5!white,
      colframe=blue!75!black,
      fonttitle=\bfseries,
      boxed title style={
@@ -117,7 +117,7 @@
      attach boxed title to top left={
        yshifttext=-1mm
      },
-     colback=white,
+     colback=blue!5!white,
      colframe=blue!75!black,
      fonttitle=\bfseries,
      boxed title style={
@@ -242,6 +242,20 @@ Suppose we have a two particle system, then the partial trace on particle A is
 \begin{align}
 tr_{A}(\rho) = \sum_{i} \left(\langle\psi_{i}|^{A} \otimes I^{B}\right) \cdot \rho \cdot \left(|\psi_{i}\rangle^{A} \otimes I^{B}\right)
 \end{align}
+\end{definition}
+
+The definition here is a bit complicated, we can refer to \textit{Quantum Computation and Quantum Information, Michael A. Nielsen} and read the corresponding section. In that book, the author introduce the \textit{reduced density operator} and the \textit{partial trace} at the same time, and here is the definition in the book.\\
+
+\begin{definition}{Reduced density operator and partial trace}{}
+Suppose we have physical systems $A$ and $B$, whose state is described by a density operator $\rho^{AB}$. The reduced density operator for system $A$ is defined by
+\begin{align}
+\rho^{A} \equiv tr_{B}(\rho^{AB})
+\end{align}
+where $tr_{B}$ is a map of operators known as the \textit{partial trace} over system $B$. The partial trace is defined by
+\begin{align}\label{pt}
+\operatorname{tr}_{B}\left( | a_{1}\right\rangle\left\langle a_{2}|\otimes| b_{1}\right\rangle\left\langle b_{2} |\right) \equiv | a_{1} \rangle\left\langle a_{2} | \operatorname{tr}\left( | b_{1}\right\rangle\left\langle b_{2} |\right)\right.
+\end{align}
+where $|a_{1}\rangle$ and $|a_{2}\rangle$ are any two vectors in the state space of $A$, and $|b_{1}\rangle$ and $|b_{2}\rangle$ are any two vectors in the state space of $B$. The trace operation appearing on the right hand side is the usual trace operation for system $B$, so $tr(|b_{1}\rangle\langle b_{2}|) = \langle b_{2}|b_{1}\rangle$. We have defined the partial trace operation only on a special subclass of operators on $AB$; the specification is completed by requiring in addition to Equation (\ref{pt}) that the partial trace be linear in its input.
 \end{definition}
 
 \subsection{Partial trace and entangled state}
