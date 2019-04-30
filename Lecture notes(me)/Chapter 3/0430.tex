@@ -258,6 +258,11 @@ where $tr_{B}$ is a map of operators known as the \textit{partial trace} over sy
 where $|a_{1}\rangle$ and $|a_{2}\rangle$ are any two vectors in the state space of $A$, and $|b_{1}\rangle$ and $|b_{2}\rangle$ are any two vectors in the state space of $B$. The trace operation appearing on the right hand side is the usual trace operation for system $B$, so $tr(|b_{1}\rangle\langle b_{2}|) = \langle b_{2}|b_{1}\rangle$. We have defined the partial trace operation only on a special subclass of operators on $AB$; the specification is completed by requiring in addition to Equation (\ref{pt}) that the partial trace be linear in its input.
 \end{definition}
 
+Specifically, suppose a quantum system is in the product state $\rho^{AB} = \rho \otimes \sigma$, where $\rho$ is a density operator for system $A$, and $\sigma$ is a density operator for system $B$. Then
+\begin{align}
+\rho^{A}=\operatorname{tr}_{B}(\rho \otimes \sigma)=\rho \operatorname{tr}(\sigma)=\rho
+\end{align}
+
 \subsection{Partial trace and entangled state}
 
 If we have $\rho = |\psi\rangle\langle\psi|$, where $|\psi\rangle = \frac{1}{\sqrt{2}}(|00\rangle + |11\rangle)$ is an entangled state, then what is $tr_{A}(\rho)$? First, we can calculate the density matrix as follows:
