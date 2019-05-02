@@ -236,7 +236,7 @@ for multi particles, we need a $\{|\psi_{i}\rangle_{\text{multi}}\}$ as a basis,
 
 \section{Partial trace}
 
-\begin{definition}{Partial trace for 2 particle system}{}
+\begin{definition}{Partial trace for 2 particle system}{}\label{pt2}
 Suppose we have a two particle system, then the partial trace on particle A is
 \begin{align}
 tr_{A}(\rho) = \sum_{i} \left(\langle\psi_{i}|^{A} \otimes I^{B}\right) \cdot \rho \cdot \left(|\psi_{i}\rangle^{A} \otimes I^{B}\right)
@@ -253,7 +253,7 @@ tr_{A}(\rho) &= \sum_{i} \left(\langle\psi_{i}|^{A} \otimes I^{B}\right) \cdot \
 \end{align}
 where $\rho = M_{A} \otimes M_{B}$, so
 \begin{align}
-&\left(\langle0|^{A} \otimes I^{B}\right) \cdot M_{A} \otimes M_{B} \cdot \left(|0\rangle^{A} \otimes I^{B}\right) = \langle0|M_{A}|0\rangle \otimes \left(I^{B}\cdot M_{B} \cdot I^{B}\right)\\
+&\left(\langle0|^{A} \otimes I^{B}\right) \cdot \left(M_{A} \otimes M_{B}\right) \cdot \left(|0\rangle^{A} \otimes I^{B}\right) = \langle0|M_{A}|0\rangle \otimes \left(I^{B}\cdot M_{B} \cdot I^{B}\right)\\
 &= \langle0|M_{A}|0\rangle M_{B}
 \end{align}
 we can easily get that
@@ -272,7 +272,7 @@ tr_{A}(\rho) &= \langle0|M_{A}|0\rangle M_{B} + \langle1|M_{A}|1\rangle M_{B} \\
 \end{align}
 \end{myboxes}
 
-The definition here is a bit complicated, we can refer to \textit{Quantum Computation and Quantum Information, Michael A. Nielsen} and read the corresponding section. In that book, the author introduce the \textit{reduced density operator} and the \textit{partial trace} at the same time, and here is the definition in the book.\\
+The definition here is a bit complicated, we can refer to \textit{Quantum Computation and Quantum Information, Michael A. Nielsen} and read the corresponding section. In that book, the author introduce the \textit{reduced density operator} and the \textit{partial trace} at the same time. Here is the definition in the book.\\
 
 \begin{definition}{Reduced density operator and partial trace}{}
 Suppose we have physical systems $A$ and $B$, whose state is described by a density operator $\rho^{AB}$. The reduced density operator for system $A$ is defined by
@@ -286,11 +286,17 @@ where $tr_{B}$ is a map of operators known as the \textit{partial trace} over sy
 where $|a_{1}\rangle$ and $|a_{2}\rangle$ are any two vectors in the state space of $A$, and $|b_{1}\rangle$ and $|b_{2}\rangle$ are any two vectors in the state space of $B$. The trace operation appearing on the right hand side is the usual trace operation for system $B$, so $tr(|b_{1}\rangle\langle b_{2}|) = \langle b_{2}|b_{1}\rangle$. We have defined the partial trace operation only on a special subclass of operators on $AB$; the specification is completed by requiring in addition to Equation (\ref{pt}) that the partial trace be linear in its input.
 \end{definition}
 
-Specifically, suppose a quantum system is in the product state $\rho^{AB} = \rho \otimes \sigma$, where $\rho$ is a density operator for system $A$, and $\sigma$ is a density operator for system $B$. Then
+It means that $tr_{A}(|a_{1}b_{1}\rangle\langle a_{2}b_{2}|) = |b_{1}\rangle\langle b_{2}| \cdot tr(|a_{1}\rangle\langle a_{2}|)$. Due to $\rho = \sum_{i}p_{i}|\psi_{i}\rangle\langle\psi_{i}|$, we can always decompose $\rho$ such that $\rho = \sum_{i,j,i',j'} c_{i,j,i',j'} |\phi_{i}^{A} \phi_{j}^{B}\rangle\langle\phi_{i'}^{A} \phi_{j'}^{B}|$. Specifically, suppose a quantum system is in the product state $\rho^{AB} = \rho \otimes \sigma$, where $\rho$ is a density operator for system $A$, and $\sigma$ is a density operator for system $B$. Then
 \begin{align}
 \rho^{A}=\operatorname{tr}_{B}(\rho \otimes \sigma)=\rho \operatorname{tr}(\sigma)=\rho
 \end{align}
-We want to proof that the two definitions are equivalent. 
+We want to proof that the two definitions are equivalent. For a matrix $|a_{1}b_{1}\rangle\langle a_{2}b_{2}|$, by definition \ref{pt2}.1, we have
+\begin{align}
+tr(|a_{1}b_{1}\rangle\langle a_{2}b_{2}|) &= \sum_{i} \langle i|^{A} I^{B}\cdot |a_{1}b_{1}\rangle\langle a_{2}b_{2}| \cdot |i\rangle^{A} I^{B} \\
+&= \sum_{i} \langle i|^{A}a_{1}\rangle\langle a_{2}|i\rangle^{A} \otimes I^{B} |b_{1}\rangle\langle b_{2}| I^{B}\\
+&= |b_{1}\rangle\langle b_{2}|tr(|a_{1}\rangle\langle a_{2}|)
+\end{align}
+so these two definitions are equivalent.
 
 \subsection{Partial trace and entangled state}
 
