@@ -205,10 +205,9 @@ in general, for $\rho = \sum_{i}p_{i}|\psi_{i}\rangle\langle \psi_{i}|$ of one p
 &= \sum_{i} p_{i}\left(|\psi_{i}^{(1)}\rangle \otimes |\phi_{i}^{(2)}\rangle\right) \cdot \left(\langle\psi_{i}^{(1)}|\otimes\langle\phi_{i}^{(2)}|\right)
 \end{align}
 
-\begin{myboxes}{Examples}{}
-\textbf{Pure state case:} particle 1 at $|0\rangle$, particle 2 at $|1\rangle$. Density matrix $\rho = |01\rangle\langle 01|$
-
-\textbf{Mixed state case:} For a two particle system, we have $\frac{1}{3}$ of chance two particles at $|\psi_{1}\rangle$, $\frac{1}{3}$ of chance two particles at $|\psi_{2}\rangle$, and $\frac{1}{3}$ of chance two particles at $|\psi_{3}\rangle$. The density matrix
+\begin{myboxes}{Examples for density matrix}{}
+\textbf{Pure state case:}\\particle 1 at $|0\rangle$, particle 2 at $|1\rangle$. Density matrix $\rho = |01\rangle\langle 01|$\\\par
+\textbf{Mixed state case:}\\For a two particle system, we have $\frac{1}{3}$ of chance two particles at $|\psi_{1}\rangle$, $\frac{1}{3}$ of chance two particles at $|\psi_{2}\rangle$, and $\frac{1}{3}$ of chance two particles at $|\psi_{3}\rangle$. The density matrix
 $$\rho = \frac{1}{3}|\psi_{1}\rangle\langle\psi_{1}| + \frac{1}{3}|\psi_{2}\rangle\langle\psi_{2}| + \frac{1}{3}|\psi_{3}\rangle\langle\psi_{3}|$$
 \end{myboxes}
 
@@ -237,12 +236,41 @@ for multi particles, we need a $\{|\psi_{i}\rangle_{\text{multi}}\}$ as a basis,
 
 \section{Partial trace}
 
-\begin{definition}{Partial trace}{}
+\begin{definition}{Partial trace for 2 particle system}{}
 Suppose we have a two particle system, then the partial trace on particle A is
 \begin{align}
 tr_{A}(\rho) = \sum_{i} \left(\langle\psi_{i}|^{A} \otimes I^{B}\right) \cdot \rho \cdot \left(|\psi_{i}\rangle^{A} \otimes I^{B}\right)
 \end{align}
 \end{definition}
+
+Here, $|\psi_{i}\rangle$ is one of the basis of particle $A$, and $\rho$ is the density matrix of the whole system. We can give an example below.
+
+\begin{myboxes}{An example of partial trace}{}
+$\rho = M_{A} \otimes M_{B}$, where $M_{A}, M_{B}$ are matrixes. For spin-1/2 particles,
+\begin{align}
+tr_{A}(\rho) &= \sum_{i} \left(\langle\psi_{i}|^{A} \otimes I^{B}\right) \cdot \rho \cdot \left(|\psi_{i}\rangle^{A} \otimes I^{B}\right) \notag\\
+&= \left(\langle0|^{A} \otimes I^{B}\right) \cdot \rho \cdot \left(|0\rangle^{A} \otimes I^{B}\right) + \left(\langle1|^{A} \otimes I^{B}\right) \cdot \rho \cdot \left(|1\rangle^{A} \otimes I^{B}\right)
+\end{align}
+where $\rho = M_{A} \otimes M_{B}$, so
+\begin{align}
+&\left(\langle0|^{A} \otimes I^{B}\right) \cdot M_{A} \otimes M_{B} \cdot \left(|0\rangle^{A} \otimes I^{B}\right) = \langle0|M_{A}|0\rangle \otimes \left(I^{B}\cdot M_{B} \cdot I^{B}\right)\\
+&= \langle0|M_{A}|0\rangle M_{B}
+\end{align}
+we can easily get that
+\begin{align}
+\left(\langle1|^{A} \otimes I^{B}\right) \cdot M_{A} \otimes M_{B} \cdot \left(|1\rangle^{A} \otimes I^{B}\right) = \langle1|M_{A}|1\rangle M_{B}
+\end{align}
+Here, $|0\rangle^{A} \otimes I^{B}$ means that
+\begin{align}
+|0\rangle^{A} \otimes I^{B} = \begin{pmatrix}1\\0\end{pmatrix} \otimes \begin{pmatrix}1&0\\0&1\end{pmatrix} = \begin{pmatrix}1\cdot\begin{pmatrix}1&0\\0&1\end{pmatrix}\\0\cdot\begin{pmatrix}1&0\\0&1\end{pmatrix}\end{pmatrix} = \begin{pmatrix}1&0\\0&1\\0&0\\0&0\end{pmatrix}
+\end{align}
+So
+\begin{align}
+tr_{A}(\rho) &= \langle0|M_{A}|0\rangle M_{B} + \langle1|M_{A}|1\rangle M_{B} \\
+&= \left(\langle0|M_{A}|0\rangle + \langle1|M_{A}|1\rangle\right) M_{B} \\
+&= tr(M_{A}) M_{B} \xlongequal{M_{A}\text{ be physical}} M_{B}
+\end{align}
+\end{myboxes}
 
 The definition here is a bit complicated, we can refer to \textit{Quantum Computation and Quantum Information, Michael A. Nielsen} and read the corresponding section. In that book, the author introduce the \textit{reduced density operator} and the \textit{partial trace} at the same time, and here is the definition in the book.\\
 
@@ -262,6 +290,7 @@ Specifically, suppose a quantum system is in the product state $\rho^{AB} = \rho
 \begin{align}
 \rho^{A}=\operatorname{tr}_{B}(\rho \otimes \sigma)=\rho \operatorname{tr}(\sigma)=\rho
 \end{align}
+We want to proof that the two definitions are equivalent. 
 
 \subsection{Partial trace and entangled state}
 
