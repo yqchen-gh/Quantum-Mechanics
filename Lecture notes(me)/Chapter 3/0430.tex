@@ -194,21 +194,25 @@
 
 \section{Coupled density matrix}
 
-For a two spin-1/2 particle, $\rho_{A}$ for the first one, $\rho_{B}$ for the second. For example, 
+A two spin-1/2 particle system, $\rho_{A}$ for the first one, $\rho_{B}$ for the second. For example, 
 \begin{align*}
 \rho_{A} = |0\rangle\langle 0| = \begin{pmatrix}1&0\\0&0\end{pmatrix},~ \rho_{B} = \frac{1}{2} I = \frac{1}{2}\begin{pmatrix}1&0\\0&1\end{pmatrix}
 \end{align*}
 $$\Rightarrow \rho = \rho_{A} \otimes \rho_{B} = \begin{pmatrix}\frac{1}{2}&0&0&0\\0&\frac{1}{2}&0&0\\0&0&0&0\\0&0&0&0\end{pmatrix}$$
-in general, for $\rho = \sum_{i}p_{i}|\psi_{i}\rangle\langle \psi_{i}|$ of one particle, the physical meaning is there is a statistics, that there is a probability $p_{i}$ for the particle at state $|\psi_{i}\rangle$. For 2 particles, the overall state is described as
+in general, for $\rho = \sum_{i}p_{i}|\psi_{i}\rangle\langle \psi_{i}|$ of one particle, the physical meaning is there is a statistics, that there is a probability $p_{i}$ for the particle at state $|\psi_{i}\rangle$. For 2 particle system, the overall state is described as
 \begin{align}
 \rho &= \sum_{i}p_{i}|\psi_{i}^{(1)}\rangle\langle\psi_{i}^{(1)}| \otimes |\phi_{i}^{(2)}\rangle\langle\phi_{i}^{(2)}| \\
 &= \sum_{i} p_{i}\left(|\psi_{i}^{(1)}\rangle \otimes |\phi_{i}^{(2)}\rangle\right) \cdot \left(\langle\psi_{i}^{(1)}|\otimes\langle\phi_{i}^{(2)}|\right)
 \end{align}
 
-\begin{myboxes}{Examples for density matrix}{}
+\begin{myboxes}{Examples of coupled density matrix}{}
 \textbf{Pure state case:}\\particle 1 at $|0\rangle$, particle 2 at $|1\rangle$. Density matrix $\rho = |01\rangle\langle 01|$\\\par
 \textbf{Mixed state case:}\\For a two particle system, we have $\frac{1}{3}$ of chance two particles at $|\psi_{1}\rangle$, $\frac{1}{3}$ of chance two particles at $|\psi_{2}\rangle$, and $\frac{1}{3}$ of chance two particles at $|\psi_{3}\rangle$. The density matrix
 $$\rho = \frac{1}{3}|\psi_{1}\rangle\langle\psi_{1}| + \frac{1}{3}|\psi_{2}\rangle\langle\psi_{2}| + \frac{1}{3}|\psi_{3}\rangle\langle\psi_{3}|$$
+if $|\psi_{1}\rangle = |00\rangle,~ |\psi_{2}\rangle = |11\rangle,~ |\psi_{3}\rangle = \frac{1}{\sqrt{2}}(|01\rangle + |10\rangle)$, for this case, because of entanglement of $|\psi_{3}\rangle$,
+\begin{align}
+\rho \ne \sum_{i} p_{i}\left(|\phi_{i}^{(1)}\rangle \otimes |\phi_{i}^{(2)}\rangle\right) \cdot \left(\langle\phi_{i}^{(1)}|\otimes\langle\phi_{i}^{(2)}|\right)
+\end{align}
 \end{myboxes}
 
 \section{Dynamics}
@@ -219,7 +223,10 @@ i\hbar\frac{\partial}{\partial t}|\psi_{i}(t)\rangle = H|\psi_{i}(t)\rangle
 \end{align}
 so
 \begin{align}
-\dot{\rho} = \frac{d}{dt} \rho = \sum_{i} p_{i}\left(\frac{d}{dt}\right)
+\dot{\rho} &= \frac{d}{dt} \rho = \sum_{i} p_{i}\left(\frac{d}{dt}|\psi_{i}(t)\rangle\right)\langle\psi_{i}(t)| + \sum_{i}p_{i}|\psi_{i}(t)\rangle \left(\frac{d}{dt}\langle\psi_{i}(t)|\right) \\
+&= \sum_{i}p_{i}\frac{H}{i\hbar} |\psi_{i}(t)\rangle\langle\psi_{i}(t)| + \sum_{i}p_{i}|\psi_{i}(t)\rangle\langle\psi_{i}(t)|\frac{H}{-i\hbar} \\
+&= \frac{1}{i\hbar} \left[H \cdot \left(\sum_{i}p_{i}|\psi_{i}(t)\rangle\langle\psi_{i}(t)|\right) - \left(\sum_{i}p_{i}|\psi_{i}(t)\rangle\langle\psi_{i}(t)|\right)\cdot H\right] \\
+&= \frac{1}{i\hbar} [H,\rho]
 \end{align}
 for multi particle system, we have $\rho_{\text{multi}}, H_{\text{multi}}$
 \begin{align}
@@ -233,6 +240,9 @@ Under basis $\{|\psi_{i}\rangle\}$,
 tr(\rho) = \sum_{i}\langle\psi_{i}|\rho|\psi_{i}\rangle
 \end{align}
 for multi particles, we need a $\{|\psi_{i}\rangle_{\text{multi}}\}$ as a basis,
+\begin{align}
+tr(\rho_{\text{multi}}) = \sum_{i}\langle\psi_{i}|_{\text{multi}}\rho_{\text{multi}}|\psi_{i}\rangle_{\text{multi}}
+\end{align}
 
 \section{Partial trace}
 
