@@ -69,6 +69,9 @@
 %网址
 \usepackage{url}
 
+%流程图
+\usepackage{tikz}
+
 %----------
 % 定理、习题与解答环境
 %----------
@@ -180,6 +183,8 @@
 \fi
 
 \renewcommand{\proofname}{\it{Solution}}
+
+
 
 %==========
 % 正文部分
@@ -315,10 +320,25 @@ If we have $\rho = |\psi\rangle\langle\psi|$, where $|\psi\rangle = \frac{1}{\sq
 \rho &= |\psi\rangle\langle\psi| = \frac{1}{2}(|00\rangle + |11\rangle)(\langle 00| + \langle 11|) \\
 &= \frac{1}{2}(|00\rangle\langle00| + |00\rangle\langle11| + |11\rangle\langle00| + |11\rangle\langle11|)
 \end{align}
+by definition \ref{pt2}.1, we have
 \begin{align}
-\Rightarrow tr_{A}(\rho) = (\langle0|\otimes I) \cdot 
+tr_{A}(\rho) &= (\langle0|\otimes I) \cdot \rho \cdot (|0\rangle \otimes I) + (\langle1|\otimes I) \cdot \rho \cdot (|1\rangle \otimes I) \\
+&= \frac{1}{2}(|0\rangle\langle0| + |1\rangle\langle1|) = \frac{1}{2} I_{B}
 \end{align}
+which is a totally mixed state. It gives no information of particle $B$'s state.
 
+\begin{center}
+\begin{tikzpicture}
+\node {$\frac{1}{\sqrt{2}}(|00\rangle + |11\rangle)$}
+child{node{Measure particle $A$}
+	child{node{$A:|0\rangle$}
+		child{node{$B:|0\rangle$}}}
+	child{node{$A:|1\rangle$}
+		child{node{$B:|1\rangle$}}}};
+\end{tikzpicture}
+\end{center}
+
+$tr_{A}(\rho)$ means we discard information of $A$, and see what we left with $B$.
 
 
 
