@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2019.3.13)  5 MAY 2019 00:30
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2019.3.13)  5 MAY 2019 00:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1483,21 +1483,31 @@ File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
 )
 [1
 
-] [2] [3]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 288.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 288.
+] [2]
+File: figures/ut.pdf Graphic file (type pdf)
+<use figures/ut.pdf>
+
+Overfull \hbox (85.35825pt too wide) in paragraph at lines 294--297
+ [] 
+ []
+
+File: figures/psit.pdf Graphic file (type pdf)
+<use figures/psit.pdf>
+[3]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 311.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 311.
  (./HW 08.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 288.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 288.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 311.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 311.
 Package rerunfilecheck Info: File `"HW 08".out' has not changed.
 (rerunfilecheck)             Checksum: .
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 288.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 311.
  ) 
 Here is how much of TeX's memory you used:
- 45370 strings out of 494906
- 929238 string characters out of 6176286
- 1142430 words of memory out of 5000000
- 48679 multiletter control sequences out of 15000+600000
+ 45388 strings out of 494906
+ 930097 string characters out of 6176286
+ 1142431 words of memory out of 5000000
+ 48695 multiletter control sequences out of 15000+600000
  545648 words of font info for 94 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  63i,11n,101p,977b,1247s stack positions out of 5000i,500n,10000p,200000b,80000s

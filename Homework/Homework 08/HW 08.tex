@@ -278,10 +278,33 @@ P_{\text{第一个粒子为}|1\rangle} = \frac{1}{N}
 
 \begin{exercise}{}{}
 Evolution of coupled spin-$\frac{1}{2}$ system.
-$$H = \Omega(\sigma_{z}\otimes I + I\otimes \sigma_{z}),~ |\psi(t=0)\rangle = \frac{1}{2}(|01\rangle + |10\rangle),$$
+$$H = \Omega(\sigma_{z}\otimes I + I\otimes \sigma_{z}),~ |\psi(t=0)\rangle = \frac{1}{\sqrt{2}}(|01\rangle + |10\rangle),$$
 find $|\psi(t)\rangle$.\\
 Hint: find the eigenstates and eigenvalues of $H$ first
 \end{exercise}
+
+\begin{proof}[解]
+可以先求出哈密顿量$H$的本征值和本征态，然后利用
+\begin{align}
+e^{\hat{A}} = \sum_{i} e^{A_{i}}|i\rangle\langle i|
+\end{align}
+来求得时间演化算符$U(t) = e^{-\frac{i}{\hbar}Ht}$。用Mathematica来求解的话，可以直接求得$U(t)$：
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=19cm]{ut}
+%\caption{}
+%\label{}
+\end{center}
+\end{figure}
+代入$|\psi(0)\rangle = \frac{1}{\sqrt{2}}(|01\rangle + |10\rangle)$，可得$|\psi(t)\rangle$为：
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=4.5cm]{psit}
+%\caption{}
+%\label{}
+\end{center}
+\end{figure}
+\end{proof}
 
 
 
