@@ -208,10 +208,50 @@
 \maketitle
 
 \begin{exercise}{}{}
-$A = \begin{pmatrix}1&1\\1&1\end{pmatrix}$, find eigenvalue $\lambda$, eigenstates $|\lambda\rangle$ of $A$. With $\sigma_{z} = \begin{pmatrix}0&1\\1&0\end{pmatrix}$, show
+$A = \begin{pmatrix}1&1\\1&1\end{pmatrix}$, find eigenvalue $\lambda$, eigenstates $|\lambda\rangle$ of $A$. With $\sigma_{z} = \begin{pmatrix}1&0\\0&-1\end{pmatrix}$, show
 $$\sigma_{z} \otimes A = \begin{pmatrix}1&1&0&0\\1&1&0&0\\0&0&-1&-1\\0&0&-1&-1\end{pmatrix},$$
 find eigenvalue and eigenvectors of $\sigma_{z}\otimes A$, show the relation with $\pm\lambda$, and $|0\rangle|\lambda\rangle$, $|1\rangle|\lambda\rangle$.
 \end{exercise}
+
+\begin{proof}[解]
+已知$A = \begin{pmatrix}1&1\\1&1\end{pmatrix}$，则本征值和本征态为
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=14cm]{A}
+%\caption{}
+%\label{}
+\end{center}
+\end{figure}
+又$\sigma_{z} = \begin{pmatrix}1&0\\0&-1\end{pmatrix}$，二者的直积$\sigma_{z} \otimes A$为
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=17cm]{otimes}
+%\caption{}
+%\label{}
+\end{center}
+\end{figure}
+同理，可以求得$\sigma_{z} \otimes A$的本征值和本征态，
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=14cm]{ZA}
+%\caption{}
+%\label{}
+\end{center}
+\end{figure}
+易知，$\sigma_{z} \otimes A$的本征值和本征态有如下关系：
+\begin{table}[H]
+%\caption{default}
+\begin{center}
+\begin{tabular}{|c|c|}\hline
+本征值 & 本征态\\\hline
+$\lambda$ & $|0\rangle|\lambda\rangle$\\\hline
+$-\lambda$ & $|1\rangle|\lambda\rangle$\\\hline
+\end{tabular}
+\end{center}
+%\label{default}
+\end{table}
+
+\end{proof}
 
 
 \begin{exercise}{}{}
