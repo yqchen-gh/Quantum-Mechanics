@@ -3,6 +3,7 @@
 %\usepackage{fontspec,xltxtra,xunicode}
 %\usepackage{times}
 \usepackage{amsmath,bm}
+\allowdisplaybreaks[4]
 \usepackage{mdwlist}
 \usepackage[colorlinks,linkcolor=blue]{hyperref}
 \usepackage{cleveref}
@@ -259,6 +260,20 @@ $-\lambda$ & $|1\rangle|\lambda\rangle$\\\hline
 $$|w_{N}\rangle \equiv \frac{1}{\sqrt{N}}(|10...0\rangle + |010...0\rangle + ... + |0...01\rangle)$$
 with all the permutation of one of the particles at state $|1\rangle$ and the other particles at $|0\rangle$ state. What is the probability of measuring $|1\rangle$ state for the first particle? If we measure $|0\rangle$ for the first particle, find the relation of the remaining state and $|w_{N-1}\rangle$.
 \end{exercise}
+
+\begin{proof}[解]
+由于$|w_{N}\rangle = \frac{1}{\sqrt{N}}(|10...0\rangle + |010...0\rangle + ... + |0...01\rangle)$，对$|w_{N}\rangle$进行测量，有$\frac{1}{N}$的概率得到态$|10...0\rangle$，即测量到第一个粒子状态为$|1\rangle$的概率为
+\begin{align}
+P_{\text{第一个粒子为}|1\rangle} = \frac{1}{N}
+\end{align}
+如果测量第一个粒子得到状态$|0\rangle$，则测量之后体系的状态变为
+\begin{align}
+|w_{N}'\rangle &= \sqrt{\frac{N}{N-1}} \frac{1}{\sqrt{N}}(|010...0\rangle + |0010...0\rangle + ... + |0...01\rangle) \\
+&= \frac{1}{\sqrt{N-1}}(|010...0\rangle + |0010...0\rangle + ... + |0...01\rangle) \\
+&= |0\rangle \otimes \frac{1}{\sqrt{N-1}}(|10...0\rangle + |010...0\rangle + ... + |0...01\rangle) \\
+&= |0\rangle \otimes |w_{N-1}\rangle
+\end{align}
+\end{proof}
 
 
 \begin{exercise}{}{}
