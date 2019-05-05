@@ -2,6 +2,34 @@
 
 We put lecture notes and solutions of homework of Prof. Yiheng Lin's quantum mechanics course here. 
 
+## Lecture notes
+
+### Chapter 1: Introduction to quantum mechanics
+
+|Teacher|Yuquan|
+|---|---|
+|[0226 Motivation](https://github.com/YQChen-QI/Quantum-Mechanics/blob/master/Lecture%20notes(teacher)/Chapter%201/0226%20motivation.pdf)|
+|[0226](https://github.com/YQChen-QI/Quantum-Mechanics/blob/master/Lecture%20notes(teacher)/Chapter%201/0226.pdf)|
+|[0305](https://github.com/YQChen-QI/Quantum-Mechanics/blob/master/Lecture%20notes(teacher)/Chapter%201/0305.pdf)|
+|[0312](https://github.com/YQChen-QI/Quantum-Mechanics/blob/master/Lecture%20notes(teacher)/Chapter%201/0312.pdf)|
+
+### Chapter 2: Quantum dynamics
+
+|Teacher|Yuquan|
+|---|---|
+|[0319](https://github.com/YQChen-QI/Quantum-Mechanics/blob/master/Lecture%20notes(teacher)/Chapter%202/0319.pdf)|[0319](https://github.com/YQChen-QI/Quantum-Mechanics/blob/master/Lecture%20notes(me)/Chapter%202/0319.pdf)|
+|[0326](https://github.com/YQChen-QI/Quantum-Mechanics/blob/master/Lecture%20notes(teacher)/Chapter%202/0326.pdf)|[0326](https://github.com/YQChen-QI/Quantum-Mechanics/blob/master/Lecture%20notes(me)/Chapter%202/0326.pdf)|
+|[0402](https://github.com/YQChen-QI/Quantum-Mechanics/blob/master/Lecture%20notes(teacher)/Chapter%202/0402.pdf)|
+|[0409](https://github.com/YQChen-QI/Quantum-Mechanics/blob/master/Lecture%20notes(teacher)/Chapter%202/0409.pdf)|
+
+### Chapter 3: Angular momentum
+
+|Teacher|Yuquan|
+|---|---|
+|[0416](https://github.com/YQChen-QI/Quantum-Mechanics/blob/master/Lecture%20notes(teacher)/Chapter%203/0416.pdf)|[0416](https://github.com/YQChen-QI/Quantum-Mechanics/blob/master/Lecture%20notes(me)/Chapter%203/0416.pdf)|
+|[0423](https://github.com/YQChen-QI/Quantum-Mechanics/blob/master/Lecture%20notes(teacher)/Chapter%203/0423.pdf)|[0423](https://github.com/YQChen-QI/Quantum-Mechanics/blob/master/Lecture%20notes(me)/Chapter%203/0423.pdf)|
+|[0430](https://github.com/YQChen-QI/Quantum-Mechanics/blob/master/Lecture%20notes(teacher)/Chapter%203/0430.pdf)|[0430](https://github.com/YQChen-QI/Quantum-Mechanics/blob/master/Lecture%20notes(me)/Chapter%203/0430.pdf)|
+
 ## GitHub tutorial
 
 If you still don't know what is GitHub, or how to use it, I strongly recommend [Xiaolai's self-teaching Repo](https://github.com/selfteaching/the-craft-of-selfteaching/) for you. I refered to that book in the following tutorial.
