@@ -11,6 +11,8 @@
 
 ## Chapter 3: Angular momentum
 
+[0416](https://github.com/YQChen-QI/Quantum-Mechanics/blob/master/Lecture%20notes(me)/Chapter%203/0416.pdf)
+
 [0423](https://github.com/YQChen-QI/Quantum-Mechanics/blob/master/Lecture%20notes(me)/Chapter%203/0423.pdf)
 
 [0430](https://github.com/YQChen-QI/Quantum-Mechanics/blob/master/Lecture%20notes(me)/Chapter%203/0430.pdf)
