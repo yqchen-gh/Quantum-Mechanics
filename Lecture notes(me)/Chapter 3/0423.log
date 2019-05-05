@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2019.3.13)  30 APR 2019 17:22
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2019.3.13)  5 MAY 2019 13:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1483,26 +1483,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 217--218
 
 [1
 
-] [2] [3]
-Underfull \hbox (badness 10000) in paragraph at lines 294--295
+] [2]
+Underfull \hbox (badness 10000) in paragraph at lines 296--297
 
  []
 
-[4] [5]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 361.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 361.
+[3] [4] [5]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 363.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 363.
  (./0423.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 361.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 361.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 363.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 363.
 Package rerunfilecheck Info: File `0423.out' has not changed.
 (rerunfilecheck)             Checksum: C171987072626088C55CC5EAA122243F.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 361.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 363.
  ) 
 Here is how much of TeX's memory you used:
- 45298 strings out of 494906
- 926572 string characters out of 6176286
- 1146902 words of memory out of 5000000
- 48617 multiletter control sequences out of 15000+600000
+ 45303 strings out of 494906
+ 926740 string characters out of 6176286
+ 1147902 words of memory out of 5000000
+ 48622 multiletter control sequences out of 15000+600000
  545640 words of font info for 93 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  63i,15n,101p,979b,1248s stack positions out of 5000i,500n,10000p,200000b,80000s
