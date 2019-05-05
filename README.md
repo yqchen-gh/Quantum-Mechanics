@@ -1,6 +1,6 @@
 # Quantum-Mechanics
 
-We put lecture notes and solutions of homework of Prof. Yiheng Lin's quantum mechanics course here. 
+We put lecture notes and solutions of homework of Prof. Yiheng Lin's quantum mechanics course here. The texbook for this course is Sakurai's [Modern Quantum Mechanics](https://github.com/YQChen-QI/Quantum-Mechanics/blob/master/Modern%20Quantum%20Mechanics%20%5BJ.J.Sakurai%5D.pdf), you can download part of the solutions of the exercises in the texbook [here](https://github.com/YQChen-QI/Quantum-Mechanics/blob/master/Modern%20Quantum%20Mechanics%20Solutions%20%5BJ.J.Sakurai%5D.pdf).
 
 ## Lecture notes
 
