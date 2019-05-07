@@ -148,7 +148,7 @@
 }{myboxes}
 
 %习题环境
-\newtcbtheorem[number within=section]{exercise}{Problem}{
+\newtcbtheorem[]{exercise}{Problem}{
      enhanced,
      breakable,
      sharp corners,
@@ -188,12 +188,17 @@
 
 \begin{document}
 
-\title{Exam 2}
+\title{Quiz 2}
 %\author{Yuquan Chen}
 \date{} % 若不需要自动插入日期，则去掉前面的注释；{ } 中也可以自定义日期格式
 \maketitle
 
+\begin{exercise}{}{}
+One dimensional infinity deep square well (20 points)\\
+For a particle with mass $m$ in a potential 
+$$V(x) = \begin{cases}+\infty & x<-\frac{a}{2 }\\ 0 & -\frac{a}{2}\le x\le \frac{a}{2} \\ +\infty & x>\frac{a}{2}\end{cases},$$
 
+\end{exercise}
 
 
 \end{document}
