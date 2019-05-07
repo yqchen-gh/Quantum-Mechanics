@@ -31,6 +31,12 @@ We put lecture notes and solutions of homework of Prof. Yiheng Lin's quantum mec
 |[0430](https://github.com/YQChen-QI/Quantum-Mechanics/blob/master/Lecture%20notes(teacher)/Chapter%203/0430.pdf)|[0430](https://github.com/YQChen-QI/Quantum-Mechanics/blob/master/Lecture%20notes(me)/Chapter%203/0430.pdf)|
 |[0507](https://github.com/YQChen-QI/Quantum-Mechanics/blob/master/Lecture%20notes(teacher)/Chapter%203/0507.pdf)|[0507](https://github.com/YQChen-QI/Quantum-Mechanics/blob/master/Lecture%20notes(me)/Chapter%203/0507.pdf)|
 
+### Chapter 4: Particle dynamics in 3D space
+
+|Teacher|Yuquan|
+|---|---|
+|[0507]()|[0507]()|
+
 ## GitHub tutorial
 
 If you still don't know what is GitHub, or how to use it, I strongly recommend [Xiaolai's self-teaching Repo](https://github.com/selfteaching/the-craft-of-selfteaching/) for you. I refered to that book in the following tutorial.
