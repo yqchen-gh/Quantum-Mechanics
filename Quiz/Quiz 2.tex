@@ -255,5 +255,22 @@ $$H = \hbar\omega\sigma_{x},~ |\psi,t=0\rangle = \begin{pmatrix}1\\0\end{pmatrix
 \end{enumerate*}
 \end{exercise}
 
+\begin{proof}[Solution]~\par
+(1) The time evolution operator
+\begin{align}
+U(t) &= e^{\frac{-iHt}{\hbar}} = e^{-i\omega t\sigma_{x}} = \cos(\omega t)I - i\sin(\omega t)\sigma_{x} \\
+&= \begin{pmatrix}\cos(\omega t) & -i\sin(\omega t)\\-i\sin(\omega t) & \cos(\omega t)\end{pmatrix}
+\end{align}\par
+(2) We have $|\psi,0\rangle = \begin{pmatrix}1\\0\end{pmatrix}$, then
+\begin{align}
+|\psi,t\rangle = U(t)|\psi,0\rangle = \begin{pmatrix}\cos(\omega t) & -i\sin(\omega t)\\-i\sin(\omega t) & \cos(\omega t)\end{pmatrix} \begin{pmatrix}1\\0\end{pmatrix} = \begin{pmatrix}\cos(\omega t)\\-i\sin(\omega t)\end{pmatrix}
+\end{align}\par
+(3) We know $\sigma_{z} = \begin{pmatrix}1 & 0\\0 & -1\end{pmatrix}$, so
+\begin{align}
+\langle\psi,t|\sigma_{z}|\psi,t\rangle &= \begin{pmatrix}\cos\omega t& i\sin\omega t\end{pmatrix}\begin{pmatrix}1 & 0\\0 & -1\end{pmatrix}\begin{pmatrix}\cos\omega t \\ -i\sin\omega t\end{pmatrix} \\
+&= \cos^{2}\omega t - \sin^{2}\omega t = \cos(2\omega t)
+\end{align}
+\end{proof}
+
 
 \end{document}
