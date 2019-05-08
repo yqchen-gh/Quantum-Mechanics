@@ -193,14 +193,48 @@
 \date{} % 若不需要自动插入日期，则去掉前面的注释；{ } 中也可以自定义日期格式
 \maketitle
 
-\begin{exercise}{}{}
-One dimensional infinity deep square well (20 points)\\
+\begin{exercise}{20 points}{}
+One dimensional infinity deep square well\\
 For a particle with mass $m$ in a potential 
 $$V(x) = \begin{cases}+\infty & x<-\frac{a}{2 }\\ 0 & -\frac{a}{2}\le x\le \frac{a}{2} \\ +\infty & x>\frac{a}{2}\end{cases},$$
 \begin{enumerate*}
-\item 
+\item (5 pts) write out the eigen energy $E_{n}$
+\item (5 pts) write out the eigen wave function in position space $\phi_{n}(x)$
+\item (10 pts) with $\psi(x,t=0) = \sqrt{\frac{1}{a}}\left(\cos\left(\frac{\pi x}{a}\right) - \sin\left(\frac{2\pi x}{a}\right)\right)$, derive and find $\psi(x, t = \frac{2ma^{2}}{\pi \hbar})$, hint: $\sin(x+y) = \sin(x)\cos(y) + \cos(x)\sin(y)$
 \end{enumerate*}
+\end{exercise}
 
+\begin{proof}[Solution]~\par
+(1) $E_{n} = \frac{n^{2}\pi^{2}\hbar^{2}}{2ma^{2}}$\par
+(2) $\phi_{n}(x) = \sqrt{\frac{2}{a}}\sin\left(\frac{n\pi x}{a} + \frac{n\pi}{2}\right)$\par
+(3) When $t = 0$,
+\begin{align}
+\psi(x,0) &= \sqrt{\frac{1}{a}}\cos\left(\frac{\pi x}{a}\right) - \sqrt{\frac{1}{a}}\sin\left(\frac{2\pi x}{a}\right) \\
+&= \sqrt{\frac{1}{2}}\sqrt{\frac{2}{a}}\sin\left(\frac{\pi x}{a} + \frac{\pi}{2}\right) + \sqrt{\frac{1}{2}}\sqrt{\frac{2}{a}}\sin\left(\frac{2\pi x}{a} + \frac{2\pi}{2}\right) \\
+&= \sqrt{\frac{1}{2}}\phi_{1} + \sqrt{\frac{1}{2}}\phi_{2}
+\end{align}
+so
+\begin{align}
+\psi(x,t) = \sqrt{\frac{1}{2}}e^{\frac{iE_{1}t}{\hbar}}\phi_{1} + \sqrt{\frac{1}{2}}e^{\frac{iE_{2}t}{\hbar}}\phi_{2}
+\end{align}
+where $E_{1} = \frac{\pi^{2}\hbar^{2}}{2ma^{2}},~ E_{2} = \frac{4\pi^{2}\hbar^{2}}{2ma^{2}},~ t = \frac{2ma^{2}}{\pi\hbar}$, so
+\begin{align}
+\psi(x,t) = -\sqrt{\frac{1}{2}}\phi_{1} + \sqrt{\frac{1}{2}}\phi_{2}
+\end{align}
+\end{proof}
+
+\begin{exercise}{15 points}{}
+One dimensional Harmonic Oscillator
+$$H = \frac{\hat{p}^{2}}{2m} + \frac{1}{2}m\omega^{2}\hat{x}^{2}$$
+with
+$$a = \frac{1}{\sqrt{\hbar\omega}}\left(i\frac{\hat{p}}{\sqrt{2m}} + \sqrt{\frac{1}{2}m\omega^{2}}\hat{x}\right),~ a^{\dag} = \frac{1}{\sqrt{\hbar\omega}}\left(-i\frac{\hat{p}}{\sqrt{2m}} + \sqrt{\frac{1}{2}m\omega^{2}}\hat{x}\right)$$
+\begin{enumerate*}
+\item (2 pts) write out $[a,a^{\dag}]$
+\item (1 pt) $a|n\rangle$
+\item (1 pt) $a^{\dag}|n\rangle$
+\item (1 pt) $E_{n}$
+\item (10 pts) derive and evaluate $a^{3}(a^{\dag})^{2}|n=0\rangle$
+\end{enumerate*}
 \end{exercise}
 
 

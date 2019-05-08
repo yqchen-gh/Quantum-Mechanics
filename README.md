@@ -2,7 +2,7 @@
 
 We put lecture notes and solutions of homework of Prof. Yiheng Lin's quantum mechanics course here. The texbook for this course is Sakurai's [Modern Quantum Mechanics](https://github.com/YQChen-QI/Quantum-Mechanics/blob/master/Modern%20Quantum%20Mechanics%20%5BJ.J.Sakurai%5D.pdf), you can download part of the solutions of the exercises in the texbook [here](https://github.com/YQChen-QI/Quantum-Mechanics/blob/master/Modern%20Quantum%20Mechanics%20Solutions%20%5BJ.J.Sakurai%5D.pdf).
 
-## Lecture notes
+## Lecture notes & Quizzes
 
 ### Chapter 1: Introduction to quantum mechanics
 
@@ -21,6 +21,8 @@ We put lecture notes and solutions of homework of Prof. Yiheng Lin's quantum mec
 |[0326](https://github.com/YQChen-QI/Quantum-Mechanics/blob/master/Lecture%20notes(teacher)/Chapter%202/0326.pdf)|[0326](https://github.com/YQChen-QI/Quantum-Mechanics/blob/master/Lecture%20notes(me)/Chapter%202/0326.pdf)|
 |[0402](https://github.com/YQChen-QI/Quantum-Mechanics/blob/master/Lecture%20notes(teacher)/Chapter%202/0402.pdf)|
 |[0409](https://github.com/YQChen-QI/Quantum-Mechanics/blob/master/Lecture%20notes(teacher)/Chapter%202/0409.pdf)|
+
+[Quiz](https://github.com/YQChen-QI/Quantum-Mechanics/blob/master/Quiz/Quiz%202.pdf)
 
 ### Chapter 3: Angular momentum
 
