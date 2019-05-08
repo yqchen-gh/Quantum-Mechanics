@@ -194,7 +194,7 @@
 \maketitle
 
 \begin{exercise}{20 points}{}
-One dimensional infinity deep square well\\
+One dimensional infinity deep square well.\\
 For a particle with mass $m$ in a potential 
 $$V(x) = \begin{cases}+\infty & x<-\frac{a}{2 }\\ 0 & -\frac{a}{2}\le x\le \frac{a}{2} \\ +\infty & x>\frac{a}{2}\end{cases},$$
 \begin{enumerate*}
@@ -234,6 +234,24 @@ $$a = \frac{1}{\sqrt{\hbar\omega}}\left(i\frac{\hat{p}}{\sqrt{2m}} + \sqrt{\frac
 \item (1 pt) $a^{\dag}|n\rangle$
 \item (1 pt) $E_{n}$
 \item (10 pts) derive and evaluate $a^{3}(a^{\dag})^{2}|n=0\rangle$
+\end{enumerate*}
+\end{exercise}
+
+\begin{proof}[Solution]~\par
+(1) $[a,a^{\dag}] = 1$\par
+(2) $a|n\rangle = \sqrt{n}|n-1\rangle$\par
+(3) $a^{\dag}|n\rangle = \sqrt{n+1}|n+1\rangle$\par
+(4) $E_{n} = \hbar\omega(n + \frac{1}{2})$\par
+(5) $a^{3}a^{\dag}a^{\dag}|0\rangle = a^{3}a^{\dag}|1\rangle = a^{3}\sqrt{2}|2\rangle = 0$
+\end{proof}
+
+\begin{exercise}{15 points}{}
+Dynamic of a spin-$\frac{1}{2}$ particle
+$$H = \hbar\omega\sigma_{x},~ |\psi,t=0\rangle = \begin{pmatrix}1\\0\end{pmatrix}$$
+\begin{enumerate*}
+\item (5 pts) find $U = e^{-\frac{iHt}{\hbar}}$
+\item (5 pts) find $|\psi,t\rangle$
+\item (5 pts) evaluate $\langle\psi,t|\sigma_{z}|\psi,t\rangle$ to find the average value of measuring along $\sigma_{z}$ over time.
 \end{enumerate*}
 \end{exercise}
 
