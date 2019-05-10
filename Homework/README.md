@@ -23,3 +23,5 @@
 |[Homework 07](https://github.com/YQChen-QI/Quantum-Mechanics/blob/master/Homework/Homework%2007/Problems.pdf)|[Homework 07](https://github.com/YQChen-QI/Quantum-Mechanics/blob/master/Homework/Homework%2007/HW%2007.pdf)|
 |[Homework 08](https://github.com/YQChen-QI/Quantum-Mechanics/blob/master/Homework/Homework%2008/Problems.pdf)|[Homework 08](https://github.com/YQChen-QI/Quantum-Mechanics/blob/master/Homework/Homework%2008/HW%2008.pdf)|
 |[Homework 09](https://github.com/YQChen-QI/Quantum-Mechanics/blob/master/Homework/Homework%2009/Problems.pdf)|[Homework 09](https://github.com/YQChen-QI/Quantum-Mechanics/blob/master/Homework/Homework%2009/HW%2009.pdf)|
+
+## Chapter 4: Particle dynamics in 3D space
