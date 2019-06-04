@@ -193,7 +193,51 @@
 \date{2019/04/16} % 若不需要自动插入日期，则去掉前面的注释；{ } 中也可以自定义日期格式
 \maketitle
 
+We have discussed position and momentum operator before, now let's consider the rotation of a system, which leads to angular position and angular momentum. Before we dive in, there's some prerequisites we should know.
 
+\section{Some prerequisites}
+
+In a 3D system, we use $\vec{r} = (x,y,z)$ to represent the coordinate, and the momentum is $\vec{p} = (p_{x}, p_{y}, p_{z})$. In position representation, we have $p_{x} \leftrightarrow -i\hbar \frac{\partial}{\partial x}$, $p_{y} \leftrightarrow -i\hbar \frac{\partial}{\partial y}$, and $p_{z} \leftrightarrow -i\hbar \frac{\partial}{\partial z}$, together we get $\vec{p} = (-i\hbar \frac{\partial}{\partial x}, -i\hbar \frac{\partial}{\partial y}, -i\hbar \frac{\partial}{\partial z}) = -i\hbar \vec{\nabla}$.
+
+Now let's switch to spherical coordinate $(r, \theta, \varphi)$.
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=4cm]{sph}
+%\caption{}
+%\label{}
+\end{center}
+\end{figure}
+
+For a point in space, we use a ket $|\psi\rangle$ to represent it,
+\begin{align*}
+\begin{cases}x = r\sin\theta\cos\varphi \\ y = r\sin\theta\sin\varphi \\ z = r\cos\theta\end{cases} \Rightarrow r = \sqrt{x^{2} + y^{2} +z^{2}}
+\end{align*}
+now let's consider a rotation along $\hat{z}$ direction. Here $\varphi$ becomes $\varphi + d\varphi$, and $r,\theta$ remain the same. We have 
+\begin{align}
+|x,y,z\rangle \xrightarrow{\text{rotation}} |x', y', z'\rangle
+\end{align}
+and the corresponding
+\begin{align}
+(r,\theta,\varphi) \xrightarrow{\text{rotation}} (r, \theta, \varphi + d\varphi)
+\end{align}
+then we try to find out the expression of $x',y',z'$ in terms of $r,\theta,\varphi, d\varphi$
+\begin{align}
+\begin{cases}
+x' = r\sin\theta\cos(\varphi+d\varphi) \simeq r\sin\theta\cos\varphi - r\sin\theta\sin\varphi d\varphi \\
+y' = r\sin\theta\sin(\varphi+d\varphi) \simeq  r\sin\theta\sin\varphi + r\sin\theta\cos\varphi d\varphi \\
+z' = r\cos\theta = z
+\end{cases}
+\Rightarrow \begin{cases}
+x' = x - yd\varphi\\
+y' = y + xd\varphi\\
+z' = z
+\end{cases}
+\end{align}
+
+On a spin-$\frac{1}{2}$ system, we have Pauli operators $\sigma_{x}, \sigma_{y}, \sigma_{z}$. In the $\sigma_{z}$ basis, we have
+\begin{align}
+\sigma_{x} = \begin{pmatrix}0&1\\1&0\end{pmatrix}, \sigma_{y} = \begin{pmatrix}0&-i\\i&0\end{pmatrix}, \sigma_{z} = \begin{pmatrix}1&0\\0&-1\end{pmatrix}
+\end{align}
 
 
 \end{document}
