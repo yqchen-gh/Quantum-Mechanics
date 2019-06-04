@@ -33,11 +33,24 @@ We put lecture notes and solutions of homework of Prof. Yiheng Lin's quantum mec
 |[0430](https://github.com/YQChen-QI/Quantum-Mechanics/blob/master/Lecture%20notes(teacher)/Chapter%203/0430.pdf)|[0430](https://github.com/YQChen-QI/Quantum-Mechanics/blob/master/Lecture%20notes(me)/Chapter%203/0430.pdf)|
 |[0507](https://github.com/YQChen-QI/Quantum-Mechanics/blob/master/Lecture%20notes(teacher)/Chapter%203/0507.pdf)|[0507](https://github.com/YQChen-QI/Quantum-Mechanics/blob/master/Lecture%20notes(me)/Chapter%203/0507.pdf)|
 
+[Quiz]()
+
 ### Chapter 4: Particle dynamics in 3D space
 
 |Teacher|Yuquan|
 |---|---|
 |[0507](https://github.com/YQChen-QI/Quantum-Mechanics/blob/master/Lecture%20notes(teacher)/Chapter%204/0507.pdf)|[0507](https://github.com/YQChen-QI/Quantum-Mechanics/blob/master/Lecture%20notes(me)/Chapter%204/0507.pdf)|
+|[0514](https://github.com/YQChen-QI/Quantum-Mechanics/blob/master/Lecture%20notes(teacher)/Chapter%204/0514.pdf)||
+|[0521](https://github.com/YQChen-QI/Quantum-Mechanics/blob/master/Lecture%20notes(teacher)/Chapter%204/0521.pdf)||
+
+### Chapter 5: Approximation methods
+
+| Teacher                                                      | Yuquan |
+| ------------------------------------------------------------ | ------ |
+| [0521](https://github.com/YQChen-QI/Quantum-Mechanics/blob/master/Lecture%20notes(teacher)/Chapter%205/0521.pdf) |        |
+| [0528](https://github.com/YQChen-QI/Quantum-Mechanics/blob/master/Lecture%20notes(teacher)/Chapter%205/0528.pdf) |        |
+
+
 
 ## GitHub tutorial
 
