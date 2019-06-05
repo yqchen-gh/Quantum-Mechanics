@@ -249,10 +249,38 @@ define the spin operator,
 \vec{\sigma} = (\sigma_{x}, \sigma_{y}, \sigma_{z})
 \end{cases}
 \end{align}
-here we should mention that $[S_{k}, S_{l}] = i\hbar\varepsilon_{klm}S_{m}$ is generally true for angular momentum operators, including spin-$\frac{1}{2}$ operators.
+here we should mention that $\boxed{[S_{k}, S_{l}] = i\hbar\varepsilon_{klm}S_{m}}$ is generally true for angular momentum operators, including spin-$\frac{1}{2}$ operators.
 
 \begin{align}
 \vec{S}^{2} = S_{x}^{2} + S_{y}^{2} + S_{z}^{2} = \frac{\hbar^{2}}{4} \left(\sigma_{x}^{2} + \sigma_{y}^{2} + \sigma_{z}^{2}\right) = \frac{3}{4} \hbar^{2} I
 \end{align}
+notice that for each $k$ in $x, y, z$, we have $\boxed{\sigma_{k}^{2} = I}$ so $\vec{S}^{2} \propto I$, and we also have $\boxed{[\vec{S}^{2}, S_{k}] = 0}$. If we define unite length vector
+\begin{align}
+\vec{n} = (\sin\theta\cos\varphi, \sin\theta\sin\varphi, \cos\theta)
+\end{align}
+we have
+\begin{align}
+\vec{\sigma}\cdot\vec{n} = \sigma_{x}\sin\theta\cos\varphi + \sigma_{y}\sin\theta\sin\varphi + \sigma_{z}\cos\theta
+\end{align}
+Noticed that if you try to use Mathematica to implement $\vec{\sigma}\cdot\vec{n}$, use the expression $\vec{n}\cdot\vec{\sigma}$ instead. When we are dealing with matrix exponential, we use Taylor expansion
+\begin{align}
+e^{i\phi\hat{\sigma}_{x}} = I + i\phi \sigma_{x} - \frac{\phi^{2}\sigma_{x}^{2}}{2!} + \frac{i\phi^{3}\sigma_{x}^{3}}{3!} - ...
+\end{align}
+we use
+\begin{align}
+\begin{cases}
+e^{\hat{A}} = I + \hat{A} + \frac{\hat{A}^{2}}{2!} + ... + \frac{\hat{A}^{n}}{n!} + ...\\
+\sigma_{x}^{2} = I
+\end{cases}
+\end{align}
+to get
+\begin{align}
+e^{i\phi\hat{\sigma}_{x}} &= \left(I - \frac{\phi^{2}}{2!}I + \frac{\phi^{4}}{4!}I - ...\right) + i\sigma_{x} \left(\phi - \frac{\phi^{3}}{3!} + \frac{\phi^{5}}{5!} - ...\right) \\
+&= \cos\phi I + i\sin\phi\sigma_{x}
+\end{align}
+
+\section{Orbital angular momentum}
+
+Let's consider a small rotation: $\varphi \rightarrow \varphi + d\varphi$
 
 \end{document}
