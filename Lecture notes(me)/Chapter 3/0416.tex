@@ -281,6 +281,76 @@ e^{i\phi\hat{\sigma}_{x}} &= \left(I - \frac{\phi^{2}}{2!}I + \frac{\phi^{4}}{4!
 
 \section{Orbital angular momentum}
 
-Let's consider a small rotation: $\varphi \rightarrow \varphi + d\varphi$
+Let's consider a small rotation: $\varphi \rightarrow \varphi + d\varphi$,
+\begin{align}
+\begin{cases}
+x' \simeq x - yd\varphi \\
+y' \simeq y + xd\varphi \\
+z' = z
+\end{cases}
+\end{align}
+if we have a state $|\psi\rangle$ expressed in position coordinate $\langle x,y,z|\psi\rangle = \psi(x,y,z)$ (we can also write it in spherical basis $\psi(r,\theta,\varphi)$, as we discussed above), then we apply a rotation to the state, we get from
+\begin{align}
+\psi(r,\theta,\varphi) \rightarrow \psi(r,\theta,\varphi - d\varphi)
+\end{align}
+and we know
+\begin{align}
+\psi(r,\theta,\varphi - d\varphi) \simeq \psi(r,\theta,\varphi) - d\varphi \cdot \frac{\partial}{\partial \varphi} \psi(r,\theta,\varphi)
+\end{align}
+we can express this small rotation as
+\begin{align}
+I - \frac{\partial}{\partial\varphi} = I + \frac{1}{i\hbar}\hat{L}_{z}
+\end{align}
+here we can see the relationship:
+\begin{align}
+\hat{L}_{z} \xlongequal{\varphi\text{ coordinate}} -i\hbar\frac{\partial}{\partial\varphi} \longleftrightarrow p_{x} \xlongequal{x\text{ coordinate}} -i\hbar\frac{\partial}{\partial x}
+\end{align}
+then we express $\hat{L}_{z}$ in $x,y,z$ coordinates,
+\begin{align}
+\psi(x,y,z) \xrightarrow{I - \frac{\partial}{\partial \varphi}} \psi(x', y', z')
+\end{align}
+rotate axis along $z$ by $d\varphi$
+\begin{align}
+\begin{cases}
+x' = x - yd\varphi \\
+y' = y + xd\varphi \\
+z' = z
+\end{cases}
+\xrightarrow{\text{want } -d\varphi}
+\begin{cases}
+x' = x + yd\varphi \\
+y' = y - xd\varphi \\
+z' = z
+\end{cases}
+\end{align}
+so
+\begin{align}
+\psi(x', y', z') &\simeq \psi(x + yd\varphi, y - xd\varphi,z) \\
+&= \psi(x,y,z) + yd\varphi\frac{\partial}{\partial x}\psi(x,y,z) - xd\varphi\frac{\partial}{\partial y}\psi(x,y,z)
+\end{align}
+we have
+\begin{align}
+p_{x} \leftrightarrow -i\hbar\frac{\partial}{\partial x},~ p_{y} \leftrightarrow -i\hbar\frac{\partial}{\partial y}
+\end{align}
+so
+\begin{align}
+\psi(x', y', z') &= \psi(x,y,z) + yd\varphi\left(\frac{\hat{p}_{x}}{-i\hbar}\right)\psi(x,y,z) - xd\varphi\left(\frac{\hat{p}_{y}}{-i\hbar}\right)\psi(x,y,z) \\
+&= \left(I + \frac{1}{-i\hbar}d\varphi(yp_{x} - xp_{y})\right) \psi(x,y,z) \\
+&= \left(I + \frac{1}{i\hbar}\hat{L}_{z}\right) \psi(x,y,z)
+\end{align}
+
+So $\hat{L}_{z}$ expressed with $x,y,z$ coordinate with respected operators should be
+\begin{align}
+\hat{L}_{z} = \hat{x}\hat{p}_{y} - \hat{y}\hat{p}_{x}
+\end{align}
+similarly, we an write out the $\hat{L}_{x}$ and $\hat{L}_{y}$. In total,
+\begin{align}
+\boxed{\begin{cases}
+\hat{L}_{x} = \hat{y}\hat{p}_{z} - \hat{z}\hat{p}_{y} \\
+\hat{L}_{y} = \hat{z}\hat{p}_{x} - \hat{x}\hat{p}_{z} \\
+\hat{L}_{z} = \hat{x}\hat{p}_{y} - \hat{y}\hat{p}_{x}
+\end{cases}}
+\end{align}
+which is the same as classical mechanics $\vec{L} = \vec{r} \times \vec{p}$, so we get an orbital angular momentum operator in analog to classical.
 
 \end{document}
