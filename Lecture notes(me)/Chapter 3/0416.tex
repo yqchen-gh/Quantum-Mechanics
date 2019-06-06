@@ -209,9 +209,10 @@ Now let's switch to spherical coordinate $(r, \theta, \varphi)$.
 \end{figure}
 
 For a point in space, we use a ket $|\psi\rangle$ to represent it,
-\begin{align*}
+\begin{align}
 \begin{cases}x = r\sin\theta\cos\varphi \\ y = r\sin\theta\sin\varphi \\ z = r\cos\theta\end{cases} \Rightarrow r = \sqrt{x^{2} + y^{2} +z^{2}}
-\end{align*}
+\label{coordinate}
+\end{align}
 now let's consider a rotation along $\hat{z}$ direction. Here $\varphi$ becomes $\varphi + d\varphi$, and $r,\theta$ remain the same. We have 
 \begin{align}
 |x,y,z\rangle \xrightarrow{\text{rotation}} |x', y', z'\rangle
@@ -262,6 +263,7 @@ we have
 \begin{align}
 \vec{\sigma}\cdot\vec{n} = \sigma_{x}\sin\theta\cos\varphi + \sigma_{y}\sin\theta\sin\varphi + \sigma_{z}\cos\theta
 \end{align}
+
 Noticed that if you try to use Mathematica to implement $\vec{\sigma}\cdot\vec{n}$, use the expression $\vec{n}\cdot\vec{\sigma}$ instead. When we are dealing with matrix exponential, we use Taylor expansion
 \begin{align}
 e^{i\phi\hat{\sigma}_{x}} = I + i\phi \sigma_{x} - \frac{\phi^{2}\sigma_{x}^{2}}{2!} + \frac{i\phi^{3}\sigma_{x}^{3}}{3!} - ...
@@ -343,7 +345,7 @@ So $\hat{L}_{z}$ expressed with $x,y,z$ coordinate with respected operators shou
 \begin{align}
 \hat{L}_{z} = \hat{x}\hat{p}_{y} - \hat{y}\hat{p}_{x}
 \end{align}
-similarly, we an write out the $\hat{L}_{x}$ and $\hat{L}_{y}$. In total,
+similarly, we can write out the $\hat{L}_{x}$ and $\hat{L}_{y}$. In total,
 \begin{align}
 \boxed{\begin{cases}
 \hat{L}_{x} = \hat{y}\hat{p}_{z} - \hat{z}\hat{p}_{y} \\
@@ -351,6 +353,13 @@ similarly, we an write out the $\hat{L}_{x}$ and $\hat{L}_{y}$. In total,
 \hat{L}_{z} = \hat{x}\hat{p}_{y} - \hat{y}\hat{p}_{x}
 \end{cases}}
 \end{align}
-which is the same as classical mechanics $\vec{L} = \vec{r} \times \vec{p}$, so we get an orbital angular momentum operator in analog to classical.
+which is the same as classical mechanics $\vec{L} = \vec{r} \times \vec{p}$, so we get an orbital angular momentum operator in analog to classical. For now, we've already find out the $\hat{L}_{x}, \hat{L}_{y}, \hat{L}_{z}$ represented in $x,y,z$ coordinate. Let's try to write them in $r,\theta,\varphi$ coordinate. We can replace the $\hat{p}_{i}$ as $-i\hbar\frac{\partial}{\partial i}$, and use (\ref{coordinate}) to replace $x,y,z$ to $r,\theta,\varphi$.
+\begin{align}
+\begin{cases}
+L_{x} = i\hbar\left(\sin\varphi\frac{\partial}{\partial\varphi} + \cot\theta\cos\varphi\frac{\partial}{\partial\varphi}\right) \\
+L_{y} = i\hbar\left(-\cos\varphi\frac{\partial}{\partial\theta} + \cot\theta\sin\varphi\frac{\partial}{\partial\varphi}\right) \\
+L_{z} = -i\hbar\frac{\partial}{\partial\varphi}
+\end{cases}
+\end{align}
 
 \end{document}
