@@ -362,4 +362,34 @@ L_{z} = -i\hbar\frac{\partial}{\partial\varphi}
 \end{cases}
 \end{align}
 
+After defined $L_{i}$ in both $x,y,z$ and $r,\theta, \varphi$ coordinates, we can now explore some properties of orbital angular momentum.
+\begin{enumerate*}
+\item $[L_{x}, L_{y}] = i\hbar L_{z}$
+\begin{proof}[Proof]
+We already know
+\begin{align}
+\begin{cases}
+[x, p_{x}] = i\hbar \\
+[x,y] = [x,p_{y}] = [p_{x}, p_{y}] = 0
+\end{cases}
+\end{align}
+so
+\begin{align}
+[yp_{z} - zp_{y}, zp_{x} - xp_{z}] &= [yp_{z}, zp_{x}] + [yp_{z}, -xp_{z}] + [-zp_{y}, zp_{x}] + [-zp_{y}, -xp_{z}] \\
+&= [yp_{z}, zp_{x}] + [-zp_{y}, -xp_{z}] \\
+&= yp_{x}[p_{z},z] + p_{y}x[z,p_{z}] \\
+&= i\hbar\left(xp_{y} - yp_{x}\right) = i\hbar L_{z}
+\end{align}
+\end{proof}
+Furthermore, we can easily proof that 
+\begin{align}
+\boxed{[L_{k}, L_{l}] = i\hbar\varepsilon_{k,l,m}L_{m},~ \varepsilon_{klm} = \begin{cases}1&\text{if }klm\text{ in order}\\-1&\text{if out of order}\end{cases}}
+\end{align}
+\item $\boxed{[L^{2}, L_{i}] = 0}$, which is similar to $[S^{2}, S_{i}] = 0$.
+\begin{proof}[Proof]
+$$L^{2} = L_{x}^{2} + L_{y}^{2} + L_{z}^{2},~ [A^{2},B] = A[A,B] + [A,B]A$$
+\end{proof}
+\end{enumerate*}
+
+
 \end{document}
