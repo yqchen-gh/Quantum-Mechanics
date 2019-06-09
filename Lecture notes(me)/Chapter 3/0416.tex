@@ -454,6 +454,28 @@ use (\ref{Lz}) we can get $\frac{\partial^{2}}{\partial\varphi^{2}} y(\theta,\va
 \begin{align}
 &\Rightarrow \left[\frac{1}{\sin\theta}\frac{\partial}{\partial\theta}\left(\sin\theta\frac{\partial}{\partial\theta}\right) + \frac{m^{2}}{\sin^{2}\theta} - \beta\right] y(\theta,\varphi) = 0
 \end{align}
-There's a solution proportional to a spherical function $P_{l}^{m}(\cos\theta)$ called associated Legendre polynomial
+
+There's a solution proportional to a spherical function $P_{l}^{m}(\cos\theta)$ called associated Legendre polynomial. We need
+\begin{align}
+\begin{cases}
+\beta = l(l+1),~ l = 0,1,2,... \\
+m = -l, -l+1, ..., l-1, l
+\end{cases}
+\end{align}
+the full solution is called Spherical Harmonics function
+\begin{align}
+Y_{lm} = y(\theta,\varphi) = \sqrt{\frac{(2l+1)(l-m)!}{4\pi(l+m)!}}P_{l}^{m}(\cos\theta) e^{im\varphi}
+\end{align}
+as a normalized solution, with $\begin{cases}l = 0,1,2,...\\m = -l, -l+1,..., l-1, l\end{cases}$ as quantum number (the solution $Y_{lm}$ needs two numbers to specify, just like an ID). As we discussed above, $Y_{lm}$ is normalized, which means
+\begin{align}
+\int_{0}^{2\pi} d\varphi \int_{0}^{\pi} \sin\theta Y_{l'm'}^{*} Y_{lm} d\theta = \delta_{ll'}\delta_{mm'} = \begin{cases}1&\text{if }l=l', m=m'\\0&\text{otherwise}\end{cases}
+\end{align}
+
+From $Y_{lm}$, we know $|y\rangle = |l,m\rangle$. $\{|l,m\rangle\}$ form a basis, which has $2l + 1$ dimension.
+
+\section{General properties of angular momentum}
+
+This section corresponds to section 3.5 of \textit{Sakurai}.
+
 
 \end{document}
