@@ -360,6 +360,7 @@ L_{x} = i\hbar\left(\sin\varphi\frac{\partial}{\partial\varphi} + \cot\theta\cos
 L_{y} = i\hbar\left(-\cos\varphi\frac{\partial}{\partial\theta} + \cot\theta\sin\varphi\frac{\partial}{\partial\varphi}\right) \\
 L_{z} = -i\hbar\frac{\partial}{\partial\varphi}
 \end{cases}
+\label{spherical}
 \end{align}
 
 After defined $L_{i}$ in both $x,y,z$ and $r,\theta, \varphi$ coordinates, we can now explore some properties of orbital angular momentum.
@@ -434,6 +435,7 @@ so
 then we can solve the equation
 \begin{align}
 -i\hbar\frac{\partial}{\partial\varphi} y(\theta,\varphi) = m\hbar y(\theta,\varphi) \Rightarrow y(\theta,\varphi) \propto e^{im\varphi}
+\label{Lz}
 \end{align}
 and $\varphi \rightarrow \varphi + 2\pi$ should give the same wave function, so we have
 \begin{align}
@@ -443,6 +445,15 @@ so $m$ should be an integer, $m = 0, \pm1, \pm2, ...$, and now we know why we ne
 \begin{align}
 \langle\theta, \varphi|L^{2}|y\rangle = \beta\hbar^{2}\langle\theta,\varphi|y\rangle
 \end{align}
-notice that the original eigen function is $\langle\theta, \varphi|L^{2}|y\rangle = \lambda'\langle\theta,\varphi|y\rangle$, and the reason to let $\lambda' = \beta\hbar^{2}$ is similar to the former one, we will see it soon.
+notice that the original eigen function is $\langle\theta, \varphi|L^{2}|y\rangle = \lambda'\langle\theta,\varphi|y\rangle$, and the reason to let $\lambda' = \beta\hbar^{2}$ is similar to the former one, we will see it soon. By using (\ref{spherical}) to calculate $L^{2} = L_{x}^{2} + L_{y}^{2} + L_{z}^{2}$, we get
+\begin{align}
+&\Rightarrow L^{2} = -\hbar^{2}\left[\frac{1}{\sin\theta}\frac{\partial}{\partial\theta}\left(\sin\theta\frac{\partial}{\partial\theta}\right) + \frac{1}{\sin^{2}\theta}\frac{\partial^{2}}{\partial\varphi^{2}}\right] \\
+&\Rightarrow -\left[\frac{1}{\sin\theta}\frac{\partial}{\partial\theta}\left(\sin\theta\frac{\partial}{\partial\theta}\right) + \frac{1}{\sin^{2}\theta}\frac{\partial^{2}}{\partial\varphi^{2}}\right] y(\theta,\varphi) = \beta y(\theta,\varphi)
+\end{align}
+use (\ref{Lz}) we can get $\frac{\partial^{2}}{\partial\varphi^{2}} y(\theta,\varphi) = -m^{2} y(\theta,\varphi)$,
+\begin{align}
+&\Rightarrow \left[\frac{1}{\sin\theta}\frac{\partial}{\partial\theta}\left(\sin\theta\frac{\partial}{\partial\theta}\right) + \frac{m^{2}}{\sin^{2}\theta} - \beta\right] y(\theta,\varphi) = 0
+\end{align}
+There's a solution proportional to a spherical function $P_{l}^{m}(\cos\theta)$ called associated Legendre polynomial
 
 \end{document}
