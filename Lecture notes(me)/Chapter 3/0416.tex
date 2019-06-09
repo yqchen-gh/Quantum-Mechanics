@@ -383,13 +383,66 @@ so
 \end{proof}
 Furthermore, we can easily proof that 
 \begin{align}
-\boxed{[L_{k}, L_{l}] = i\hbar\varepsilon_{k,l,m}L_{m},~ \varepsilon_{klm} = \begin{cases}1&\text{if }klm\text{ in order}\\-1&\text{if out of order}\end{cases}}
+\boxed{[L_{k}, L_{l}] = i\hbar\varepsilon_{k,l,m}L_{m},~ \varepsilon_{klm} = \begin{cases}1&\text{if }k,l,m\text{ in order}\\-1&\text{if out of order}\end{cases}}
 \end{align}
 \item $\boxed{[L^{2}, L_{i}] = 0}$, which is similar to $[S^{2}, S_{i}] = 0$.
 \begin{proof}[Proof]
+We know that
 $$L^{2} = L_{x}^{2} + L_{y}^{2} + L_{z}^{2},~ [A^{2},B] = A[A,B] + [A,B]A$$
+so
+\begin{align}
+[L^{2}, L_{x}] &= [L_{x}^{2} + L_{y}^{2} + L_{z}^{2}, L_{x}] = [L_{y}^{2}, L_{x}] + [L_{z}^{2}, L_{x}] \\
+&= L_{y}[L_{y}, L_{x}] + [L_{y}, L_{x}]L_{y} + L_{z}[L_{z}, L_{x}] + [L_{z}, L_{x}]L_{z} \\
+&= -i\hbar L_{y}L_{z} -i\hbar L_{z}L_{y} + i\hbar L_{z}L_{y} + i\hbar L_{y}L_{z} \\
+&= 0
+\end{align}
 \end{proof}
 \end{enumerate*}
+so in total,
+\begin{myboxes}{Properties of orbital angular momentum}{}
+\begin{enumerate*}
+\item \begin{align*}
+[L_{k}, L_{l}] = i\hbar\varepsilon_{k,l,m}L_{m},~ \varepsilon_{klm} = \begin{cases}1&\text{if }k,l,m\text{ in order}\\-1&\text{if out of order}\end{cases}
+\end{align*}
+\item $$[L^{2}, L_{i}] = 0$$
+\end{enumerate*}
+\end{myboxes}
 
+Now let's consider the eigen equation with $L^{2}$ and $L_{z}$. Recall that if $\hat{A}, \hat{B}$ are Hermitian, and $[\hat{A}, \hat{B}] = 0$, then there exists $\{|\psi\rangle\}$ giving
+$$\begin{cases}\hat{A}|\psi\rangle = a|\psi\rangle \\ \hat{B}|\psi\rangle = b|\psi\rangle\end{cases}$$
+or we can say $\{|\psi\rangle\}$ is the mutual eigen state. Here we already have $[L^{2}, L_{z}] = 0$, let $|y\rangle$ to be one of these states, so
+\begin{align}
+\begin{cases}
+L_{z}|y\rangle = m\hbar|y\rangle \\
+L^{2}|y\rangle = \beta\hbar^{2}|y\rangle \\
+\end{cases}
+\end{align}
+where $m,\beta$ are numbers. $|y\rangle$ needs to be normalized, $\langle y|y\rangle = 1$
+\begin{align}
+\beta\hbar^{2} = \langle y|L^{2}|y\rangle = \langle y|L_{x}^{2} + L_{y}^{2} + L_{z}^{2}|y\rangle \ge \langle y|L_{z}^{2}|y\rangle = m^{2}\hbar^{2}
+\end{align}
+so
+\begin{align}
+\beta \ge m^{2}
+\end{align}
+    in spherical coordinate, as above we can express $L^{2}, L_{z}$ all in just $\theta, \varphi$ without $r$. $L^{2}, L_{z}$ only relates to angular coordinates $\{\theta, \varphi\}$ as the angular representation. The eigen function for $L_{z}$ in coordinates $\{\theta, \varphi\}$ is $\langle\theta,\varphi|L_{z}|y\rangle = \lambda\langle\theta,\varphi|y\rangle$. To make the expression more convenient (we will know the reason soon), let's set $\lambda = m\hbar$.
+\begin{align}
+\langle\theta, \varphi|y\rangle &= y(\theta, \varphi) \\
+\langle\theta,\varphi|L_{z}|y\rangle &= m\hbar\langle\theta,\varphi|y\rangle \\
+&= -i\hbar\frac{\partial}{\partial\varphi}\langle\theta,\varphi|y\rangle
+\end{align}
+then we can solve the equation
+\begin{align}
+-i\hbar\frac{\partial}{\partial\varphi} y(\theta,\varphi) = m\hbar y(\theta,\varphi) \Rightarrow y(\theta,\varphi) \propto e^{im\varphi}
+\end{align}
+and $\varphi \rightarrow \varphi + 2\pi$ should give the same wave function, so we have
+\begin{align}
+e^{im\varphi} = e^{im(\varphi + 2\pi)} \Rightarrow e^{i2\pi m} = 1
+\end{align}
+so $m$ should be an integer, $m = 0, \pm1, \pm2, ...$, and now we know why we need to set $\lambda = m\hbar$ before. Further, we have the eigen function for $L^{2}$
+\begin{align}
+\langle\theta, \varphi|L^{2}|y\rangle = \beta\hbar^{2}\langle\theta,\varphi|y\rangle
+\end{align}
+notice that the original eigen function is $\langle\theta, \varphi|L^{2}|y\rangle = \lambda'\langle\theta,\varphi|y\rangle$, and the reason to let $\lambda' = \beta\hbar^{2}$ is similar to the former one, we will see it soon.
 
 \end{document}

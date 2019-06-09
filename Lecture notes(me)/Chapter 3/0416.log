@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2019.3.13)  8 JUN 2019 15:35
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2019.3.13)  9 JUN 2019 23:25
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1473,23 +1473,23 @@ File: figures/sph.pdf Graphic file (type pdf)
 
 [1
 
-] [2] [3] [4] [5]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 395.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 395.
+] [2] [3] [4] [5] [6]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 448.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 448.
  (./0416.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 395.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 395.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 448.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 448.
 Package rerunfilecheck Info: File `0416.out' has not changed.
 (rerunfilecheck)             Checksum: 49F00D4F4FC408794FA69BCB6B83CC09.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 395.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 448.
  ) 
 Here is how much of TeX's memory you used:
- 45244 strings out of 494906
- 925319 string characters out of 6176286
+ 45330 strings out of 494906
+ 927242 string characters out of 6176286
  1148788 words of memory out of 5000000
- 48556 multiletter control sequences out of 15000+600000
+ 48642 multiletter control sequences out of 15000+600000
  545632 words of font info for 92 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 63i,18n,101p,979b,493s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,18n,101p,979b,1248s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on 0416.pdf (5 pages).
+Output written on 0416.pdf (6 pages).
