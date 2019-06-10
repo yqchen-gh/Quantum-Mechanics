@@ -10,6 +10,7 @@
 \usepackage{float}
 \usepackage{enumerate}
 \usepackage{extarrows}
+\numberwithin{equation}{section}
 
 %----------
 % 定义中文环境
@@ -482,8 +483,39 @@ This section corresponds to section 3.5 of \textit{Sakurai}. Similar to $\vec{S}
 \item $J_{z}|j,m\rangle = m\hbar|j,m\rangle$
 \item $J^{2}|j,m\rangle = \beta\hbar^{2}|j,m\rangle$
 \end{enumerate*}
-and we will proof $\beta = j(j + 1)$ soon.
-
-
+and we will proof $\beta = j(j + 1)$ soon. Define ladder operator $J_{+}, J_{-}$ as below
+\begin{align}
+\begin{cases}
+J_{+} = J_{x} + iJ_{y} \\
+J_{-} = J_{x} - iJ_{y}
+\end{cases}
+\end{align}
+from the definition, we can get
+\begin{align}
+J_{-} &= J_{+}^{\dag} \\
+[J_{z}, J_{+}] &= \hbar J_{+} \\
+[J_{z}, J_{-}] &= -\hbar J_{-} \\
+[J_{+}, J_{-}] &= 2\hbar J_{z} \\
+J_{-}J_{+} &= J^{2} - J_{z}^{2} - \hbar J_{z} \\
+J_{+}J_{-} &= J^{2} - J_{z}^{2} + \hbar J_{z}
+\end{align}
+with $J_{z}|j,m\rangle = m\hbar|j,m\rangle$, try to find some properties.
+\begin{align}
+J_{z}J_{+}|j,m\rangle = \left([J_{z}, J_{+}] + J_{+}J_{z}\right)|j,m\rangle = (\hbar J_{+} + J_{+}J_{z})|j,m\rangle = (m+1)\hbar J_{+}|j,m\rangle
+\end{align}
+Let $|\xi\rangle = J_{+}|j,m\rangle$, so there is $J_{z}|\xi\rangle = (m+1)\hbar|\xi\rangle$. We then know $|\xi\rangle$ has something to do with $|j,m+1\rangle$ (which means $J_{+}$ increases quantum state $|j,m\rangle$ by one unit), $J_{+}|j,m\rangle \rightarrow c|j,m+1\rangle$. Similarly, we have $J_{-}|j,m\rangle \rightarrow c'|j,m-1\rangle$, and we try to find out $c, c'$.
+\begin{enumerate*}
+\item Upper bound for $|j,m\rangle = |j,M_{\text{up}}\rangle$, $J_{+}|j,M_{\text{up}}\rangle = 0$
+\begin{align}
+0 &= J_{-}J_{+}|j,M_{\text{up}}\rangle = \left(J^{2} - J_{z}^{2} - \hbar J_{z}\right)|j,M_{\text{up}}\rangle \\
+&= \left(\beta\hbar^{2} - M_{\text{up}}^{2}\hbar^{2} - M_{\text{up}}\hbar^{2}\right)|j,M_{\text{up}}\rangle \\
+\Rightarrow \beta &= M_{\text{up}}(M_{\text{up}} + 1)
+\end{align}
+\item Lower bound of $|j,m\rangle = |j,M_{\text{low}}\rangle$, $J_{-}|j,M_{\text{low}}\rangle = 0$
+\begin{align}
+0 = J_{+}J_{-}|j,M_{\text{low}}\rangle \Rightarrow \beta = M_{\text{low}}(M_{\text{low}} - 1) 
+\end{align}
+\end{enumerate*}
+if we have $j = M_{\text{up}} = -M_{\text{low}}$, then $\beta = j(j+1)$
 
 \end{document}
