@@ -516,6 +516,29 @@ Let $|\xi\rangle = J_{+}|j,m\rangle$, so there is $J_{z}|\xi\rangle = (m+1)\hbar
 0 = J_{+}J_{-}|j,M_{\text{low}}\rangle \Rightarrow \beta = M_{\text{low}}(M_{\text{low}} - 1) 
 \end{align}
 \end{enumerate*}
-if we have $j = M_{\text{up}} = -M_{\text{low}}$, then $\beta = j(j+1)$
+if we have $j = M_{\text{up}} = -M_{\text{low}}$, then $\boxed{\beta = j(j+1)}$
+\begin{align}
+\boxed{J^{2}|j,m\rangle = j(j+1)\hbar^{2}|j,m\rangle}
+\end{align}
+\begin{align}
+\boxed{J_{z}|j,m\rangle = m\hbar|j,m\rangle, m = -j, -j+1, ..., j-1, j}
+\end{align}
+From $[J^{2}, J_{+}] = 0, [J^{2}, J_{-}] = 0$,
+\begin{align}
+J^{2}J_{+}|j,m\rangle = J_{+}J^{2}|j,m\rangle = j(j+1)\hbar^{2}J_{+}|j,m\rangle
+\end{align}
+then we can calculate $c, c'$,
+\begin{align}
+\boxed{\begin{cases}
+J_{+}|j,m\rangle = \hbar\sqrt{j(j+1) - m(m+1)}|j,m+1\rangle \\
+J_{-}|j,m\rangle = \hbar\sqrt{j(j+1) - m(m-1)}|j,m-1\rangle
+\end{cases}}
+\end{align}
+
+We can find out some other properties.
+\begin{align}
+[J^{2}, J_{+}] = 0,~ [J^{2}, J_{-}] = 0
+\end{align}
+we can also say $\{|j,m\rangle\}$ form a basis, $\langle j',m'|j,m\rangle = \delta_{j'j}\delta_{m'm}$.
 
 \end{document}
