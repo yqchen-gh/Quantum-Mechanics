@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2019.3.13)  11 JUN 2019 00:00
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2019.3.13)  15 JUN 2019 23:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1167,11 +1167,125 @@ File: pgfmodulematrix.code.tex 2019/02/02 v3.1.1 (3.1.1)
 s/tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2019/02/02 v3.1.1 (3.1.1)
 )))
+(/usr/local/texlive/2018/texmf-dist/tex/latex/qcircuit/qcircuit.sty
+Package: qcircuit 2018/08/14
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/xypic/xy.sty
+(/usr/local/texlive/2018/texmf-dist/tex/generic/xypic/xy.tex Bootstrap'ing:
+catcodes, docmode,
+(/usr/local/texlive/2018/texmf-dist/tex/generic/xypic/xyrecat.tex)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/xypic/xyidioms.tex)
+
+ Xy-pic version 3.8.9 <2013/10/06>
+ Copyright (c) 1991-2013 by Kristoffer H. Rose <krisrose@tug.org> and others
+ Xy-pic is free software: see the User's Guide for details.
+
+Loading kernel: messages; fonts; allocations: state,
+\X@c=\dimen362
+\Y@c=\dimen363
+\U@c=\dimen364
+\D@c=\dimen365
+\L@c=\dimen366
+\R@c=\dimen367
+\Edge@c=\toks52
+\X@p=\dimen368
+\Y@p=\dimen369
+\U@p=\dimen370
+\D@p=\dimen371
+\L@p=\dimen372
+\R@p=\dimen373
+\Edge@p=\toks53
+\X@origin=\dimen374
+\Y@origin=\dimen375
+\X@xbase=\dimen376
+\Y@xbase=\dimen377
+\X@ybase=\dimen378
+\Y@ybase=\dimen379
+\X@min=\dimen380
+\Y@min=\dimen381
+\X@max=\dimen382
+\Y@max=\dimen383
+\lastobjectbox@=\box65
+\zerodotbox@=\box66
+\almostz@=\dimen384
+ direction,
+\d@X=\dimen385
+\d@Y=\dimen386
+\K@=\count364
+\KK@=\count365
+\Direction=\count366
+\K@dXdY=\dimen387
+\K@dYdX=\dimen388
+\xyread@=\read4
+\xywrite@=\write6
+\csp@=\count367
+\quotPTK@=\dimen389
+
+utility macros; pictures: \xy, positions,
+\swaptoks@@=\toks54
+\connectobjectbox@@=\box67
+ objects,
+\styletoks@=\toks55
+ decorations;
+kernel objects: directionals, circles, text; options; algorithms: directions,
+edges, connections;  Xy-pic loaded)
+Package: xy 2013/10/06 Xy-pic version 3.8.9
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/xypic/xymatrix.tex
+ Xy-pic option: Matrix feature v.3.14
+\Row=\count368
+\Col=\count369
+\queue@=\toks56
+\queue@@=\toks57
+\qcount@=\count370
+\qcount@@=\count371
+\matrixsize@=\count372
+ loaded)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/xypic/xyframe.tex
+ Xy-pic option: Frame and Bracket extension v.3.14 loaded)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/xypic/xyarrow.tex
+ Xy-pic option: Arrow and Path feature v.3.9 path, \ar, loaded)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/xypic/xyarc.tex
+ Xy-pic option: Circle, Ellipse, Arc feature v.3.8
+(/usr/local/texlive/2018/texmf-dist/tex/generic/xypic/xycurve.tex
+ Xy-pic option: Curve and Spline extension v.3.12 curve,
+\crv@cnt@=\count373
+\crvpts@=\toks58
+\splinebox@=\box68
+\splineval@=\dimen390
+\splinedepth@=\dimen391
+\splinetol@=\dimen392
+\splinelength@=\dimen393
+ circles,
+\L@=\dimen394
+ loaded)
+circles, ellipses, elliptical arcs, loaded)
+
+Package Qcircuit Warning: qcircuit is not loading in PDF mode. Activating all X
+y-pic features to compensate. If you wish to use specific drivers for Xy-pic, y
+ou must modify the code in qcircuit.sty.
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/xypic/xyall.tex
+ Xy-pic option: All features v.3.8
+(/usr/local/texlive/2018/texmf-dist/tex/generic/xypic/xycmtip.tex
+ Xy-pic option: Computer Modern tip extension v.3.7
+(/usr/local/texlive/2018/texmf-dist/tex/generic/xypic/xytips.tex
+ Xy-pic option: More Tips extension v.3.11 loaded) loaded)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/xypic/xyline.tex
+ Xy-pic option: Line styles extension v.3.10
+\xylinethick@=\dimen395
+ loaded)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/xypic/xyrotate.tex
+ Xy-pic option: Rotate and Scale extension v.3.8 loaded)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/xypic/xycolor.tex
+ Xy-pic option: Colour extension v.3.11 loaded)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/xypic/xygraph.tex
+ Xy-pic option: Graph feature v.3.11 loaded) loaded))
 (/usr/local/texlive/2018/texmf-dist/tex/latex/tools/verbatim.sty
 Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks52
-\verbatim@line=\toks53
-\verbatim@in@stream=\read4
+\every@verbatim=\toks59
+\verbatim@line=\toks60
+\verbatim@in@stream=\read5
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
 Package: tcolorbox 2018/12/07 version 4.15 text color boxes
@@ -1184,49 +1298,49 @@ Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 ))
 (/usr/local/texlive/2018/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2018/08/19 v2.5f e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count364
+\etb@tempcnta=\count374
 )
-\tcb@titlebox=\box65
-\tcb@upperbox=\box66
-\tcb@lowerbox=\box67
-\tcb@phantombox=\box68
-\c@tcbbreakpart=\count365
-\c@tcblayer=\count366
-\tcolorbox@number=\count367
-\tcb@temp=\box69
-\tcb@temp=\box70
-\tcb@temp=\box71
-\tcb@temp=\box72
-\tcb@out=\write6
-\tcb@record@out=\write7
+\tcb@titlebox=\box69
+\tcb@upperbox=\box70
+\tcb@lowerbox=\box71
+\tcb@phantombox=\box72
+\c@tcbbreakpart=\count375
+\c@tcblayer=\count376
+\tcolorbox@number=\count377
+\tcb@temp=\box73
+\tcb@temp=\box74
+\tcb@temp=\box75
+\tcb@temp=\box76
+\tcb@out=\write7
+\tcb@record@out=\write8
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/tcolorbox/tcbraster.code.tex
 Library (tcolorbox): 'tcbraster.code.tex' version '4.15'
-\c@tcbrastercolumn=\count368
-\c@tcbrasterrow=\count369
-\c@tcbraster=\count370
+\c@tcbrastercolumn=\count378
+\c@tcbrasterrow=\count379
+\c@tcbraster=\count380
 ) (/usr/local/texlive/2018/texmf-dist/tex/latex/tcolorbox/tcbskins.code.tex
 Library (tcolorbox): 'tcbskins.code.tex' version '4.15'
-\tcb@waterbox=\box73
+\tcb@waterbox=\box77
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/tcolorbox/tcbskinsjigsaw.code.tex
 Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '4.15'
 ))
 (/usr/local/texlive/2018/texmf-dist/tex/latex/tcolorbox/tcbbreakable.code.tex
 Library (tcolorbox): 'tcbbreakable.code.tex' version '4.15'
-\tcb@testbox=\box74
-\tcb@totalupperbox=\box75
-\tcb@totallowerbox=\box76
+\tcb@testbox=\box78
+\tcb@totalupperbox=\box79
+\tcb@totallowerbox=\box80
 ) (/usr/local/texlive/2018/texmf-dist/tex/latex/tcolorbox/tcbhooks.code.tex
 Library (tcolorbox): 'tcbhooks.code.tex' version '4.15'
 ) (/usr/local/texlive/2018/texmf-dist/tex/latex/tcolorbox/tcbtheorems.code.tex
 Library (tcolorbox): 'tcbtheorems.code.tex' version '4.15'
 ) (/usr/local/texlive/2018/texmf-dist/tex/latex/tcolorbox/tcbfitting.code.tex
 Library (tcolorbox): 'tcbfitting.code.tex' version '4.15'
-\tcbfitdim=\dimen362
-\tcb@lowerfitdim=\dimen363
-\tcb@upperfitdim=\dimen364
-\tcb@cur@hbadness=\count371
+\tcbfitdim=\dimen396
+\tcb@lowerfitdim=\dimen397
+\tcb@upperfitdim=\dimen398
+\tcb@cur@hbadness=\count381
 ) (/usr/local/texlive/2018/texmf-dist/tex/latex/tcolorbox/tcbxparse.code.tex
 Library (tcolorbox): 'tcbxparse.code.tex' version '4.15'
 )
@@ -1237,24 +1351,24 @@ Library (tcolorbox): 'tcblistingsutf8.code.tex' version '4.15'
 Package: listingsutf8 2016/05/16 v1.3 Allow UTF-8 in listings input (HO)
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count372
-\lst@gtempboxa=\box77
-\lst@token=\toks54
-\lst@length=\count373
-\lst@currlwidth=\dimen365
-\lst@column=\count374
-\lst@pos=\count375
-\lst@lostspace=\dimen366
-\lst@width=\dimen367
-\lst@newlines=\count376
-\lst@lineno=\count377
-\lst@maxwidth=\dimen368
+\lst@mode=\count382
+\lst@gtempboxa=\box81
+\lst@token=\toks61
+\lst@length=\count383
+\lst@currlwidth=\dimen399
+\lst@column=\count384
+\lst@pos=\count385
+\lst@lostspace=\dimen400
+\lst@width=\dimen401
+\lst@newlines=\count386
+\lst@lineno=\count387
+\lst@maxwidth=\dimen402
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2018/09/02 1.7 (Carsten Heinz)
-\c@lstnumber=\count378
-\lst@skipnumbers=\count379
-\lst@framebox=\box78
+\c@lstnumber=\count388
+\lst@skipnumbers=\count389
+\lst@framebox=\box82
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2018/09/02 1.7 listings configuration
@@ -1275,7 +1389,7 @@ Library (tcolorbox): 'tcblistingscore.code.tex' version '4.15'
 (/usr/local/texlive/2018/texmf-dist/tex/latex/tcolorbox/tcbprocessing.code.tex
 Library (tcolorbox): 'tcbprocessing.code.tex' version '4.15'
 )
-\c@tcblisting=\count380
+\c@tcblisting=\count390
 )))
 (/usr/local/texlive/2018/texmf-dist/tex/latex/tcolorbox/tcbexternal.code.tex
 Library (tcolorbox): 'tcbexternal.code.tex' version '4.15'
@@ -1295,15 +1409,15 @@ File: pgflibraryfadings.code.tex 2019/02/02 v3.1.1 (3.1.1)
 (/usr/local/texlive/2018/texmf-dist/tex/latex/tcolorbox/tcbposter.code.tex
 Library (tcolorbox): 'tcbposter.code.tex' version '4.15'
 ))
-\c@tcb@cnt@theorem=\count381
-\c@tcb@cnt@definition=\count382
-\c@tcb@cnt@corollary=\count383
-\c@tcb@cnt@myboxes=\count384
-\c@tcb@cnt@exercise=\count385
+\c@tcb@cnt@theorem=\count391
+\c@tcb@cnt@definition=\count392
+\c@tcb@cnt@corollary=\count393
+\c@tcb@cnt@myboxes=\count394
+\c@tcb@cnt@exercise=\count395
  (/usr/local/texlive/2018/texmf-dist/tex/xelatex/xecjk/xeCJK-listings.sty
 Package: xeCJK-listings 2018/04/30 v3.7.1 xeCJK patch file for listings
-\l__xeCJK_listings_max_char_int=\count386
-\l__xeCJK_listings_flag_int=\count387
+\l__xeCJK_listings_max_char_int=\count396
+\l__xeCJK_listings_flag_int=\count397
 )
 
 LaTeX Warning: Unused global option(s):
@@ -1312,40 +1426,40 @@ LaTeX Warning: Unused global option(s):
 (./0423.aux)
 \openout1 = `0423.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 189.
-LaTeX Font Info:    ... okay on input line 189.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 189.
-LaTeX Font Info:    ... okay on input line 189.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 189.
-LaTeX Font Info:    ... okay on input line 189.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 189.
-LaTeX Font Info:    ... okay on input line 189.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 189.
-LaTeX Font Info:    ... okay on input line 189.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 189.
-LaTeX Font Info:    ... okay on input line 189.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 189.
-LaTeX Font Info:    ... okay on input line 189.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 189.
-LaTeX Font Info:    ... okay on input line 189.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 189.
-LaTeX Font Info:    ... okay on input line 189.
-\AtBeginShipoutBox=\box79
-Package hyperref Info: Link coloring ON on input line 189.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 190.
+LaTeX Font Info:    ... okay on input line 190.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 190.
+LaTeX Font Info:    ... okay on input line 190.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 190.
+LaTeX Font Info:    ... okay on input line 190.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 190.
+LaTeX Font Info:    ... okay on input line 190.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 190.
+LaTeX Font Info:    ... okay on input line 190.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 190.
+LaTeX Font Info:    ... okay on input line 190.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 190.
+LaTeX Font Info:    ... okay on input line 190.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 190.
+LaTeX Font Info:    ... okay on input line 190.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 190.
+LaTeX Font Info:    ... okay on input line 190.
+\AtBeginShipoutBox=\box83
+Package hyperref Info: Link coloring ON on input line 190.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count388
+\c@section@level=\count398
 )
-LaTeX Info: Redefining \ref on input line 189.
-LaTeX Info: Redefining \pageref on input line 189.
-LaTeX Info: Redefining \nameref on input line 189.
+LaTeX Info: Redefining \ref on input line 190.
+LaTeX Info: Redefining \pageref on input line 190.
+LaTeX Info: Redefining \nameref on input line 190.
 
 (./0423.out) (./0423.out)
-\@outlinefile=\write8
-\openout8 = `0423.out'.
+\@outlinefile=\write9
+\openout9 = `0423.out'.
 
 
 Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
@@ -1353,57 +1467,57 @@ Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
 
 \symlegacymaths=\mathgroup9
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 189.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 189.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 189.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 189.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 189.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 189.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 189.
-LaTeX Font Info:    Redeclaring math accent \check on input line 189.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 189.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 189.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 189.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 189.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 189.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 189.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 189.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 189.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 189.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 189.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 189.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 189.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 189.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 189.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 189.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 189.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 190.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 190.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 190.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 190.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 190.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 190.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 190.
+LaTeX Font Info:    Redeclaring math accent \check on input line 190.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 190.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 190.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 190.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 190.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 190.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 190.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 190.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 190.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 190.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 190.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 190.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 190.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 190.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 190.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 190.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 190.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 189.
+(Font)              `operators' in the math version `normal' on input line 190.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 189.
+(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 190.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 189.
+(Font)              `operators' in the math version `bold' on input line 190.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 189.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 190.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 189.
+(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 190.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 189.
+(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 190.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/bx/n on input line 189.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/bx/n on input line 190.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 189.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 190.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 189.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 190.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/lmr/m/n --> TU/lmr/bx/n on input line 189.
+(Font)                  TU/lmr/m/n --> TU/lmr/bx/n on input line 190.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/lmr/bx/it on input line 189.
+(Font)                  OT1/cmr/bx/it --> TU/lmr/bx/it on input line 190.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/bx/n on input line 189.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/bx/n on input line 190.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/bx/n on input line 189.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/bx/n on input line 190.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -1444,24 +1558,24 @@ Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
 ABD: EveryShipout initializing macros
-\c@lstlisting=\count389
+\c@lstlisting=\count399
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2018/08/11 v1.3c Input encoding file
-\inpenc@prehook=\toks55
-\inpenc@posthook=\toks56
+\inpenc@prehook=\toks62
+\inpenc@posthook=\toks63
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 195.
+LaTeX Font Info:    Try loading font information for U+msa on input line 196.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 195.
+LaTeX Font Info:    Try loading font information for U+msb on input line 196.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Underfull \hbox (badness 10000) in paragraph at lines 196--197
+Underfull \hbox (badness 10000) in paragraph at lines 197--198
 
  []
 
@@ -1469,7 +1583,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 196--197
 File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
 
 )
-Overfull \hbox (9.5213pt too wide) detected at line 216
+Overfull \hbox (9.5213pt too wide) detected at line 217
 \OML/cmm/m/it/12 Y[] \OT1/cmr/m/n/12 = [](3 [][] \OML/cmm/m/it/12 ^^R \OMS/cmsy
 /m/n/12 ^^@ \OT1/cmr/m/n/12 1)\OML/cmm/m/it/12 ;  []Y[] \OT1/cmr/m/n/12 = [] []
  \OML/cmm/m/it/12 ^^R [] ^^R []e[];  []Y[] \OT1/cmr/m/n/12 = [] [][] \OML/cmm/m
@@ -1477,38 +1591,34 @@ Overfull \hbox (9.5213pt too wide) detected at line 216
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 218--219
+Underfull \hbox (badness 10000) in paragraph at lines 219--220
 
  []
 
 [1
 
 ] [2]
-Underfull \hbox (badness 10000) in paragraph at lines 297--298
+Underfull \hbox (badness 10000) in paragraph at lines 298--299
 
  []
 
-[3] [4] [5]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 364.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 364.
+[3] <xymatrix 3x2 196> [4] [5]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 371.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 371.
  (./0423.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 364.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 364.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 371.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 371.
 Package rerunfilecheck Info: File `0423.out' has not changed.
 (rerunfilecheck)             Checksum: C171987072626088C55CC5EAA122243F.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 364.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 371.
  ) 
 Here is how much of TeX's memory you used:
- 45303 strings out of 494906
- 926740 string characters out of 6176286
- 1147901 words of memory out of 5000000
- 48622 multiletter control sequences out of 15000+600000
- 545640 words of font info for 93 fonts, out of 8000000 for 9000
+ 47708 strings out of 494906
+ 955740 string characters out of 6176286
+ 1226453 words of memory out of 5000000
+ 50967 multiletter control sequences out of 15000+600000
+ 547089 words of font info for 102 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 63i,15n,101p,979b,1248s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,23n,101p,979b,1250s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on 0423.pdf (5 pages).
