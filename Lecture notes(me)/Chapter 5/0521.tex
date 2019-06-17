@@ -197,7 +197,7 @@
 
 \section{Time-independent perturbation theory}
 
-We start with the problem really close to a solved problem, then we can use the solution at hand to do approximation. 
+We start with the problem really close to a solved problem, then we can use the solution at hand to do approximation. \\
 
 \begin{myboxes}{Recap for Taylor expansion}{}
 \begin{equation}
@@ -279,66 +279,54 @@ H_0\ket{n^{(1)}}+V\ket{n^{(0)}} = E^{(0)}_n\ket{n^{(1)}}+E^{(1)}_n\ket{n^{(0)}} 
 we try to solve $\ket{n^{(1)}}$, we can apply $\bra{k^{(0)}}$ to left, with $k\neq n$, then $\braket{k^{(0)}|n^{(0)}}=0$. We also require $E^{(0)} \neq E^{(0)}$, we can get 
 \begin{align}
 \braket{k^{(0)}|H_0|n^{(1)}}+\braket{k^{(0)}|V|n^{(0)}} &= E^{(0)}_n\braket{k^{(0)}|n^{(1)}}+E^{(1)}_n\braket{k^{(0)}|n^{(0)}} \\
-\Rightarrow E^{(0)}_k\braket{ k^{(0)} | n^{(1)} }+\braket{k^{(0)}|V|n^{(0)}} &= E^{(0)}_n\braket{k^{(0)} | n^{(1)}}
+\Rightarrow E^{(0)}_k\braket{ k^{(0)} | n^{(1)} }+\braket{k^{(0)}|V|n^{(0)}} &= E^{(0)}_n\braket{k^{(0)} | n^{(1)}} \label{ek}
 \end{align}
-The term $\braket{k^{(0)} | n^{(1)}}$ is a inner product between an unknown state $\ket{n^{(1)}}$ and a state in the known basis, it called ``amplitude''.
+The term $\braket{k^{(0)} | n^{(1)}}$ is an inner product between an unknown state $\ket{n^{(1)}}$ and a state in the known basis, it called ``amplitude''.
 
-We want to solve the state $\ket{n^{(1)}}$, from the {\bf Superposition Principle}, we know that $\ket{n^{(1)}}=\sum_k{C_k \ket{k^{(0)}}}$, since $\set{\ket{k^{(0)}}}$ form a basis. If we can solve every $C_k$, the state $\ket{n^{(1)}}$ is known. We can easily observe that $\braket{k^{(0)} | n^{(1)}} \to \sum_k{ C_k \braket{ k^{(0)} | n^{(0)} } } \to \sum_k{ C_k \delta_{k,n} } \to C_k$, so all we need is to solve $\braket{ k^{(0)} | n^{(1)} }$. 
-\newpage From Equation (5.10) we can solve $\braket{ k^{(0)} | n^{(1)} }$, which qual to $C_k$:
+We want to solve the state $\ket{n^{(1)}}$, from the \textbf{Superposition Principle}, we know that $\ket{n^{(1)}}=\sum_k{C_k \ket{k^{(0)}}}$, since $\{\ket{k^{(0)}}\}$ form a basis. If we can solve every $C_k$, the state $\ket{n^{(1)}}$ is known. We can easily observe that $\braket{k^{(0)} | n^{(1)}} \to \sum_k{ C_k \braket{ k^{(0)} | n^{(0)} } } \to \sum_k{ C_k \delta_{k,n} } \to C_k$, so all we need is to solve $\braket{ k^{(0)} | n^{(1)} }$. 
+
+From equation (\ref{ek}) we can solve $\braket{ k^{(0)} | n^{(1)} }$, which qual to $C_k$:
 \begin{equation}
-    \boxed{ C_k = \frac{\braket{k^{(0)}|V|n^{(0)}}}{E^{(0)}_n-E^{(0)}_k} , }
+    \boxed{ C_k = \frac{\braket{k^{(0)}|V|n^{(0)}}}{E^{(0)}_n-E^{(0)}_k}}
 \end{equation}
 notice that $k\neq n$. Therefore, we can get the {\bf first order perturbation for state $\ket{n}$ }
 \begin{equation}
-    \boxed{ \ket{n^{(1)}} = \sum_{k\neq m} \frac{ \braket{ k^{(0)}|V | n^{(0)} } }{ E^{(0)}_n - E^{(0)}_k } \ket{ k^{(0)}}, }
+    \boxed{ \ket{n^{(1)}} = \sum_{k\neq m} \frac{ \braket{ k^{(0)}|V | n^{(0)} } }{ E^{(0)}_n - E^{(0)}_k } \ket{ k^{(0)}}}
 \end{equation}
 plug it and $H'=\lambda V$ back to $ \ket{n} = \ket{n^{(0)}} + \lambda \ket{n^{(1)}} $ we get 
 \begin{equation}
-    \boxed{ \ket{n} = \ket{n^{(0)}} + \sum_{k\neq m} \frac{ \braket{ k^{(0)}|H'| n^{(0)} } }{ E^{(0)}_n - E^{(0)}_k } \ket{ k^{(0)}} , }
+    \boxed{ \ket{n} = \ket{n^{(0)}} + \sum_{k\neq m} \frac{ \braket{ k^{(0)}|H'| n^{(0)} } }{ E^{(0)}_n - E^{(0)}_k } \ket{ k^{(0)}}}
 \end{equation}
-where $\braket{k^{(0)}|H'|n^{(0)}}$ can be the matrix element in the $k$ row and $n$ colum of matrix $H'$ in the basis of $\set{\ket{n^{(0)}}}$:
-\[ H_0+H' \xrightarrow{matirx \hspace{1ex} in \hspace{1ex} \set{\ket{n^{(0)}}}} 
+where $\braket{k^{(0)}|H'|n^{(0)}}$ can be the matrix element in the $k$ row and $n$ colum of matrix $H'$ in the basis of $\{\ket{n^{(0)}}\}$:
+\begin{align}
+H_{0} + H' \xrightarrow{\text{matrix in } \{\ket{n^{(0)}}\}}
 \begin{pmatrix}
     &  &  &  \\
     & E^{(0)}_{ka} & H^{(0)}_{kn} & \\
     &  & E^{(0)}_{bn} & \\
     &  & & \\
-\end{pmatrix} . \] 
-\subsection*{Example： Spin - $\dfrac{1}{2}$ system}
+\end{pmatrix}
+\end{align}
+
+\begin{myboxes}{Example for spin - $\frac{1}{2}$ system}{}
 We have
-\begin{equation*}
-    H_0=\Omega \sigma_z \to \begin{pmatrix}
-     \Omega & 0 \\
-     0 & \Omega \\   
-    \end{pmatrix} ; \hspace{2em}
-    H'=\lambda \sigma_x \to \begin{pmatrix}
-        0 & \lambda \\
-        \lambda & 0 \\   
-       \end{pmatrix} ,
-\end{equation*}
+\begin{align}
+H_{0} = \Omega \sigma_{z} = \begin{pmatrix}\Omega &0 \\ 0 &\Omega\end{pmatrix},~
+H' = \lambda\sigma_{x} = \begin{pmatrix}0 &\lambda \\ \lambda &0\end{pmatrix}
+\end{align}
 The Hamiltonian is
-\begin{equation*}
-    H=H_0+H' \to \begin{pmatrix}
-        \Omega & \lambda \\
-        \lambda & \Omega \\
-    \end{pmatrix} , and \hspace{1em} \Omega \gg \lambda
-\end{equation*}
+\begin{align}
+H = H_{0} + H' = \begin{pmatrix}\Omega &\lambda \\ \lambda & \Omega\end{pmatrix}, \text{ and } \Omega \gg \lambda
+\end{align}
 we can solve eigenenergy 
-\begin{equation*}
-    E_1=\Omega + \frac{\lambda^2}{2\Omega} , \hspace{1em} E_2=-\Omega - \frac{\lambda^2}{2\Omega} ,
-\end{equation*}
+\begin{align}
+E_{1} = \Omega + \frac{\lambda^2}{2\Omega},~ E_{2} = -\Omega - \frac{\lambda^2}{2\Omega}
+\end{align}
 and the eigenstates
-\begin{equation*}
-    \ket{\psi}_1= \begin{pmatrix}
-        1-\frac{\lambda^2}{2\Omega^2} \\
-        \frac{\lambda}{2\Omega} \\ 
-    \end{pmatrix} ,
-\end{equation*}
-\begin{equation*}
-    \ket{\psi}_2= \begin{pmatrix}
-        -\frac{\lambda}{2\Omega} \\ 
-        1-\frac{\lambda^2}{2\Omega^2} \\
-    \end{pmatrix} .
-\end{equation*}
+\begin{align}
+\ket{\psi_{1}} = \begin{pmatrix}1 - \frac{\lambda^2}{2\Omega^2} \\ \frac{\lambda}{2\Omega}\end{pmatrix},~
+\ket{\psi_{2}} = \begin{pmatrix}-\frac{\lambda}{2\Omega} \\ 1-\frac{\lambda^2}{2\Omega^2}\end{pmatrix}
+\end{align}
+\end{myboxes}
 
 \end{document}
