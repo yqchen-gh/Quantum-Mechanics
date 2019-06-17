@@ -1,0 +1,343 @@
+\documentclass[UTF8,12pt]{article} % 12pt 为字号大小
+\usepackage{amssymb,amsfonts,amsthm}
+%\usepackage{fontspec,xltxtra,xunicode}
+%\usepackage{times}
+\usepackage{amsmath,bm,braket}
+\allowdisplaybreaks[4]
+\usepackage{mdwlist}
+\usepackage[colorlinks,linkcolor=blue]{hyperref}
+\usepackage{cleveref}
+\usepackage{float}
+\usepackage{enumerate}
+\usepackage{extarrows}
+\usepackage[ruled,linesnumbered]{algorithm2e}
+%\numberwithin{equation}{section}
+
+%----------
+% 定义中文环境
+%----------
+
+\usepackage{xeCJK}
+\setCJKmainfont[BoldFont={Heiti SC Light},ItalicFont={Kaiti SC Regular}]{Songti SC Regular}
+\setCJKsansfont{Heiti SC Light}
+\setCJKfamilyfont{song}{Songti SC Regular}
+\setCJKfamilyfont{zhhei}{Heiti SC Light}
+\setCJKfamilyfont{zhkai}{Kaiti SC Regular}
+\setCJKfamilyfont{zhfs}{STFangsong}
+\setCJKfamilyfont{zhli}{Libian SC Regular}
+\setCJKfamilyfont{zhyou}{Yuanti SC Regular}
+
+\newcommand*{\songti}{\CJKfamily{zhsong}} % 宋体
+\newcommand*{\heiti}{\CJKfamily{zhhei}}   % 黑体
+\newcommand*{\kaiti}{\CJKfamily{zhkai}}  % 楷体
+\newcommand*{\fangsong}{\CJKfamily{zhfs}} % 仿宋
+\newcommand*{\lishu}{\CJKfamily{zhli}}    % 隶书
+\newcommand*{\yuanti}{\CJKfamily{zhyou}} % 圆体
+
+%----------
+% 版面设置
+%----------
+%首段缩进
+\usepackage{indentfirst}
+\setlength{\parindent}{2em}
+
+%行距
+\renewcommand{\baselinestretch}{1.2} % 1.2倍行距
+
+%页边距
+\usepackage[a4paper]{geometry}
+\geometry{verbose,
+  tmargin=2cm,% 上边距
+  bmargin=2cm,% 下边距
+  lmargin=2.5cm,% 左边距
+  rmargin=2.5cm % 右边距
+}
+
+
+%----------
+% 其他宏包
+%----------
+%图形相关
+\usepackage[x11names]{xcolor} % must before tikz, x11names defines RoyalBlue3
+\usepackage{graphicx}
+\graphicspath{{figures/}}
+\usepackage{pstricks,pst-plot,pst-eps}
+\usepackage{subfig}
+\def\pgfsysdriver{pgfsys-dvipdfmx.def} % put before tikz
+\usepackage{tikz}
+
+%原文照排
+\usepackage{verbatim}
+
+%网址
+\usepackage{url}
+
+%----------
+% 定理、习题与解答环境
+%----------
+%定理环境
+\usepackage[most]{tcolorbox}
+\newtcbtheorem[number within=section]{theorem}{Theorem}{
+     enhanced,
+     breakable,
+     sharp corners,
+     attach boxed title to top left={
+       yshifttext=-1mm
+     },
+     colback=blue!4!white,
+     colframe=blue!75!black,
+     fonttitle=\bfseries,
+     boxed title style={
+       sharp corners,
+       size=small,
+       colback=blue!75!black,
+       colframe=blue!75!black,
+     } 
+}{theorem}
+
+\newtcbtheorem[number within=section]{definition}{Definition}{
+     enhanced,
+     breakable,
+     sharp corners,
+     attach boxed title to top left={
+       yshifttext=-1mm
+     },
+     colback=blue!4!white,
+     colframe=blue!75!black,
+     fonttitle=\bfseries,
+     boxed title style={
+       sharp corners,
+       size=small,
+       colback=blue!75!black,
+       colframe=blue!75!black,
+     } 
+}{definition}
+
+\newtcbtheorem[number within=section]{corollary}{Corollary}{
+     enhanced,
+     breakable,
+     sharp corners,
+     attach boxed title to top left={
+       yshifttext=-1mm
+     },
+     colback=blue!4!white,
+     colframe=blue!75!black,
+     fonttitle=\bfseries,
+     boxed title style={
+       sharp corners,
+       size=small,
+       colback=blue!75!black,
+       colframe=blue!75!black,
+     } 
+}{corollary}
+
+\newtcbtheorem[number within=section]{myboxes}{Box}{
+     enhanced,
+     breakable,
+     sharp corners,
+     attach boxed title to top left={
+       yshifttext=-1mm
+     },
+     %colback=white,
+     colframe=black!75!white,
+     fonttitle=\bfseries,
+     boxed title style={
+       sharp corners,
+       size=small,
+       colback=black!75!white,
+       colframe=black!75!white,
+     } 
+}{myboxes}
+
+%习题环境
+\newtcbtheorem[number within=section]{exercise}{Problem}{
+     enhanced,
+     breakable,
+     sharp corners,
+     attach boxed title to top left={
+       yshifttext=-1mm
+     },
+     colback=white,
+     colframe=black,
+     fonttitle=\bfseries,
+     boxed title style={
+       sharp corners,
+       size=small,
+       colback=black,
+       colframe=black,
+     } 
+}{Problem}
+
+%解答环境
+\ifx\proof\undefined\
+\newenvironment{proof}[1][\protect\proofname]{\par
+\normalfont\topsep6\p@\@plus6\p@\relax
+\trivlist
+\itemindent\parindent
+\item[\hskip\labelsep
+\scshape
+#1]\ignorespaces
+}{%
+\endtrivlist\@endpefalse
+}
+\fi
+
+\renewcommand{\proofname}{\it{Solution}}
+
+%==========
+% 正文部分
+%==========
+
+\begin{document}
+
+\title{Chapter 5: Approximation methods}
+\author{Yuquan Chen, Liu Zhu}
+\date{2019/05/21} % 若不需要自动插入日期，则去掉前面的注释；{ } 中也可以自定义日期格式
+\maketitle
+
+\section{Time-independent perturbation theory}
+
+We start with the problem really close to a solved problem, then we can use the solution at hand to do approximation. 
+
+\begin{myboxes}{Recap for Taylor expansion}{}
+\begin{equation}
+   f(x)\simeq f(x_0)+f'(x_0)(x-x_0)+\cdots+\frac{f^n(x_0)}{n!}(x-x_0)^n+\cdots . 
+\end{equation}
+If keep all the way to $(x-x_0)^2$, then we can do a fit with a polynomial function.
+\end{myboxes}
+
+For quantum mechanics:
+\begin{equation}
+    H=H_{0} + H'
+\end{equation}
+$H_0$ has a known solution for eigen energy $E^{(0)}_{n}$ , and eigenstates $\{\ket{n^{(0)}}\}$ :
+\begin{equation}
+    H_0\ket{n^{(0)}}=E^{(0)}_n\ket{n^{(0)}}
+\end{equation}
+$H'$ is perturbational part of Hamiltonian, it can express as:
+\begin{equation}
+    H'=\lambda V
+\end{equation}
+where $\lambda$ is a number, and $\lambda\ll1$ . $V$ is another part of Hamiltonian.
+
+Then we try to find $H\ket{n}=E_n\ket{n}$ . $E_n$ must be a function of $H$ ,which is a function of $\lambda$ , so as $\ket{n}$ . Therefore we can make a Taylor expansion of $E_n(\lambda)$ and $\ket{n(\lambda)}$ :
+\begin{equation}
+    \begin{aligned}
+        E_n(\lambda)&=E_n^{(0)}+\lambda E^{(1)}_n+\lambda^2 E^{(2)}_n+\cdots , 
+        \\ 
+        \ket{N(\lambda)}&=\ket{n^{(0)}}+\lambda \ket{n^{(1)}}+\lambda^2 \ket{n^{(2)}}+\cdots , 
+    \end{aligned}
+\end{equation}
+where $\lambda E^{(1)}_n$ is first order energy shift. $\lambda E^{(2)}_n$ is second order energy shift. Plug the expansion back to $H\ket{n}=E\ket{n}$ with $H=H_0+\lambda V$:
+\begin{multline}
+    (H_0+\lambda V)\cdot (\ket{n^{(0)}}+\lambda \ket{n^{(1)}}+\lambda^2\ket{n{(2)}}+\cdots)\\=(E^{(0)}_n+\lambda E^{(1)}+\lambda^2E^{(2)}+\cdots)\cdot (\ket{n^{(0)}}+\lambda \ket{n^{(1)}}+\lambda^2\ket{n^{(2)}}+\cdots) , 
+\end{multline}
+do not contain $\lambda$, Equation (1.6) $\Rightarrow H_0\ket{n^{(0)}}=E^{(0)}_n\ket{n^{(o)}}$, for $\lambda^1$ term we can get:
+\begin{equation}
+    H_0\ket{n^{(1)}}+V\ket{n^{(0)}}=E^{(0)}_n\ket{n^{(1)}}+E^{(1)}_n\ket{n^{(0)}} , 
+\end{equation}
+apply $\bra{n^{(0)}}$ to the left:
+\begin{equation}
+    \boxed{ \braket{n^{(0)}|V|n^{(0)}}=E^{(1)}_n , }  
+\end{equation}
+which is {\bf first order pertubrbation for $E_n$}, plug in to $E_n=E^{(0)}_n+\lambda E^{(1)}_n $, we can get:
+\begin{equation}
+    \begin{aligned}
+        E_n= E^{(0)}_n+ \braket{n^{(0)}|\lambda V|n^{(0)}} \to \boxed {E_n=E^{(0)}+\braket{n^{(0)}|H'|n^{(0)}} . }
+    \end{aligned}    
+\end{equation}
+
+For $H=H_0+\lambda V$ , we can express it in the energy representation in $\set{\ket{n^{(0)}}}$:
+\[ H_0 = 
+\begin{pmatrix}
+     E^{(0)}_0& 0         & 0         & \ldots    & 0         \\
+     0        & E^{(0)}_1 & 0         & \ldots    & 0         \\
+     0        & 0         & E^{(0)}_2 & \ldots    & 0         \\
+     \vdots   & \vdots    & \vdots    & \ddots    & \vdots    \\
+     0        & 0         & 0         & \ldots    & E^{(0)}_n \\
+\end{pmatrix} . \]
+$\lambda V$ in the same basis can express as:
+\[ \lambda V = 
+\begin{pmatrix}
+    \lambda V_{11} & \lambda V_{12} & \ldots & \lambda V_{1n} \\
+    \lambda V_{21} & \lambda V_{22} & \ldots & \lambda V_{2n} \\
+    \vdots         & \vdots         & \ddots & \vdots         \\
+    \lambda V_{n1} & \lambda V_{n2} & \ldots & \lambda V_{nn} \\
+\end{pmatrix} . \]
+For $n=0$, $E_0\simeq E^{(0)}_0+\lambda V_{11}$. First order perturbation is just n row, n colunm for matrix $H_0+\lambda V$ in $\set{\ket{n^{(0)}}}$ basis.
+
+Now we try to find first order pertubrbation for state. From Equation (1.7) and (1.8):
+\begin{equation*}
+    \begin{aligned}
+        H_0\ket{n^{(1)}}+V\ket{n^{(0)}}&=E^{(0)}_n\ket{n^{(1)}}+E^{(1)}_n\ket{n^{(0)}} , \\
+        \braket{n^{(0)}|V|n^{(0)}}&=E^{(1)}_n ,
+    \end{aligned}
+\end{equation*}
+we try to solve $\ket{n^{(1)}}$, we can apply $\bra{k^{(0)}}$ to left, with $k\neq n$, then $\braket{k^{(0)}|n^{(0)}}=0$. we also require $E^{(0)}\neq E^{(0)}$. We can get 
+\begin{equation} 
+    \begin{aligned}
+    \braket{k^{(0)}|H_0|n^{(1)}}+\braket{k^{(0)}|V|n^{(0)}}&=E^{(0)}_n\braket{k^{(0)}|n^{(1)}}+E^{(1)}_n\braket{k^{(0)}|n^{(0)}} , \\
+    E^{(0)}_k\braket{ k^{(0)} | n^{(1)} }+\braket{k^{(0)}|V|n^{(0)}}&=E^{(0)}_n\braket{k^{(0)} | n^{(1)}} . 
+    \end{aligned}
+\end{equation}
+The term $\braket{k^{(0)} | n^{(1)}}$ is a inner product between an unknown state $\ket{n^{(1)}}$ and a state in the known basis, it called ``amplitude''.
+
+We want to solve the state $\ket{n^{(1)}}$ , from the {\bf Superposition Principle}, we know that $\ket{n^{(1)}}=\sum_k{C_k \ket{k^{(0)}}}$ , since $\set{\ket{k^{(0)}}}$ form a basis. If we can solve every $C_k$ , the state $\ket{n^{(1)}}$ is known. We can easily observe that $\braket{k^{(0)} | n^{(1)}} \to \sum_k{ C_k \braket{ k^{(0)} | n^{(0)} } } \to \sum_k{ C_k \delta_{k,n} } \to C_k$ , so all we need is to solve $\braket{ k^{(0)} | n^{(1)} }$ . 
+\newpage From Equation (5.10) we can solve $\braket{ k^{(0)} | n^{(1)} }$ , which qual to $C_k$ :
+\begin{equation}
+    \boxed{ C_k = \frac{\braket{k^{(0)}|V|n^{(0)}}}{E^{(0)}_n-E^{(0)}_k} , }
+\end{equation}
+notice that $k\neq n$ . Therefore, we can get the {\bf first order perturbation for state $\ket{n}$ }
+\begin{equation}
+    \boxed{ \ket{n^{(1)}} = \sum_{k\neq m} \frac{ \braket{ k^{(0)}|V | n^{(0)} } }{ E^{(0)}_n - E^{(0)}_k } \ket{ k^{(0)}}, }
+\end{equation}
+plug it and $H'=\lambda V$ back to $ \ket{n} = \ket{n^{(0)}} + \lambda \ket{n^{(1)}} $ we get 
+\begin{equation}
+    \boxed{ \ket{n} = \ket{n^{(0)}} + \sum_{k\neq m} \frac{ \braket{ k^{(0)}|H'| n^{(0)} } }{ E^{(0)}_n - E^{(0)}_k } \ket{ k^{(0)}} , }
+\end{equation}
+where $\braket{k^{(0)}|H'|n^{(0)}}$ can be the matrix element in the $k$ row and $n$ colum of matrix $H'$ in the basis of $\set{\ket{n^{(0)}}}$ :
+\[ H_0+H' \xrightarrow{matirx \hspace{1ex} in \hspace{1ex} \set{\ket{n^{(0)}}}} 
+\begin{pmatrix}
+    &  &  &  \\
+    & E^{(0)}_{ka} & H^{(0)}_{kn} & \\
+    &  & E^{(0)}_{bn} & \\
+    &  & & \\
+\end{pmatrix} . \] 
+\subsection*{Example： Spin - $\dfrac{1}{2}$ system}
+We have
+\begin{equation*}
+    H_0=\Omega \sigma_z \to \begin{pmatrix}
+     \Omega & 0 \\
+     0 & \Omega \\   
+    \end{pmatrix} ; \hspace{2em}
+    H'=\lambda \sigma_x \to \begin{pmatrix}
+        0 & \lambda \\
+        \lambda & 0 \\   
+       \end{pmatrix} ,
+\end{equation*}
+The Hamiltonian is
+\begin{equation*}
+    H=H_0+H' \to \begin{pmatrix}
+        \Omega & \lambda \\
+        \lambda & \Omega \\
+    \end{pmatrix} , and \hspace{1em} \Omega \gg \lambda
+\end{equation*}
+we can solve eigenenergy 
+\begin{equation*}
+    E_1=\Omega + \frac{\lambda^2}{2\Omega} , \hspace{1em} E_2=-\Omega - \frac{\lambda^2}{2\Omega} ,
+\end{equation*}
+and the eigenstates
+\begin{equation*}
+    \ket{\psi}_1= \begin{pmatrix}
+        1-\frac{\lambda^2}{2\Omega^2} \\
+        \frac{\lambda}{2\Omega} \\ 
+    \end{pmatrix} ,
+\end{equation*}
+\begin{equation*}
+    \ket{\psi}_2= \begin{pmatrix}
+        -\frac{\lambda}{2\Omega} \\ 
+        1-\frac{\lambda^2}{2\Omega^2} \\
+    \end{pmatrix} .
+\end{equation*}
+
+\end{document}
