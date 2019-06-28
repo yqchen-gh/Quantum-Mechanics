@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2019.3.13)  11 JUN 2019 00:01
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2019.3.13)  22 JUN 2019 20:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1465,8 +1465,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 197--197
 
  []
 
-File: figures/post2.png Graphic file (type bmp)
-<figures/post2.png>
+File: figures/post2.eps Graphic file (type eps)
+<figures/post2.eps>
 
 Underfull \hbox (badness 10000) in paragraph at lines 211--211
 
@@ -1495,10 +1495,10 @@ Package rerunfilecheck Info: File `0326.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 230.
  ) 
 Here is how much of TeX's memory you used:
- 45289 strings out of 494906
- 926515 string characters out of 6176286
- 1140850 words of memory out of 5000000
- 48603 multiletter control sequences out of 15000+600000
+ 45300 strings out of 494906
+ 926535 string characters out of 6176286
+ 1140853 words of memory out of 5000000
+ 48602 multiletter control sequences out of 15000+600000
  545632 words of font info for 92 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  63i,6n,101p,979b,1246s stack positions out of 5000i,500n,10000p,200000b,80000s

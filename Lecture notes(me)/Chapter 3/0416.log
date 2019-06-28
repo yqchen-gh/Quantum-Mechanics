@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2019.3.13)  16 JUN 2019 23:42
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2019.3.13)  22 JUN 2019 20:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1468,8 +1468,8 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
 
 )
-File: figures/sph.pdf Graphic file (type pdf)
-<use figures/sph.pdf>
+File: figures/sph.eps Graphic file (type eps)
+<figures/sph.eps>
 
 [1
 
@@ -1484,10 +1484,10 @@ Package rerunfilecheck Info: File `0416.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 544.
  ) 
 Here is how much of TeX's memory you used:
- 45334 strings out of 494906
- 927282 string characters out of 6176286
+ 45349 strings out of 494906
+ 927302 string characters out of 6176286
  1149064 words of memory out of 5000000
- 48646 multiletter control sequences out of 15000+600000
+ 48645 multiletter control sequences out of 15000+600000
  545632 words of font info for 92 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  63i,18n,101p,979b,1248s stack positions out of 5000i,500n,10000p,200000b,80000s
