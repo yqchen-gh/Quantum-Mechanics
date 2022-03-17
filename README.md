@@ -45,7 +45,7 @@ We put lecture notes and solutions of homework of Prof. Yiheng Lin's quantum mec
 
 | Teacher                                                      | Yuquan                                                       | Liu zhu                                                      |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| [0521](https://github.com/YQChen-QI/Quantum-Mechanics/blob/master/Lecture%20notes(teacher)/Chapter%205/0521.pdf) | [0521](https://github.com/YQChen-QI/Quantum-Mechanics/blob/master/Lecture%20notes(me)/Chapter%205/0521.pdf) | [0521](https://github.com/YQChen-QI/Quantum-Mechanics/blob/master/Lecture%20notes/20190521 Ch5 approximation methods.pdf) |
+| [0521](https://github.com/YQChen-QI/Quantum-Mechanics/blob/master/Lecture%20notes(teacher)/Chapter%205/0521.pdf) | [0521](https://github.com/YQChen-QI/Quantum-Mechanics/blob/master/Lecture%20notes(me)/Chapter%205/0521.pdf) | [0521]("https://github.com/YQChen-QI/Quantum-Mechanics/blob/master/Lecture%20notes/20190521 Ch5 approximation methods.pdf") |
 | [0528](https://github.com/YQChen-QI/Quantum-Mechanics/blob/master/Lecture%20notes(teacher)/Chapter%205/0528.pdf) |                                                              |                                                              |
 
 
